@@ -1,0 +1,36 @@
+# AVS field file
+#
+# AutoDock Atomic Affinity and Electrostatic Grids
+#
+# Created by C:/Program Files (x86)/The Scripps Research Institute/Autodock/4.2.6/autogrid4.exe.
+#
+#SPACING 0.425
+#NELEMENTS 100 100 100
+#CENTER 112.799 148.511 205.220
+#MACROMOLECULE adt_npc1.pdbqt
+#GRID_PARAMETER_FILE C:/Users/lam16/Documents/Cours/2025/projet-long/results/ADT/5bis/npc1_all.gpf
+#
+ndim=3			# number of dimensions in the field
+dim1=101			# number of x-elements
+dim2=101			# number of y-elements
+dim3=101			# number of z-elements
+nspace=3		# number of physical coordinates per point
+veclen=5		# number of affinity values at each point
+data=float		# data type (byte, integer, float, double)
+field=uniform		# field type (uniform, rectilinear, irregular)
+coord 1 file=adt_npc1.maps.xyz filetype=ascii offset=0
+coord 2 file=adt_npc1.maps.xyz filetype=ascii offset=2
+coord 3 file=adt_npc1.maps.xyz filetype=ascii offset=4
+label=C-affinity	# component label for variable 1
+label=HD-affinity	# component label for variable 2
+label=OA-affinity	# component label for variable 3
+label=Electrostatics	# component label for variable 3
+label=Desolvation	# component label for variable 4
+#
+# location of affinity grid files and how to read them
+#
+variable 1 file=adt_npc1.C.map filetype=ascii skip=6
+variable 2 file=adt_npc1.HD.map filetype=ascii skip=6
+variable 3 file=adt_npc1.OA.map filetype=ascii skip=6
+variable 4 file=adt_npc1.e.map filetype=ascii skip=6
+variable 5 file=adt_npc1.d.map filetype=ascii skip=6

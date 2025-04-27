@@ -1,0 +1,17 @@
+receptor = adt_npc1.pdbqt
+ligand = cholesterol.pdbqt
+
+out = docking_all.pdbqt
+
+center_x = 118.772
+center_y = 149.653
+center_z = 205.367
+
+size_x = 126
+size_y = 126
+size_z = 126
+
+spacing = 0.475
+
+num_modes = 20
+exhaustiveness = 8

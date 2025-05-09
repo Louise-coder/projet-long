@@ -1,0 +1,88 @@
+Determining Asn, Gln, His flips, adding H atoms, and assigning His default deprotonation state (delta/epsilon)
+SUCCESS
+Standardizing atom/residue names
+SUCCESS
+Adding missing atoms from AMBER databases 
+SUCCESS
+WARNING: pre-optimization of polar hydrogen positions (AMBER pol_h) has failed. This may indicate problems with the input structure, such as steric clashes. While the calculation has proceeded, the accuracy of the computed pK values may be affected: it may be a good idea to check your structure throughly. You should be particularly alarmed if the next optimization step also fails.
+     
+Optimizing positions of the added hydrogens      
+WARNING: Optimization (energy-minimization) of the added hydrogens has failed. Your structure may contain steric inconsistencies. 
+These may have been present in the original PDB structure or 
+have resulted from an attempt to add 
+missing heavy atoms. The calculation has proceeded with unoptimized, unrelaxed structure. The results may be suspicious, especially if the problem has occured 
+in the immediate vicinity of the groups of interest. 
+This is true of ANY pK-predicting method you may be using.  We suggest
+that you critically examine your input structure.
+     
+Adding atomic charges and radii from AMBER databases
+SUCCESS
+Checking file for consistency
+SUCCESS
+Identifying titratable sites... 
+SUCCESS: found 307 sites.
+Setting up Electrostatic Calculations
+SUCCESS
+Calculating using Poisson-Boltzmann...
+SUCCESS
+Computing partition sum via Monte-Carlo algorithm...
+SUCCESS
+Number of sites is more than 25, no energy diagram available
+ Adding/Removing protons according to the computed pKs... 
+Preparing AMBER coordinate/topology files...
+Re-optimizing positions of the added hydrogens...
+WARNING: Re-optimization (energy-minimization) of the added hydrogens has failed. Your structure may contain steric inconsistencies. 
+These may have been present in the original PDB structure or 
+have resulted from an attempt to add 
+missing heavy atoms. The calculation has proceeded with unoptimized, unrelaxed structure. The results may be suspicious, especially if the problem has occured 
+in the immediate vicinity of the groups of interest. 
+This is true of ANY pK-predicting method you may be using.  We suggest
+that you critically examine your input structure.
+     
+SUCCESS
+Reindexing...
+Collecting data ...
+SUCCESS
+DONE
+Determining Asn, Gln, His flips, adding H atoms, and assigning His default deprotonation state (delta/epsilon)
+SUCCESS
+Standardizing atom/residue names
+SUCCESS
+Adding missing atoms from AMBER databases 
+</br> <br>FAILURE: </br> 
+
+<br> TECHNICAL DESCRIPTION: An error occured in the setup ( tleap ) step of processing 0.15_80_10_pH5_corrected2-npc1. The auxillary program pdb2pqr.sh was unable to produce the (AMBER format) files tmp.top and tmp.crd needed for the next step. </br> 
+
+PROBABLE CAUSE (1) The input 0.15_80_10_pH5_corrected2-npc1 file contains very nonstandard atom/residue names that were unrecognized. </br> 
+PROBABLE CAUSE (2) The input 0.15_80_10_pH5_corrected2-npc1 file has multiple chains not separated by a TER. </br>
+PROBABLE CAUSE (3) The input 0.15_80_10_pH5_corrected2-npc1 file contains DNA or RNA with a 5' phosphate group. </br>
+PROBABLE CAUSE (4) The input 0.15_80_10_pH5_corrected2-npc1 file is in the OLD (before 2008) PDB FORMAT. If it contains G,A,C,T for DNA these should be renamed to DG,DA,DC, and DT respectively. </br>
+PROBABLE CAUSE (5) H-atoms may have been incorrectly added by the 'reduce' program,
+which is used in H++ to try and correct the orientations of ASN, GLN, and HIS.
+<br>
+
+<br> SUGGESTED RECOVERY STEPS: If the problem is just (1),  look up the 0.15_80_10_pH5_corrected2-npc1.tleap.err in the >>Files generated so far below<<. 
+Search for word >>FATAL<< -- atom names next to it were not recognized. 
+You can either change these to the standard PDB names in your input file, or delete them completely (ONLY as a last resort! See FAQ ), 
+in which case they  will be added  
+back based on the standard amino-acid configurations from AMBER database. </br> 
+
+<br> If your structure has multiple chains, it is likely that the problem is just (2). Make sure you insert a TER in-between (typically after each terminal group, likely containing an OXT atom). For 
+example, a message in 0.15_80_10_pH5_corrected2-npc1.tleap.err such as this one: | FATAL:  Atom .R(PHE 513).A(OXT 21) does not have a type | is likely  indicative of problem (2). </br>
+ 
+<br> If your structure contains DNA or RNA with a 5' phosphate group, 
+it is likely that the problem is just (3). 
+AMBER does not recognize phosphate groups at the 5' end of DNA or RNA, 
+which will produce an error (look in 0.15_80_10_pH5_corrected2-npc1.tleap.err) such as:
+| FATAL:  Atom .R(DA5 1).A(P 32) does not have a type |. 
+To get around this problem, try deleting the 5' phosphate group from the input pdb file. 
+<br>
+
+<br> If the problem is with the H-atoms added by 'reduce',
+you should see an error in 0.15_80_10_pH5_corrected2-npc1.tleap.err such as:
+| FATAL:  Atom .R(CYX 104).A(HG 11) does not have a type. |
+To get around this problem, 
+try de-selecting the option for 
+'correcting the orientations of ASN, ...',
+on the parameter input screen
+

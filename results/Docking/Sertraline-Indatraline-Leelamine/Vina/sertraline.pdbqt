@@ -1,0 +1,33 @@
+REMARK  2 active torsions:
+REMARK  status: ('A' for Active; 'I' for Inactive)
+REMARK    1  A    between atoms: C_6  and  N_3 
+REMARK    2  A    between atoms: C_4  and  C_10 
+ROOT
+ATOM      1  C   UNL d   1      -3.831   1.291   0.038  0.00  0.00     0.044 C 
+ATOM      2  C   UNL d   1      -4.319   2.300  -1.008  0.00  0.00     0.011 C 
+ATOM      3  C   UNL d   1      -4.037   4.274   0.592  0.00  0.00     0.203 C 
+ATOM      4  C   UNL d   1      -3.714   3.678  -0.794  0.00  0.00     0.035 C 
+ATOM      5  C   UNL d   1      -3.900   1.845   1.452  0.00  0.00    -0.021 A 
+ATOM      6  C   UNL d   1      -3.987   3.230   1.716  0.00  0.00     0.002 A 
+ATOM      7  C   UNL d   1      -3.847   0.924   2.518  0.00  0.00    -0.004 A 
+ATOM      8  C   UNL d   1      -4.094   3.634   3.063  0.00  0.00    -0.003 A 
+ATOM      9  C   UNL d   1      -3.897   1.354   3.840  0.00  0.00    -0.000 A 
+ATOM     10  C   UNL d   1      -4.033   2.711   4.112  0.00  0.00    -0.000 A 
+ENDROOT
+BRANCH   1  11
+ATOM     11  C   UNL d   1      -2.462   0.714  -0.318  0.00  0.00    -0.018 A 
+ATOM     12  C   UNL d   1      -2.384  -0.489  -1.037  0.00  0.00     0.008 A 
+ATOM     13  C   UNL d   1      -1.146  -1.038  -1.387  0.00  0.00     0.068 A 
+ATOM     14 CL   UNL d   1      -1.148  -2.526  -2.266  0.00  0.00    -0.082 Cl
+ATOM     15  C   UNL d   1       0.036  -0.381  -1.028  0.00  0.00     0.068 A 
+ATOM     16 CL   UNL d   1       1.598  -0.988  -1.442  0.00  0.00    -0.082 Cl
+ATOM     17  C   UNL d   1      -0.028   0.814  -0.306  0.00  0.00     0.012 A 
+ATOM     18  C   UNL d   1      -1.267   1.355   0.045  0.00  0.00    -0.003 A 
+ENDBRANCH   1  11
+BRANCH   3  19
+ATOM     19  N   UNL d   1      -3.091   5.381   0.844  0.00  0.00    -0.041 N 
+ATOM     20  C   UNL d   1      -3.256   6.526  -0.043  0.00  0.00     0.242 C 
+ATOM     21  H   UNL d   1      -2.143   5.022   0.729  0.00  0.00     0.279 HD
+ATOM     22  H   UNL d   1      -3.277   5.715   1.789  0.00  0.00     0.279 HD
+ENDBRANCH   3  19
+TORSDOF 2

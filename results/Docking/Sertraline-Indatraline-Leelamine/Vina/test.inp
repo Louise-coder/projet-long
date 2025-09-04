@@ -1,0 +1,11 @@
+receptor = centroid1_all_atom.pdbqt 
+ligand = sertraline.pdbqt 
+out = docking_all.pdbqt 
+center_x = 44.695
+center_y = 55.169
+center_z = 91.546
+size_x = 126
+size_y = 126
+size_z = 126
+num_modes = 20 
+exhaustiveness = 8

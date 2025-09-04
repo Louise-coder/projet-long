@@ -1,0 +1,29 @@
+# This file was created Wed May 28 13:20:00 2025
+# Created by:
+#                :-) GROMACS - gmx energy, 2024.5-conda_forge (-:
+# 
+# Executable:   /cloud-home/U1012148/.magellan/conda/envs/projet-long/bin.AVX2_256/gmx
+# Data prefix:  /cloud-home/U1012148/.magellan/conda/envs/projet-long
+# Working dir:  /common/workdir/projet-long/cg
+# Command line:
+#   gmx energy -f mini_npc1.edr -o cg_energy.xvg
+# gmx energy is part of G R O M A C S:
+#
+# Good ROcking Metal Altar for Chronical Sinners
+#
+@    title "GROMACS Energies"
+@    xaxis  label "Time (ps)"
+@    yaxis  label "(kJ/mol)"
+@TYPE xy
+@ view 0.15, 0.15, 0.75, 0.85
+@ legend on
+@ legend box on
+@ legend loctype view
+@ legend 0.78, 0.8
+@ legend length 2
+@ s0 legend "Potential"
+    0.000000  -86080.148438
+    0.000000  -86356.429688
+ 1000.000000  -89780.804688
+ 2000.000000  -90807.617188
+ 2449.000000  -90950.359375

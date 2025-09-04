@@ -1,0 +1,19 @@
+# This file was created Fri May 30 08:44:11 2025
+# Created by:
+#                 :-) GROMACS - gmx rms, 2024.5-conda_forge (-:
+# 
+# Executable:   /cloud-home/U1012148/.magellan/conda/envs/projet-long/bin.AVX2_256/gmx
+# Data prefix:  /cloud-home/U1012148/.magellan/conda/envs/projet-long
+# Working dir:  /common/workdir/projet-long/amber/steep
+# Command line:
+#   gmx rms -s npc1.gro -f mini_npc1.gro -o rmsd.xvg
+# gmx rms is part of G R O M A C S:
+#
+# Good ROcking Metal Altar for Chronical Sinners
+#
+@    title "RMSD"
+@    xaxis  label "Time (ps)"
+@    yaxis  label "RMSD (nm)"
+@TYPE xy
+@ subtitle "Backbone after lsq fit to Backbone"
+   0.0000000    0.0131491

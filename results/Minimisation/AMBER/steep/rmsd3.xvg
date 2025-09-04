@@ -1,0 +1,20 @@
+# This file was created Fri May 30 13:22:55 2025
+# Created by:
+#                 :-) GROMACS - gmx rms, 2024.5-conda_forge (-:
+# 
+# Executable:   /cloud-home/U1012148/.magellan/conda/envs/projet-long/bin.AVX2_256/gmx
+# Data prefix:  /cloud-home/U1012148/.magellan/conda/envs/projet-long
+# Working dir:  /common/workdir/projet-long/amber/steep
+# Command line:
+#   gmx rms -s mini_npc1.tpr -f mini_npc1.trr -o rmsd3.xvg
+# gmx rms is part of G R O M A C S:
+#
+# GROwing Monsters And Cloning Shrimps
+#
+@    title "RMSD"
+@    xaxis  label "Time (ps)"
+@    yaxis  label "RMSD (nm)"
+@TYPE xy
+@ subtitle "Backbone after lsq fit to Backbone"
+ 125.0000000    0.0107957
+ 206.0000000    0.0131595

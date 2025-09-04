@@ -1,0 +1,2503 @@
+                   :-) GROMACS - gmx, 2024.5-conda_forge (-:
+
+Executable:   /cloud-home/U1012148/.magellan/conda/envs/projet-long/bin.AVX2_256/gmx
+Data prefix:  /cloud-home/U1012148/.magellan/conda/envs/projet-long
+Working dir:  /common/workdir/cg
+Command line:
+  gmx dmrun -v -deffnm mini_npc1
+
+-------------------------------------------------------
+Program:     gmx, version 2024.5-conda_forge
+Source file: src/gromacs/commandline/cmdlinemodulemanager.cpp (line 385)
+Function:    gmx::ICommandLineModule* gmx::CommandLineModuleManager::Impl::processCommonOptions(gmx::CommandLineCommonOptionsHolder*, int*, char***)
+
+Error in user input:
+'dmrun' is not a GROMACS command.
+
+For more information and tips for troubleshooting, please check the GROMACS
+website at https://manual.gromacs.org/current/user-guide/run-time-errors.html
+-------------------------------------------------------
+                :-) GROMACS - gmx mdrun, 2024.5-conda_forge (-:
+
+Executable:   /cloud-home/U1012148/.magellan/conda/envs/projet-long/bin.AVX2_256/gmx
+Data prefix:  /cloud-home/U1012148/.magellan/conda/envs/projet-long
+Working dir:  /common/workdir/cg
+Command line:
+  gmx mdrun -v -deffnm mini_npc1
+
+The current CPU can measure timings more accurately than the code in
+gmx mdrun was configured to use. This might affect your simulation
+speed as accurate timings are needed for load-balancing.
+Please consider rebuilding gmx mdrun with the GMX_USE_RDTSCP=ON CMake option.
+Reading file mini_npc1.tpr, VERSION 2024.5-conda_forge (single precision)
+
+Using 32 MPI threads
+Using 1 OpenMP thread per tMPI thread
+
+
+Polak-Ribiere Conjugate Gradients:
+   Tolerance (Fmax)   =  1.00000e+01
+   Number of steps    =         5000
+   F-max             =  8.79110e+02 on atom 8136
+   F-Norm            =  2.30593e+02
+
+Step 0, Epot=-8.635643e+04, Fnorm=1.669e+02, Fmax=5.308e+02 (atom 10760)
+Step 1, Epot=-8.657234e+04, Fnorm=1.009e+02, Fmax=3.005e+02 (atom 7941)
+Step 2, Epot=-8.666070e+04, Fnorm=6.808e+01, Fmax=1.916e+02 (atom 9186)
+Step 3, Epot=-8.672605e+04, Fnorm=3.604e+01, Fmax=1.782e+02 (atom 8586)
+Step 4, Epot=-8.675520e+04, Fnorm=3.107e+01, Fmax=2.748e+02 (atom 12334)
+Step 5, Epot=-8.675841e+04, Fnorm=6.118e+01, Fmax=6.941e+02 (atom 13719)
+Step 6, Epot=-8.678824e+04, Fnorm=1.683e+01, Fmax=1.581e+02 (atom 9186)
+Step 7, Epot=-8.679306e+04, Fnorm=1.413e+01, Fmax=1.543e+02 (atom 8586)
+Step 8, Epot=-8.679813e+04, Fnorm=1.747e+01, Fmax=1.937e+02 (atom 17785)
+Step 9, Epot=-8.680895e+04, Fnorm=2.266e+01, Fmax=2.729e+02 (atom 1556)
+Step 10, Epot=-8.681912e+04, Fnorm=2.491e+01, Fmax=2.771e+02 (atom 9029)
+Step 11, Epot=-8.682695e+04, Fnorm=3.527e+01, Fmax=4.172e+02 (atom 19235)
+Step 12, Epot=-8.683086e+04, Fnorm=3.168e+01, Fmax=2.836e+02 (atom 19235)
+Step 13, Epot=-8.684493e+04, Fnorm=2.271e+01, Fmax=2.058e+02 (atom 8586)
+Step 14, Epot=-8.685918e+04, Fnorm=1.941e+01, Fmax=2.507e+02 (atom 19377)
+Step 15, Epot=-8.687116e+04, Fnorm=2.950e+01, Fmax=4.430e+02 (atom 19377)
+Step 16, Epot=-8.687838e+04, Fnorm=3.155e+01, Fmax=4.940e+02 (atom 19377)
+Step 17, Epot=-8.688808e+04, Fnorm=2.036e+01, Fmax=1.814e+02 (atom 8557)
+Step 18, Epot=-8.689279e+04, Fnorm=1.609e+01, Fmax=1.873e+02 (atom 19377)
+Step 19, Epot=-8.689751e+04, Fnorm=1.404e+01, Fmax=1.776e+02 (atom 8586)
+Step 20, Epot=-8.690402e+04, Fnorm=1.450e+01, Fmax=1.798e+02 (atom 8586)
+Step 21, Epot=-8.691097e+04, Fnorm=2.359e+01, Fmax=2.791e+02 (atom 8557)
+Step 22, Epot=-8.691478e+04, Fnorm=2.537e+01, Fmax=2.954e+02 (atom 8557)
+Step 23, Epot=-8.692130e+04, Fnorm=1.922e+01, Fmax=2.200e+02 (atom 8557)
+Step 24, Epot=-8.692480e+04, Fnorm=1.928e+01, Fmax=2.732e+02 (atom 15559)
+Step 25, Epot=-8.692934e+04, Fnorm=1.588e+01, Fmax=2.071e+02 (atom 8557)
+Step 26, Epot=-8.693214e+04, Fnorm=1.670e+01, Fmax=2.038e+02 (atom 8557)
+Step 27, Epot=-8.693506e+04, Fnorm=1.473e+01, Fmax=1.826e+02 (atom 8586)
+Step 28, Epot=-8.693723e+04, Fnorm=1.670e+01, Fmax=2.210e+02 (atom 15559)
+Step 29, Epot=-8.694077e+04, Fnorm=1.443e+01, Fmax=2.255e+02 (atom 14956)
+Step 30, Epot=-8.694305e+04, Fnorm=1.681e+01, Fmax=2.501e+02 (atom 8557)
+Step 31, Epot=-8.694691e+04, Fnorm=1.449e+01, Fmax=2.207e+02 (atom 14956)
+Step 32, Epot=-8.694952e+04, Fnorm=1.669e+01, Fmax=2.247e+02 (atom 14956)
+Step 33, Epot=-8.695333e+04, Fnorm=1.476e+01, Fmax=2.663e+02 (atom 14956)
+Step 34, Epot=-8.695576e+04, Fnorm=1.785e+01, Fmax=2.523e+02 (atom 14956)
+Step 35, Epot=-8.696006e+04, Fnorm=1.501e+01, Fmax=2.370e+02 (atom 14956)
+Step 36, Epot=-8.696295e+04, Fnorm=1.752e+01, Fmax=2.988e+02 (atom 14956)
+Step 37, Epot=-8.696720e+04, Fnorm=1.508e+01, Fmax=2.517e+02 (atom 14956)
+Step 38, Epot=-8.696982e+04, Fnorm=1.877e+01, Fmax=3.029e+02 (atom 6068)
+Step 39, Epot=-8.697506e+04, Fnorm=1.525e+01, Fmax=2.161e+02 (atom 14956)
+Step 40, Epot=-8.698148e+04, Fnorm=2.395e+01, Fmax=3.904e+02 (atom 14956)
+Step 41, Epot=-8.699130e+04, Fnorm=5.099e+01, Fmax=8.595e+02 (atom 14956)
+Step 42, Epot=-8.701118e+04, Fnorm=1.258e+01, Fmax=1.236e+02 (atom 8586)
+Step 43, Epot=-8.701370e+04, Fnorm=1.185e+01, Fmax=1.753e+02 (atom 14956)
+Step 44, Epot=-8.701644e+04, Fnorm=1.588e+01, Fmax=2.297e+02 (atom 834)
+Step 45, Epot=-8.702049e+04, Fnorm=1.750e+01, Fmax=2.829e+02 (atom 14956)
+Step 46, Epot=-8.702455e+04, Fnorm=2.366e+01, Fmax=4.812e+02 (atom 14956)
+Step 47, Epot=-8.702872e+04, Fnorm=3.390e+01, Fmax=6.725e+02 (atom 14956)
+Step 48, Epot=-8.703908e+04, Fnorm=4.215e+01, Fmax=8.135e+02 (atom 14956)
+Step 49, Epot=-8.703985e+04, Fnorm=4.803e+01, Fmax=9.723e+02 (atom 14956)
+Step 50, Epot=-8.706027e+04, Fnorm=1.392e+01, Fmax=1.474e+02 (atom 2986)
+Step 51, Epot=-8.706348e+04, Fnorm=1.172e+01, Fmax=2.110e+02 (atom 14956)
+Step 52, Epot=-8.706683e+04, Fnorm=1.382e+01, Fmax=2.623e+02 (atom 14956)
+Step 53, Epot=-8.707084e+04, Fnorm=2.329e+01, Fmax=3.007e+02 (atom 15559)
+Step 54, Epot=-8.707520e+04, Fnorm=3.007e+01, Fmax=3.570e+02 (atom 14956)
+Step 55, Epot=-8.708927e+04, Fnorm=2.279e+01, Fmax=2.971e+02 (atom 15858)
+Step 56, Epot=-8.710470e+04, Fnorm=1.979e+01, Fmax=2.175e+02 (atom 14118)
+Step 57, Epot=-8.711218e+04, Fnorm=3.290e+01, Fmax=4.122e+02 (atom 17989)
+Step 58, Epot=-8.711269e+04, Fnorm=3.473e+01, Fmax=4.311e+02 (atom 14118)
+Step 59, Epot=-8.712216e+04, Fnorm=2.571e+01, Fmax=3.174e+02 (atom 17991)
+Step 60, Epot=-8.712412e+04, Fnorm=3.047e+01, Fmax=3.928e+02 (atom 14118)
+Step 61, Epot=-8.713087e+04, Fnorm=2.192e+01, Fmax=3.193e+02 (atom 17991)
+Step 62, Epot=-8.713091e+04, Fnorm=2.916e+01, Fmax=3.711e+02 (atom 16011)
+Step 63, Epot=-8.713686e+04, Fnorm=1.534e+01, Fmax=1.918e+02 (atom 14118)
+Step 64, Epot=-8.713838e+04, Fnorm=1.044e+01, Fmax=1.890e+02 (atom 2986)
+Step 65, Epot=-8.713991e+04, Fnorm=1.157e+01, Fmax=1.904e+02 (atom 2986)
+Step 66, Epot=-8.714366e+04, Fnorm=1.475e+01, Fmax=2.347e+02 (atom 9029)
+Step 67, Epot=-8.715000e+04, Fnorm=2.972e+01, Fmax=5.340e+02 (atom 9029)
+Step 68, Epot=-8.715187e+04, Fnorm=6.265e+01, Fmax=1.222e+03 (atom 9029)
+Step 69, Epot=-8.719862e+04, Fnorm=4.629e+01, Fmax=6.652e+02 (atom 2986)
+Step 70, Epot=-8.722536e+04, Fnorm=4.603e+01, Fmax=8.306e+02 (atom 9029)
+Step 71, Epot=-8.723098e+04, Fnorm=5.425e+01, Fmax=9.974e+02 (atom 15559)
+Step 72, Epot=-8.725988e+04, Fnorm=2.492e+01, Fmax=3.442e+02 (atom 2986)
+Step 73, Epot=-8.726813e+04, Fnorm=1.621e+01, Fmax=3.016e+02 (atom 2986)
+Step 74, Epot=-8.727280e+04, Fnorm=1.991e+01, Fmax=3.175e+02 (atom 2986)
+Step 75, Epot=-8.727934e+04, Fnorm=1.934e+01, Fmax=3.516e+02 (atom 2986)
+Step 76, Epot=-8.728262e+04, Fnorm=2.678e+01, Fmax=4.818e+02 (atom 9029)
+Step 77, Epot=-8.728290e+04, Fnorm=3.047e+01, Fmax=5.591e+02 (atom 9029)
+Step 78, Epot=-8.729142e+04, Fnorm=1.156e+01, Fmax=2.970e+02 (atom 2986)
+Step 79, Epot=-8.729349e+04, Fnorm=1.145e+01, Fmax=3.420e+02 (atom 2986)
+Step 80, Epot=-8.729770e+04, Fnorm=1.498e+01, Fmax=3.418e+02 (atom 2986)
+Step 81, Epot=-8.730820e+04, Fnorm=2.293e+01, Fmax=3.137e+02 (atom 17992)
+Step 82, Epot=-8.732510e+04, Fnorm=5.157e+01, Fmax=7.036e+02 (atom 17989)
+Step 83, Epot=-8.735016e+04, Fnorm=2.103e+01, Fmax=2.124e+02 (atom 1554)
+Step 84, Epot=-8.735955e+04, Fnorm=1.990e+01, Fmax=1.995e+02 (atom 12264)
+Step 85, Epot=-8.736665e+04, Fnorm=2.847e+01, Fmax=3.934e+02 (atom 9155)
+Step 86, Epot=-8.736879e+04, Fnorm=2.875e+01, Fmax=3.449e+02 (atom 9155)
+Step 87, Epot=-8.737899e+04, Fnorm=1.790e+01, Fmax=2.243e+02 (atom 7916)
+Step 88, Epot=-8.738298e+04, Fnorm=1.462e+01, Fmax=2.037e+02 (atom 12264)
+Step 89, Epot=-8.738587e+04, Fnorm=1.198e+01, Fmax=1.331e+02 (atom 9155)
+Step 90, Epot=-8.738999e+04, Fnorm=1.349e+01, Fmax=1.586e+02 (atom 573)
+Step 91, Epot=-8.739328e+04, Fnorm=2.502e+01, Fmax=3.715e+02 (atom 12623)
+Step 92, Epot=-8.739400e+04, Fnorm=2.950e+01, Fmax=4.328e+02 (atom 12623)
+Step 93, Epot=-8.740413e+04, Fnorm=1.938e+01, Fmax=2.535e+02 (atom 4135)
+Step 94, Epot=-8.740820e+04, Fnorm=1.789e+01, Fmax=2.570e+02 (atom 573)
+Step 95, Epot=-8.741195e+04, Fnorm=1.481e+01, Fmax=1.778e+02 (atom 17992)
+Step 96, Epot=-8.741419e+04, Fnorm=1.501e+01, Fmax=2.292e+02 (atom 13702)
+Step 97, Epot=-8.741670e+04, Fnorm=1.328e+01, Fmax=1.761e+02 (atom 14956)
+Step 98, Epot=-8.741835e+04, Fnorm=1.516e+01, Fmax=2.484e+02 (atom 17992)
+Step 99, Epot=-8.742130e+04, Fnorm=1.341e+01, Fmax=1.686e+02 (atom 7999)
+Step 100, Epot=-8.742350e+04, Fnorm=1.493e+01, Fmax=2.400e+02 (atom 13702)
+Step 101, Epot=-8.742649e+04, Fnorm=1.367e+01, Fmax=1.989e+02 (atom 14956)
+Step 102, Epot=-8.742859e+04, Fnorm=1.585e+01, Fmax=2.623e+02 (atom 17992)
+Step 103, Epot=-8.743241e+04, Fnorm=1.413e+01, Fmax=1.729e+02 (atom 7999)
+Step 104, Epot=-8.743484e+04, Fnorm=1.608e+01, Fmax=2.141e+02 (atom 13702)
+Step 105, Epot=-8.743847e+04, Fnorm=1.436e+01, Fmax=1.835e+02 (atom 14956)
+Step 106, Epot=-8.744066e+04, Fnorm=1.742e+01, Fmax=2.518e+02 (atom 7999)
+Step 107, Epot=-8.744502e+04, Fnorm=1.453e+01, Fmax=1.862e+02 (atom 14956)
+Step 108, Epot=-8.744752e+04, Fnorm=1.680e+01, Fmax=2.233e+02 (atom 13702)
+Step 109, Epot=-8.745139e+04, Fnorm=1.483e+01, Fmax=1.788e+02 (atom 4135)
+Step 110, Epot=-8.745379e+04, Fnorm=1.827e+01, Fmax=2.634e+02 (atom 7999)
+Step 111, Epot=-8.745848e+04, Fnorm=1.494e+01, Fmax=1.857e+02 (atom 7999)
+Step 112, Epot=-8.746113e+04, Fnorm=1.751e+01, Fmax=2.423e+02 (atom 9023)
+Step 113, Epot=-8.746548e+04, Fnorm=1.478e+01, Fmax=1.765e+02 (atom 4135)
+Step 114, Epot=-8.746778e+04, Fnorm=1.846e+01, Fmax=2.650e+02 (atom 9860)
+Step 115, Epot=-8.747271e+04, Fnorm=1.501e+01, Fmax=1.928e+02 (atom 7999)
+Step 116, Epot=-8.747545e+04, Fnorm=1.765e+01, Fmax=2.323e+02 (atom 7999)
+Step 117, Epot=-8.747960e+04, Fnorm=1.523e+01, Fmax=1.753e+02 (atom 4135)
+Step 118, Epot=-8.748194e+04, Fnorm=1.915e+01, Fmax=2.491e+02 (atom 4135)
+Step 119, Epot=-8.748716e+04, Fnorm=1.497e+01, Fmax=1.650e+02 (atom 4135)
+Step 120, Epot=-8.749009e+04, Fnorm=1.721e+01, Fmax=2.100e+02 (atom 4135)
+Step 121, Epot=-8.749377e+04, Fnorm=1.521e+01, Fmax=1.954e+02 (atom 7999)
+Step 122, Epot=-8.749584e+04, Fnorm=1.977e+01, Fmax=2.341e+02 (atom 4135)
+Step 123, Epot=-8.750106e+04, Fnorm=1.517e+01, Fmax=1.999e+02 (atom 7999)
+Step 124, Epot=-8.750402e+04, Fnorm=1.724e+01, Fmax=2.138e+02 (atom 9023)
+Step 125, Epot=-8.750784e+04, Fnorm=1.533e+01, Fmax=1.757e+02 (atom 13702)
+Step 126, Epot=-8.750986e+04, Fnorm=1.980e+01, Fmax=3.084e+02 (atom 7999)
+Step 127, Epot=-8.751518e+04, Fnorm=1.511e+01, Fmax=1.803e+02 (atom 7999)
+Step 128, Epot=-8.751809e+04, Fnorm=1.699e+01, Fmax=2.222e+02 (atom 7999)
+Step 129, Epot=-8.752188e+04, Fnorm=1.515e+01, Fmax=1.892e+02 (atom 7999)
+Step 130, Epot=-8.752391e+04, Fnorm=1.974e+01, Fmax=2.794e+02 (atom 7999)
+Step 131, Epot=-8.752951e+04, Fnorm=1.491e+01, Fmax=1.918e+02 (atom 7999)
+Step 132, Epot=-8.753542e+04, Fnorm=2.259e+01, Fmax=3.296e+02 (atom 4840)
+Step 133, Epot=-8.754223e+04, Fnorm=4.962e+01, Fmax=7.699e+02 (atom 7999)
+Step 134, Epot=-8.756100e+04, Fnorm=1.248e+01, Fmax=1.253e+02 (atom 12458)
+Step 135, Epot=-8.756340e+04, Fnorm=1.174e+01, Fmax=1.712e+02 (atom 17992)
+Step 136, Epot=-8.756537e+04, Fnorm=1.653e+01, Fmax=1.822e+02 (atom 17989)
+Step 137, Epot=-8.756783e+04, Fnorm=1.991e+01, Fmax=2.179e+02 (atom 17992)
+Step 138, Epot=-8.757273e+04, Fnorm=2.535e+01, Fmax=3.118e+02 (atom 13702)
+Step 139, Epot=-8.757854e+04, Fnorm=3.190e+01, Fmax=4.801e+02 (atom 834)
+Step 140, Epot=-8.758312e+04, Fnorm=4.401e+01, Fmax=5.919e+02 (atom 13702)
+Step 141, Epot=-8.759162e+04, Fnorm=3.366e+01, Fmax=4.135e+02 (atom 4135)
+Step 142, Epot=-8.760025e+04, Fnorm=1.043e+01, Fmax=1.296e+02 (atom 12458)
+Step 143, Epot=-8.760104e+04, Fnorm=1.011e+01, Fmax=1.297e+02 (atom 12458)
+Step 144, Epot=-8.760234e+04, Fnorm=9.709e+00, Fmax=1.296e+02 (atom 12458)
+Step 145, Epot=-8.760441e+04, Fnorm=1.116e+01, Fmax=1.292e+02 (atom 12458)
+Step 146, Epot=-8.760859e+04, Fnorm=1.427e+01, Fmax=1.823e+02 (atom 13550)
+Step 147, Epot=-8.761602e+04, Fnorm=2.435e+01, Fmax=2.666e+02 (atom 17788)
+Step 148, Epot=-8.762723e+04, Fnorm=2.913e+01, Fmax=3.106e+02 (atom 4766)
+Step 149, Epot=-8.763528e+04, Fnorm=5.474e+01, Fmax=7.065e+02 (atom 13548)
+Step 150, Epot=-8.763669e+04, Fnorm=6.100e+01, Fmax=8.067e+02 (atom 834)
+Step 151, Epot=-8.767184e+04, Fnorm=3.684e+01, Fmax=5.326e+02 (atom 7916)
+Step 152, Epot=-8.768031e+04, Fnorm=3.876e+01, Fmax=5.259e+02 (atom 9023)
+Step 153, Epot=-8.769473e+04, Fnorm=2.731e+01, Fmax=3.932e+02 (atom 7916)
+Step 154, Epot=-8.769959e+04, Fnorm=3.059e+01, Fmax=4.086e+02 (atom 9023)
+Step 155, Epot=-8.770882e+04, Fnorm=2.216e+01, Fmax=3.049e+02 (atom 7916)
+Step 156, Epot=-8.771241e+04, Fnorm=2.530e+01, Fmax=3.784e+02 (atom 9023)
+Step 157, Epot=-8.771875e+04, Fnorm=1.901e+01, Fmax=2.767e+02 (atom 7916)
+Step 158, Epot=-8.772106e+04, Fnorm=2.289e+01, Fmax=3.217e+02 (atom 7916)
+Step 159, Epot=-8.772625e+04, Fnorm=1.729e+01, Fmax=2.542e+02 (atom 7916)
+Step 160, Epot=-8.772834e+04, Fnorm=2.074e+01, Fmax=3.181e+02 (atom 7916)
+Step 161, Epot=-8.773289e+04, Fnorm=1.641e+01, Fmax=2.582e+02 (atom 7916)
+Step 162, Epot=-8.773463e+04, Fnorm=2.070e+01, Fmax=3.377e+02 (atom 7916)
+Step 163, Epot=-8.773926e+04, Fnorm=1.553e+01, Fmax=2.674e+02 (atom 7916)
+Step 164, Epot=-8.774130e+04, Fnorm=1.825e+01, Fmax=2.953e+02 (atom 7916)
+Step 165, Epot=-8.774473e+04, Fnorm=1.534e+01, Fmax=2.679e+02 (atom 7916)
+Step 166, Epot=-8.774652e+04, Fnorm=1.993e+01, Fmax=3.709e+02 (atom 7916)
+Step 167, Epot=-8.775136e+04, Fnorm=1.539e+01, Fmax=3.009e+02 (atom 7916)
+Step 168, Epot=-8.775347e+04, Fnorm=1.785e+01, Fmax=3.226e+02 (atom 7916)
+Step 169, Epot=-8.775734e+04, Fnorm=1.536e+01, Fmax=2.859e+02 (atom 7916)
+Step 170, Epot=-8.775925e+04, Fnorm=1.967e+01, Fmax=4.028e+02 (atom 7916)
+Step 171, Epot=-8.776377e+04, Fnorm=1.548e+01, Fmax=3.294e+02 (atom 7916)
+Step 172, Epot=-8.776609e+04, Fnorm=1.801e+01, Fmax=3.697e+02 (atom 7916)
+Step 173, Epot=-8.776999e+04, Fnorm=1.533e+01, Fmax=3.460e+02 (atom 7916)
+Step 174, Epot=-8.777179e+04, Fnorm=1.991e+01, Fmax=4.213e+02 (atom 7916)
+Step 175, Epot=-8.777670e+04, Fnorm=1.536e+01, Fmax=3.297e+02 (atom 7916)
+Step 176, Epot=-8.777927e+04, Fnorm=1.779e+01, Fmax=3.714e+02 (atom 7916)
+Step 177, Epot=-8.778288e+04, Fnorm=1.565e+01, Fmax=3.114e+02 (atom 7916)
+Step 178, Epot=-8.778481e+04, Fnorm=2.088e+01, Fmax=4.851e+02 (atom 7916)
+Step 179, Epot=-8.779038e+04, Fnorm=1.492e+01, Fmax=2.991e+02 (atom 7916)
+Step 180, Epot=-8.779323e+04, Fnorm=1.634e+01, Fmax=3.509e+02 (atom 7916)
+Step 181, Epot=-8.779633e+04, Fnorm=1.515e+01, Fmax=3.303e+02 (atom 7916)
+Step 182, Epot=-8.779769e+04, Fnorm=2.061e+01, Fmax=4.562e+02 (atom 7916)
+Step 183, Epot=-8.780345e+04, Fnorm=1.455e+01, Fmax=2.821e+02 (atom 7916)
+Step 184, Epot=-8.780898e+04, Fnorm=2.089e+01, Fmax=3.302e+02 (atom 834)
+Step 185, Epot=-8.781379e+04, Fnorm=4.658e+01, Fmax=1.120e+03 (atom 7916)
+Step 186, Epot=-8.783067e+04, Fnorm=1.213e+01, Fmax=1.486e+02 (atom 7916)
+Step 187, Epot=-8.783259e+04, Fnorm=1.148e+01, Fmax=1.611e+02 (atom 8557)
+Step 188, Epot=-8.783425e+04, Fnorm=1.668e+01, Fmax=2.872e+02 (atom 7916)
+Step 189, Epot=-8.783527e+04, Fnorm=2.194e+01, Fmax=2.434e+02 (atom 13716)
+Step 190, Epot=-8.784017e+04, Fnorm=1.441e+01, Fmax=1.285e+02 (atom 8451)
+Step 191, Epot=-8.784352e+04, Fnorm=1.184e+01, Fmax=1.305e+02 (atom 12141)
+Step 192, Epot=-8.784612e+04, Fnorm=1.407e+01, Fmax=1.536e+02 (atom 12141)
+Step 193, Epot=-8.784770e+04, Fnorm=1.512e+01, Fmax=1.583e+02 (atom 13716)
+Step 194, Epot=-8.785034e+04, Fnorm=1.209e+01, Fmax=1.333e+02 (atom 8535)
+Step 195, Epot=-8.785300e+04, Fnorm=1.098e+01, Fmax=1.289e+02 (atom 8557)
+Step 196, Epot=-8.785534e+04, Fnorm=1.386e+01, Fmax=1.632e+02 (atom 10670)
+Step 197, Epot=-8.785726e+04, Fnorm=1.634e+01, Fmax=1.632e+02 (atom 590)
+Step 198, Epot=-8.786051e+04, Fnorm=1.346e+01, Fmax=1.415e+02 (atom 12152)
+Step 199, Epot=-8.786362e+04, Fnorm=1.160e+01, Fmax=1.460e+02 (atom 5575)
+Step 200, Epot=-8.786596e+04, Fnorm=1.408e+01, Fmax=1.559e+02 (atom 3044)
+Step 201, Epot=-8.786748e+04, Fnorm=1.619e+01, Fmax=2.412e+02 (atom 5575)
+Step 202, Epot=-8.787051e+04, Fnorm=1.307e+01, Fmax=1.359e+02 (atom 17852)
+Step 203, Epot=-8.787358e+04, Fnorm=1.131e+01, Fmax=1.510e+02 (atom 14492)
+Step 204, Epot=-8.787612e+04, Fnorm=1.401e+01, Fmax=1.685e+02 (atom 834)
+Step 205, Epot=-8.787741e+04, Fnorm=1.665e+01, Fmax=1.747e+02 (atom 6658)
+Step 206, Epot=-8.788049e+04, Fnorm=1.388e+01, Fmax=1.674e+02 (atom 15017)
+Step 207, Epot=-8.788398e+04, Fnorm=1.178e+01, Fmax=1.325e+02 (atom 15559)
+Step 208, Epot=-8.788635e+04, Fnorm=1.443e+01, Fmax=2.223e+02 (atom 13716)
+Step 209, Epot=-8.788765e+04, Fnorm=1.680e+01, Fmax=1.613e+02 (atom 19235)
+Step 210, Epot=-8.789070e+04, Fnorm=1.364e+01, Fmax=1.326e+02 (atom 17852)
+Step 211, Epot=-8.789409e+04, Fnorm=1.156e+01, Fmax=1.334e+02 (atom 17852)
+Step 212, Epot=-8.789675e+04, Fnorm=1.440e+01, Fmax=1.876e+02 (atom 8557)
+Step 213, Epot=-8.789783e+04, Fnorm=1.691e+01, Fmax=1.837e+02 (atom 10760)
+Step 214, Epot=-8.790072e+04, Fnorm=1.437e+01, Fmax=1.409e+02 (atom 14581)
+Step 215, Epot=-8.790436e+04, Fnorm=1.200e+01, Fmax=1.409e+02 (atom 6658)
+Step 216, Epot=-8.790701e+04, Fnorm=1.454e+01, Fmax=1.850e+02 (atom 13702)
+Step 217, Epot=-8.790804e+04, Fnorm=1.682e+01, Fmax=1.660e+02 (atom 14492)
+Step 218, Epot=-8.791089e+04, Fnorm=1.369e+01, Fmax=1.160e+02 (atom 10702)
+Step 219, Epot=-8.791424e+04, Fnorm=1.165e+01, Fmax=1.337e+02 (atom 14492)
+Step 220, Epot=-8.791681e+04, Fnorm=1.436e+01, Fmax=2.079e+02 (atom 5575)
+Step 221, Epot=-8.791794e+04, Fnorm=1.710e+01, Fmax=1.856e+02 (atom 14492)
+Step 222, Epot=-8.792059e+04, Fnorm=1.433e+01, Fmax=1.513e+02 (atom 13716)
+Step 223, Epot=-8.792446e+04, Fnorm=1.210e+01, Fmax=1.792e+02 (atom 13716)
+Step 224, Epot=-8.792679e+04, Fnorm=1.464e+01, Fmax=1.918e+02 (atom 9198)
+Step 225, Epot=-8.792748e+04, Fnorm=1.723e+01, Fmax=1.885e+02 (atom 13716)
+Step 226, Epot=-8.793054e+04, Fnorm=1.412e+01, Fmax=1.216e+02 (atom 10702)
+Step 227, Epot=-8.793420e+04, Fnorm=1.185e+01, Fmax=1.125e+02 (atom 12623)
+Step 228, Epot=-8.793677e+04, Fnorm=1.422e+01, Fmax=1.971e+02 (atom 19235)
+Step 229, Epot=-8.793769e+04, Fnorm=1.667e+01, Fmax=1.594e+02 (atom 1879)
+Step 230, Epot=-8.794029e+04, Fnorm=1.408e+01, Fmax=1.533e+02 (atom 1879)
+Step 231, Epot=-8.794396e+04, Fnorm=1.176e+01, Fmax=1.228e+02 (atom 4763)
+Step 232, Epot=-8.794621e+04, Fnorm=1.474e+01, Fmax=2.160e+02 (atom 5575)
+Step 233, Epot=-8.794691e+04, Fnorm=1.777e+01, Fmax=2.063e+02 (atom 15077)
+Step 234, Epot=-8.794995e+04, Fnorm=1.452e+01, Fmax=1.333e+02 (atom 14492)
+Step 235, Epot=-8.795339e+04, Fnorm=1.207e+01, Fmax=1.716e+02 (atom 14492)
+Step 236, Epot=-8.795620e+04, Fnorm=1.440e+01, Fmax=1.957e+02 (atom 19235)
+Step 237, Epot=-8.795691e+04, Fnorm=1.703e+01, Fmax=1.961e+02 (atom 14492)
+Step 238, Epot=-8.795955e+04, Fnorm=1.439e+01, Fmax=1.677e+02 (atom 1879)
+Step 239, Epot=-8.796322e+04, Fnorm=1.203e+01, Fmax=1.498e+02 (atom 14492)
+Step 240, Epot=-8.796563e+04, Fnorm=1.452e+01, Fmax=2.399e+02 (atom 5575)
+Step 241, Epot=-8.796623e+04, Fnorm=1.757e+01, Fmax=2.156e+02 (atom 14492)
+Step 242, Epot=-8.796926e+04, Fnorm=1.427e+01, Fmax=1.499e+02 (atom 18036)
+Step 243, Epot=-8.797279e+04, Fnorm=1.193e+01, Fmax=1.556e+02 (atom 14492)
+Step 244, Epot=-8.797544e+04, Fnorm=1.462e+01, Fmax=2.041e+02 (atom 14492)
+Step 245, Epot=-8.797597e+04, Fnorm=1.738e+01, Fmax=1.968e+02 (atom 14492)
+Step 246, Epot=-8.797861e+04, Fnorm=1.462e+01, Fmax=1.752e+02 (atom 1879)
+Step 247, Epot=-8.798263e+04, Fnorm=1.193e+01, Fmax=1.359e+02 (atom 6658)
+Step 248, Epot=-8.798487e+04, Fnorm=1.425e+01, Fmax=1.727e+02 (atom 15077)
+Step 249, Epot=-8.798577e+04, Fnorm=1.674e+01, Fmax=1.446e+02 (atom 9555)
+Step 250, Epot=-8.798849e+04, Fnorm=1.391e+01, Fmax=1.315e+02 (atom 1879)
+Step 251, Epot=-8.799197e+04, Fnorm=1.185e+01, Fmax=1.284e+02 (atom 19235)
+Step 252, Epot=-8.799449e+04, Fnorm=1.493e+01, Fmax=1.962e+02 (atom 2157)
+Step 253, Epot=-8.799493e+04, Fnorm=1.828e+01, Fmax=2.029e+02 (atom 19235)
+Step 254, Epot=-8.799792e+04, Fnorm=1.529e+01, Fmax=1.893e+02 (atom 1879)
+Step 255, Epot=-8.800235e+04, Fnorm=1.224e+01, Fmax=1.336e+02 (atom 5884)
+Step 256, Epot=-8.800470e+04, Fnorm=1.429e+01, Fmax=2.658e+02 (atom 5575)
+Step 257, Epot=-8.800559e+04, Fnorm=1.644e+01, Fmax=1.793e+02 (atom 15077)
+Step 258, Epot=-8.800807e+04, Fnorm=1.401e+01, Fmax=1.365e+02 (atom 1879)
+Step 259, Epot=-8.801162e+04, Fnorm=1.202e+01, Fmax=1.803e+02 (atom 14959)
+Step 260, Epot=-8.801408e+04, Fnorm=1.468e+01, Fmax=2.049e+02 (atom 14959)
+Step 261, Epot=-8.801434e+04, Fnorm=1.800e+01, Fmax=2.037e+02 (atom 14959)
+Step 262, Epot=-8.801739e+04, Fnorm=1.514e+01, Fmax=1.910e+02 (atom 1879)
+Step 263, Epot=-8.802173e+04, Fnorm=1.216e+01, Fmax=1.466e+02 (atom 12623)
+Step 264, Epot=-8.802412e+04, Fnorm=1.503e+01, Fmax=2.572e+02 (atom 5575)
+Step 265, Epot=-8.802459e+04, Fnorm=1.776e+01, Fmax=2.026e+02 (atom 12623)
+Step 266, Epot=-8.802745e+04, Fnorm=1.473e+01, Fmax=1.584e+02 (atom 18036)
+Step 267, Epot=-8.803130e+04, Fnorm=1.220e+01, Fmax=1.490e+02 (atom 3043)
+Step 268, Epot=-8.803369e+04, Fnorm=1.449e+01, Fmax=1.750e+02 (atom 14959)
+Step 269, Epot=-8.803432e+04, Fnorm=1.717e+01, Fmax=2.031e+02 (atom 11917)
+Step 270, Epot=-8.803690e+04, Fnorm=1.445e+01, Fmax=1.846e+02 (atom 1879)
+Step 271, Epot=-8.804071e+04, Fnorm=1.182e+01, Fmax=1.635e+02 (atom 13716)
+Step 272, Epot=-8.804311e+04, Fnorm=1.457e+01, Fmax=2.181e+02 (atom 15586)
+Step 273, Epot=-8.804366e+04, Fnorm=1.770e+01, Fmax=2.194e+02 (atom 15077)
+Step 274, Epot=-8.804627e+04, Fnorm=1.493e+01, Fmax=1.577e+02 (atom 1879)
+Step 275, Epot=-8.805023e+04, Fnorm=1.220e+01, Fmax=1.236e+02 (atom 4763)
+Step 276, Epot=-8.805273e+04, Fnorm=1.483e+01, Fmax=1.879e+02 (atom 8557)
+Step 277, Epot=-8.805312e+04, Fnorm=1.771e+01, Fmax=1.916e+02 (atom 11917)
+Step 278, Epot=-8.805586e+04, Fnorm=1.494e+01, Fmax=1.937e+02 (atom 1879)
+Step 279, Epot=-8.805977e+04, Fnorm=1.198e+01, Fmax=1.693e+02 (atom 14640)
+Step 280, Epot=-8.806214e+04, Fnorm=1.468e+01, Fmax=2.661e+02 (atom 14640)
+Step 281, Epot=-8.806262e+04, Fnorm=1.786e+01, Fmax=2.579e+02 (atom 15586)
+Step 282, Epot=-8.806539e+04, Fnorm=1.491e+01, Fmax=1.626e+02 (atom 1879)
+Step 283, Epot=-8.806917e+04, Fnorm=1.218e+01, Fmax=1.340e+02 (atom 17788)
+Step 284, Epot=-8.807161e+04, Fnorm=1.460e+01, Fmax=2.093e+02 (atom 17788)
+Step 285, Epot=-8.807208e+04, Fnorm=1.745e+01, Fmax=1.925e+02 (atom 1879)
+Step 286, Epot=-8.807469e+04, Fnorm=1.473e+01, Fmax=1.971e+02 (atom 1879)
+Step 287, Epot=-8.807848e+04, Fnorm=1.207e+01, Fmax=1.379e+02 (atom 890)
+Step 288, Epot=-8.808075e+04, Fnorm=1.469e+01, Fmax=2.333e+02 (atom 13716)
+Step 289, Epot=-8.808111e+04, Fnorm=1.754e+01, Fmax=1.914e+02 (atom 1879)
+Step 290, Epot=-8.808384e+04, Fnorm=1.488e+01, Fmax=1.570e+02 (atom 1879)
+Step 291, Epot=-8.808788e+04, Fnorm=1.228e+01, Fmax=1.400e+02 (atom 5575)
+Step 292, Epot=-8.808998e+04, Fnorm=1.483e+01, Fmax=2.089e+02 (atom 17788)
+Step 293, Epot=-8.809001e+04, Fnorm=1.828e+01, Fmax=3.070e+02 (atom 5575)
+Step 294, Epot=-8.809275e+04, Fnorm=1.541e+01, Fmax=2.111e+02 (atom 1879)
+Step 295, Epot=-8.809691e+04, Fnorm=1.245e+01, Fmax=1.407e+02 (atom 9026)
+Step 296, Epot=-8.809941e+04, Fnorm=1.480e+01, Fmax=2.378e+02 (atom 13716)
+Step 297, Epot=-8.809975e+04, Fnorm=1.775e+01, Fmax=2.550e+02 (atom 5575)
+Step 298, Epot=-8.810222e+04, Fnorm=1.474e+01, Fmax=1.508e+02 (atom 14492)
+Step 299, Epot=-8.810588e+04, Fnorm=1.196e+01, Fmax=1.469e+02 (atom 14492)
+Step 300, Epot=-8.810827e+04, Fnorm=1.456e+01, Fmax=2.061e+02 (atom 14492)
+Step 301, Epot=-8.810838e+04, Fnorm=1.810e+01, Fmax=2.506e+02 (atom 17788)
+Step 302, Epot=-8.811091e+04, Fnorm=1.526e+01, Fmax=1.839e+02 (atom 1879)
+Step 303, Epot=-8.811495e+04, Fnorm=1.234e+01, Fmax=1.468e+02 (atom 15586)
+Step 304, Epot=-8.811748e+04, Fnorm=1.512e+01, Fmax=2.592e+02 (atom 14492)
+Step 305, Epot=-8.811766e+04, Fnorm=1.838e+01, Fmax=1.805e+02 (atom 8201)
+Step 306, Epot=-8.812037e+04, Fnorm=1.542e+01, Fmax=1.531e+02 (atom 14492)
+Step 307, Epot=-8.812446e+04, Fnorm=1.236e+01, Fmax=1.421e+02 (atom 14492)
+Step 308, Epot=-8.812684e+04, Fnorm=1.465e+01, Fmax=1.675e+02 (atom 14959)
+Step 309, Epot=-8.812709e+04, Fnorm=1.759e+01, Fmax=1.718e+02 (atom 14486)
+Step 310, Epot=-8.812957e+04, Fnorm=1.501e+01, Fmax=1.685e+02 (atom 1879)
+Step 311, Epot=-8.813359e+04, Fnorm=1.221e+01, Fmax=1.558e+02 (atom 17934)
+Step 312, Epot=-8.813595e+04, Fnorm=1.506e+01, Fmax=2.200e+02 (atom 5575)
+Step 313, Epot=-8.813652e+04, Fnorm=1.579e+01, Fmax=1.968e+02 (atom 17934)
+Step 314, Epot=-8.813902e+04, Fnorm=1.141e+01, Fmax=1.209e+02 (atom 5515)
+Step 315, Epot=-8.814137e+04, Fnorm=1.129e+01, Fmax=2.082e+02 (atom 14492)
+Step 316, Epot=-8.814286e+04, Fnorm=1.534e+01, Fmax=2.008e+02 (atom 17934)
+Step 317, Epot=-8.814332e+04, Fnorm=1.939e+01, Fmax=2.072e+02 (atom 14492)
+Step 318, Epot=-8.814742e+04, Fnorm=1.612e+01, Fmax=1.659e+02 (atom 1879)
+Step 319, Epot=-8.815180e+04, Fnorm=1.275e+01, Fmax=1.743e+02 (atom 17934)
+Step 320, Epot=-8.815423e+04, Fnorm=1.500e+01, Fmax=1.825e+02 (atom 788)
+Step 321, Epot=-8.815488e+04, Fnorm=1.527e+01, Fmax=2.054e+02 (atom 14492)
+Step 322, Epot=-8.815712e+04, Fnorm=1.111e+01, Fmax=1.358e+02 (atom 14492)
+Step 323, Epot=-8.815918e+04, Fnorm=1.103e+01, Fmax=2.023e+02 (atom 14492)
+Step 324, Epot=-8.816077e+04, Fnorm=1.528e+01, Fmax=1.611e+02 (atom 19235)
+Step 325, Epot=-8.816121e+04, Fnorm=1.997e+01, Fmax=2.227e+02 (atom 14959)
+Step 326, Epot=-8.816538e+04, Fnorm=1.669e+01, Fmax=1.443e+02 (atom 18309)
+Step 327, Epot=-8.817005e+04, Fnorm=1.305e+01, Fmax=1.445e+02 (atom 5515)
+Step 328, Epot=-8.817236e+04, Fnorm=1.533e+01, Fmax=1.917e+02 (atom 9023)
+Step 329, Epot=-8.817291e+04, Fnorm=1.570e+01, Fmax=1.860e+02 (atom 15077)
+Step 330, Epot=-8.817534e+04, Fnorm=1.122e+01, Fmax=1.817e+02 (atom 14492)
+Step 331, Epot=-8.817736e+04, Fnorm=1.097e+01, Fmax=1.676e+02 (atom 14492)
+Step 332, Epot=-8.817882e+04, Fnorm=1.528e+01, Fmax=2.117e+02 (atom 14959)
+Step 333, Epot=-8.817943e+04, Fnorm=2.021e+01, Fmax=2.473e+02 (atom 19235)
+Step 334, Epot=-8.818339e+04, Fnorm=1.702e+01, Fmax=1.495e+02 (atom 18309)
+Step 335, Epot=-8.818809e+04, Fnorm=1.295e+01, Fmax=1.405e+02 (atom 12623)
+Step 336, Epot=-8.819046e+04, Fnorm=1.530e+01, Fmax=2.337e+02 (atom 14492)
+Step 337, Epot=-8.819103e+04, Fnorm=1.578e+01, Fmax=1.642e+02 (atom 8138)
+Step 338, Epot=-8.819337e+04, Fnorm=1.116e+01, Fmax=1.247e+02 (atom 14581)
+Step 339, Epot=-8.819542e+04, Fnorm=1.087e+01, Fmax=2.013e+02 (atom 14492)
+Step 340, Epot=-8.819691e+04, Fnorm=1.516e+01, Fmax=1.903e+02 (atom 14492)
+Step 341, Epot=-8.819748e+04, Fnorm=2.002e+01, Fmax=2.047e+02 (atom 14492)
+Step 342, Epot=-8.820141e+04, Fnorm=1.676e+01, Fmax=1.578e+02 (atom 799)
+Step 343, Epot=-8.820615e+04, Fnorm=1.303e+01, Fmax=1.644e+02 (atom 17934)
+Step 344, Epot=-8.820843e+04, Fnorm=1.572e+01, Fmax=2.541e+02 (atom 15586)
+Step 345, Epot=-8.820882e+04, Fnorm=1.607e+01, Fmax=1.831e+02 (atom 13550)
+Step 346, Epot=-8.821129e+04, Fnorm=1.071e+01, Fmax=1.049e+02 (atom 5515)
+Step 347, Epot=-8.821332e+04, Fnorm=1.063e+01, Fmax=1.320e+02 (atom 9155)
+Step 348, Epot=-8.821470e+04, Fnorm=1.493e+01, Fmax=1.769e+02 (atom 15559)
+Step 349, Epot=-8.821483e+04, Fnorm=1.993e+01, Fmax=2.389e+02 (atom 14492)
+Step 350, Epot=-8.821884e+04, Fnorm=1.697e+01, Fmax=1.798e+02 (atom 799)
+Step 351, Epot=-8.822361e+04, Fnorm=1.319e+01, Fmax=1.471e+02 (atom 15586)
+Step 352, Epot=-8.822570e+04, Fnorm=1.589e+01, Fmax=2.531e+02 (atom 14492)
+Step 353, Epot=-8.822595e+04, Fnorm=1.625e+01, Fmax=2.011e+02 (atom 522)
+Step 354, Epot=-8.822848e+04, Fnorm=1.076e+01, Fmax=1.130e+02 (atom 5515)
+Step 355, Epot=-8.823023e+04, Fnorm=1.070e+01, Fmax=1.603e+02 (atom 522)
+Step 356, Epot=-8.823155e+04, Fnorm=1.534e+01, Fmax=1.521e+02 (atom 17934)
+Step 357, Epot=-8.823193e+04, Fnorm=2.070e+01, Fmax=2.116e+02 (atom 9155)
+Step 358, Epot=-8.823609e+04, Fnorm=1.752e+01, Fmax=1.626e+02 (atom 799)
+Step 359, Epot=-8.824116e+04, Fnorm=1.333e+01, Fmax=1.462e+02 (atom 5515)
+Step 360, Epot=-8.824348e+04, Fnorm=1.578e+01, Fmax=2.185e+02 (atom 13716)
+Step 361, Epot=-8.824373e+04, Fnorm=1.597e+01, Fmax=1.505e+02 (atom 14118)
+Step 362, Epot=-8.824630e+04, Fnorm=1.081e+01, Fmax=1.445e+02 (atom 5515)
+Step 363, Epot=-8.824809e+04, Fnorm=1.061e+01, Fmax=1.449e+02 (atom 5515)
+Step 364, Epot=-8.824964e+04, Fnorm=1.506e+01, Fmax=1.902e+02 (atom 15559)
+Step 365, Epot=-8.824983e+04, Fnorm=2.052e+01, Fmax=3.140e+02 (atom 14492)
+Step 366, Epot=-8.825373e+04, Fnorm=1.726e+01, Fmax=1.938e+02 (atom 799)
+Step 367, Epot=-8.825894e+04, Fnorm=1.301e+01, Fmax=1.474e+02 (atom 5515)
+Step 368, Epot=-8.826095e+04, Fnorm=1.606e+01, Fmax=2.545e+02 (atom 14492)
+Step 369, Epot=-8.826138e+04, Fnorm=1.671e+01, Fmax=2.303e+02 (atom 14956)
+Step 370, Epot=-8.826397e+04, Fnorm=1.068e+01, Fmax=1.484e+02 (atom 5515)
+Step 371, Epot=-8.826584e+04, Fnorm=1.082e+01, Fmax=1.492e+02 (atom 5515)
+Step 372, Epot=-8.826698e+04, Fnorm=1.586e+01, Fmax=3.492e+02 (atom 14492)
+Step 373, Epot=-8.826773e+04, Fnorm=1.862e+01, Fmax=2.983e+02 (atom 14492)
+Step 374, Epot=-8.827139e+04, Fnorm=1.358e+01, Fmax=1.583e+02 (atom 799)
+Step 375, Epot=-8.827445e+04, Fnorm=1.173e+01, Fmax=1.522e+02 (atom 5515)
+Step 376, Epot=-8.827575e+04, Fnorm=1.597e+01, Fmax=2.501e+02 (atom 15586)
+Step 377, Epot=-8.827598e+04, Fnorm=1.708e+01, Fmax=1.571e+02 (atom 799)
+Step 378, Epot=-8.827905e+04, Fnorm=1.128e+01, Fmax=1.520e+02 (atom 5515)
+Step 379, Epot=-8.828116e+04, Fnorm=1.060e+01, Fmax=1.524e+02 (atom 5515)
+Step 380, Epot=-8.828245e+04, Fnorm=1.521e+01, Fmax=1.846e+02 (atom 15586)
+Step 381, Epot=-8.828276e+04, Fnorm=1.716e+01, Fmax=1.787e+02 (atom 14492)
+Step 382, Epot=-8.828580e+04, Fnorm=1.262e+01, Fmax=1.534e+02 (atom 5515)
+Step 383, Epot=-8.828820e+04, Fnorm=1.182e+01, Fmax=1.717e+02 (atom 14492)
+Step 384, Epot=-8.828920e+04, Fnorm=1.637e+01, Fmax=2.298e+02 (atom 19338)
+Step 385, Epot=-8.828973e+04, Fnorm=1.794e+01, Fmax=1.858e+02 (atom 18630)
+Step 386, Epot=-8.829326e+04, Fnorm=1.214e+01, Fmax=1.591e+02 (atom 799)
+Step 387, Epot=-8.829581e+04, Fnorm=1.098e+01, Fmax=1.492e+02 (atom 5515)
+Step 388, Epot=-8.829715e+04, Fnorm=1.500e+01, Fmax=1.551e+02 (atom 3044)
+Step 389, Epot=-8.829732e+04, Fnorm=1.655e+01, Fmax=1.761e+02 (atom 799)
+Step 390, Epot=-8.830002e+04, Fnorm=1.210e+01, Fmax=1.573e+02 (atom 799)
+Step 391, Epot=-8.830236e+04, Fnorm=1.175e+01, Fmax=2.522e+02 (atom 14492)
+Step 392, Epot=-8.830343e+04, Fnorm=1.626e+01, Fmax=2.968e+02 (atom 15586)
+Step 393, Epot=-8.830373e+04, Fnorm=2.109e+01, Fmax=2.329e+02 (atom 14492)
+Step 394, Epot=-8.830810e+04, Fnorm=1.679e+01, Fmax=1.899e+02 (atom 799)
+Step 395, Epot=-8.831286e+04, Fnorm=1.233e+01, Fmax=1.552e+02 (atom 5515)
+Step 396, Epot=-8.831503e+04, Fnorm=1.527e+01, Fmax=1.726e+02 (atom 7196)
+Step 397, Epot=-8.831568e+04, Fnorm=1.572e+01, Fmax=1.670e+02 (atom 13716)
+Step 398, Epot=-8.831801e+04, Fnorm=1.109e+01, Fmax=1.542e+02 (atom 5515)
+Step 399, Epot=-8.831963e+04, Fnorm=1.156e+01, Fmax=1.538e+02 (atom 5515)
+Step 400, Epot=-8.832093e+04, Fnorm=1.661e+01, Fmax=1.898e+02 (atom 9026)
+Step 401, Epot=-8.832170e+04, Fnorm=2.144e+01, Fmax=2.443e+02 (atom 9155)
+Step 402, Epot=-8.832668e+04, Fnorm=1.682e+01, Fmax=1.492e+02 (atom 799)
+Step 403, Epot=-8.833122e+04, Fnorm=1.287e+01, Fmax=1.558e+02 (atom 13716)
+Step 404, Epot=-8.833326e+04, Fnorm=1.554e+01, Fmax=2.053e+02 (atom 13716)
+Step 405, Epot=-8.833354e+04, Fnorm=1.603e+01, Fmax=2.015e+02 (atom 13716)
+Step 406, Epot=-8.833585e+04, Fnorm=1.069e+01, Fmax=1.337e+02 (atom 5515)
+Step 407, Epot=-8.833762e+04, Fnorm=1.097e+01, Fmax=1.622e+02 (atom 14492)
+Step 408, Epot=-8.833876e+04, Fnorm=1.628e+01, Fmax=2.611e+02 (atom 15559)
+Step 409, Epot=-8.833953e+04, Fnorm=1.838e+01, Fmax=1.697e+02 (atom 13716)
+Step 410, Epot=-8.834316e+04, Fnorm=1.316e+01, Fmax=1.294e+02 (atom 5515)
+Step 411, Epot=-8.834586e+04, Fnorm=1.147e+01, Fmax=1.297e+02 (atom 5515)
+Step 412, Epot=-8.834722e+04, Fnorm=1.562e+01, Fmax=1.890e+02 (atom 8201)
+Step 413, Epot=-8.834749e+04, Fnorm=1.676e+01, Fmax=1.765e+02 (atom 12152)
+Step 414, Epot=-8.835035e+04, Fnorm=1.150e+01, Fmax=1.279e+02 (atom 5515)
+Step 415, Epot=-8.835239e+04, Fnorm=1.051e+01, Fmax=1.547e+02 (atom 17934)
+Step 416, Epot=-8.835362e+04, Fnorm=1.501e+01, Fmax=1.598e+02 (atom 13220)
+Step 417, Epot=-8.835438e+04, Fnorm=1.712e+01, Fmax=1.662e+02 (atom 5515)
+Step 418, Epot=-8.835730e+04, Fnorm=1.297e+01, Fmax=1.626e+02 (atom 5515)
+Step 419, Epot=-8.835973e+04, Fnorm=1.159e+01, Fmax=1.609e+02 (atom 5515)
+Step 420, Epot=-8.836133e+04, Fnorm=1.609e+01, Fmax=2.995e+02 (atom 14492)
+Step 421, Epot=-8.836184e+04, Fnorm=1.780e+01, Fmax=2.680e+02 (atom 14492)
+Step 422, Epot=-8.836489e+04, Fnorm=1.209e+01, Fmax=1.577e+02 (atom 5515)
+Step 423, Epot=-8.836724e+04, Fnorm=1.087e+01, Fmax=1.569e+02 (atom 5515)
+Step 424, Epot=-8.836864e+04, Fnorm=1.553e+01, Fmax=2.918e+02 (atom 14492)
+Step 425, Epot=-8.836901e+04, Fnorm=1.728e+01, Fmax=2.459e+02 (atom 14492)
+Step 426, Epot=-8.837191e+04, Fnorm=1.221e+01, Fmax=1.364e+02 (atom 14492)
+Step 427, Epot=-8.837419e+04, Fnorm=1.124e+01, Fmax=1.506e+02 (atom 12623)
+Step 428, Epot=-8.837523e+04, Fnorm=1.601e+01, Fmax=3.279e+02 (atom 14492)
+Step 429, Epot=-8.837566e+04, Fnorm=1.769e+01, Fmax=2.735e+02 (atom 14492)
+Step 430, Epot=-8.837874e+04, Fnorm=1.202e+01, Fmax=1.307e+02 (atom 14492)
+Step 431, Epot=-8.838118e+04, Fnorm=1.090e+01, Fmax=1.559e+02 (atom 12623)
+Step 432, Epot=-8.838237e+04, Fnorm=1.584e+01, Fmax=3.044e+02 (atom 14492)
+Step 433, Epot=-8.838244e+04, Fnorm=1.741e+01, Fmax=2.426e+02 (atom 14959)
+Step 434, Epot=-8.838520e+04, Fnorm=1.166e+01, Fmax=1.231e+02 (atom 5515)
+Step 435, Epot=-8.838748e+04, Fnorm=1.094e+01, Fmax=1.686e+02 (atom 12623)
+Step 436, Epot=-8.838846e+04, Fnorm=1.613e+01, Fmax=1.983e+02 (atom 15586)
+Step 437, Epot=-8.838883e+04, Fnorm=1.756e+01, Fmax=2.394e+02 (atom 12623)
+Step 438, Epot=-8.839205e+04, Fnorm=1.195e+01, Fmax=1.411e+02 (atom 13220)
+Step 439, Epot=-8.839433e+04, Fnorm=1.095e+01, Fmax=1.659e+02 (atom 12623)
+Step 440, Epot=-8.839534e+04, Fnorm=1.569e+01, Fmax=1.961e+02 (atom 12623)
+Step 441, Epot=-8.839542e+04, Fnorm=1.693e+01, Fmax=2.274e+02 (atom 12623)
+Step 442, Epot=-8.839830e+04, Fnorm=1.147e+01, Fmax=1.152e+02 (atom 5515)
+Step 443, Epot=-8.840041e+04, Fnorm=1.104e+01, Fmax=2.238e+02 (atom 14492)
+Step 444, Epot=-8.840145e+04, Fnorm=1.607e+01, Fmax=1.993e+02 (atom 14492)
+Step 445, Epot=-8.840184e+04, Fnorm=1.742e+01, Fmax=2.288e+02 (atom 14492)
+Step 446, Epot=-8.840494e+04, Fnorm=1.217e+01, Fmax=1.395e+02 (atom 12152)
+Step 447, Epot=-8.840731e+04, Fnorm=1.077e+01, Fmax=1.180e+02 (atom 12921)
+Step 448, Epot=-8.840824e+04, Fnorm=1.542e+01, Fmax=2.484e+02 (atom 14492)
+Step 449, Epot=-8.840845e+04, Fnorm=1.708e+01, Fmax=1.726e+02 (atom 8557)
+Step 450, Epot=-8.841132e+04, Fnorm=1.182e+01, Fmax=1.160e+02 (atom 799)
+Step 451, Epot=-8.841361e+04, Fnorm=1.119e+01, Fmax=2.252e+02 (atom 14492)
+Step 452, Epot=-8.841455e+04, Fnorm=1.605e+01, Fmax=2.087e+02 (atom 4840)
+Step 453, Epot=-8.841509e+04, Fnorm=1.720e+01, Fmax=2.202e+02 (atom 9029)
+Step 454, Epot=-8.841807e+04, Fnorm=1.182e+01, Fmax=1.323e+02 (atom 799)
+Step 455, Epot=-8.842027e+04, Fnorm=1.091e+01, Fmax=1.266e+02 (atom 12623)
+Step 456, Epot=-8.842108e+04, Fnorm=1.593e+01, Fmax=2.541e+02 (atom 14492)
+Step 457, Epot=-8.842122e+04, Fnorm=1.724e+01, Fmax=2.284e+02 (atom 14492)
+Step 458, Epot=-8.842393e+04, Fnorm=1.142e+01, Fmax=1.309e+02 (atom 14492)
+Step 459, Epot=-8.842630e+04, Fnorm=1.095e+01, Fmax=1.406e+02 (atom 12623)
+Step 460, Epot=-8.842710e+04, Fnorm=1.646e+01, Fmax=3.277e+02 (atom 14492)
+Step 461, Epot=-8.842701e+04, Fnorm=1.740e+01, Fmax=2.873e+02 (atom 14492)
+Step 462, Epot=-8.843002e+04, Fnorm=1.120e+01, Fmax=1.290e+02 (atom 14492)
+Step 463, Epot=-8.843202e+04, Fnorm=1.054e+01, Fmax=1.615e+02 (atom 12623)
+Step 464, Epot=-8.843263e+04, Fnorm=1.623e+01, Fmax=1.851e+02 (atom 12623)
+Step 465, Epot=-8.843289e+04, Fnorm=1.750e+01, Fmax=2.254e+02 (atom 12623)
+Step 466, Epot=-8.843591e+04, Fnorm=1.165e+01, Fmax=1.210e+02 (atom 13045)
+Step 467, Epot=-8.843809e+04, Fnorm=1.097e+01, Fmax=1.588e+02 (atom 12623)
+Step 468, Epot=-8.843859e+04, Fnorm=1.638e+01, Fmax=2.488e+02 (atom 15586)
+Step 469, Epot=-8.843886e+04, Fnorm=1.746e+01, Fmax=2.156e+02 (atom 14935)
+Step 470, Epot=-8.844195e+04, Fnorm=1.162e+01, Fmax=1.318e+02 (atom 799)
+Step 471, Epot=-8.844391e+04, Fnorm=1.111e+01, Fmax=1.639e+02 (atom 12623)
+Step 472, Epot=-8.844488e+04, Fnorm=1.626e+01, Fmax=2.162e+02 (atom 4840)
+Step 473, Epot=-8.844495e+04, Fnorm=1.737e+01, Fmax=2.184e+02 (atom 12623)
+Step 474, Epot=-8.844811e+04, Fnorm=1.166e+01, Fmax=1.164e+02 (atom 2273)
+Step 475, Epot=-8.845017e+04, Fnorm=1.083e+01, Fmax=1.550e+02 (atom 12623)
+Step 476, Epot=-8.845087e+04, Fnorm=1.561e+01, Fmax=1.931e+02 (atom 12623)
+Step 477, Epot=-8.845118e+04, Fnorm=1.686e+01, Fmax=2.193e+02 (atom 12623)
+Step 478, Epot=-8.845393e+04, Fnorm=1.150e+01, Fmax=1.348e+02 (atom 799)
+Step 479, Epot=-8.845616e+04, Fnorm=1.113e+01, Fmax=1.612e+02 (atom 12623)
+Step 480, Epot=-8.845666e+04, Fnorm=1.664e+01, Fmax=2.080e+02 (atom 12337)
+Step 481, Epot=-8.845673e+04, Fnorm=1.744e+01, Fmax=2.058e+02 (atom 12623)
+Step 482, Epot=-8.845977e+04, Fnorm=1.099e+01, Fmax=1.088e+02 (atom 799)
+Step 483, Epot=-8.846143e+04, Fnorm=1.060e+01, Fmax=1.539e+02 (atom 12623)
+Step 484, Epot=-8.846202e+04, Fnorm=1.637e+01, Fmax=2.293e+02 (atom 14492)
+Step 485, Epot=-8.846213e+04, Fnorm=1.750e+01, Fmax=2.265e+02 (atom 12623)
+Step 486, Epot=-8.846512e+04, Fnorm=1.163e+01, Fmax=1.391e+02 (atom 799)
+Step 487, Epot=-8.846709e+04, Fnorm=1.136e+01, Fmax=2.447e+02 (atom 14492)
+Step 488, Epot=-8.846773e+04, Fnorm=1.700e+01, Fmax=2.537e+02 (atom 2273)
+Step 490, Epot=-8.847020e+04, Fnorm=1.029e+01, Fmax=1.267e+02 (atom 4840)
+Step 491, Epot=-8.847151e+04, Fnorm=1.073e+01, Fmax=1.634e+02 (atom 12623)
+Step 492, Epot=-8.847244e+04, Fnorm=1.101e+01, Fmax=1.587e+02 (atom 4840)
+Step 493, Epot=-8.847381e+04, Fnorm=1.334e+01, Fmax=1.608e+02 (atom 4840)
+Step 494, Epot=-8.847557e+04, Fnorm=1.429e+01, Fmax=2.309e+02 (atom 4840)
+Step 495, Epot=-8.847848e+04, Fnorm=1.358e+01, Fmax=1.489e+02 (atom 15586)
+Step 496, Epot=-8.848038e+04, Fnorm=1.483e+01, Fmax=2.094e+02 (atom 9155)
+Step 497, Epot=-8.848308e+04, Fnorm=1.374e+01, Fmax=1.454e+02 (atom 12337)
+Step 498, Epot=-8.848502e+04, Fnorm=1.559e+01, Fmax=2.335e+02 (atom 4840)
+Step 499, Epot=-8.848813e+04, Fnorm=1.379e+01, Fmax=1.712e+02 (atom 12623)
+Step 500, Epot=-8.848976e+04, Fnorm=1.641e+01, Fmax=2.162e+02 (atom 14959)
+Step 501, Epot=-8.849303e+04, Fnorm=1.449e+01, Fmax=1.620e+02 (atom 12141)
+Step 502, Epot=-8.849513e+04, Fnorm=1.681e+01, Fmax=2.033e+02 (atom 14959)
+Step 503, Epot=-8.849859e+04, Fnorm=1.506e+01, Fmax=2.164e+02 (atom 2273)
+Step 504, Epot=-8.850027e+04, Fnorm=1.834e+01, Fmax=2.489e+02 (atom 14959)
+Step 505, Epot=-8.850432e+04, Fnorm=1.444e+01, Fmax=1.806e+02 (atom 14062)
+Step 506, Epot=-8.850612e+04, Fnorm=1.672e+01, Fmax=2.140e+02 (atom 4840)
+Step 507, Epot=-8.850944e+04, Fnorm=1.479e+01, Fmax=1.764e+02 (atom 1556)
+Step 508, Epot=-8.851092e+04, Fnorm=1.892e+01, Fmax=2.267e+02 (atom 16276)
+Step 509, Epot=-8.851510e+04, Fnorm=1.472e+01, Fmax=1.590e+02 (atom 12623)
+Step 510, Epot=-8.851752e+04, Fnorm=1.653e+01, Fmax=2.233e+02 (atom 12334)
+Step 511, Epot=-8.852049e+04, Fnorm=1.520e+01, Fmax=2.263e+02 (atom 14492)
+Step 512, Epot=-8.852200e+04, Fnorm=2.008e+01, Fmax=2.358e+02 (atom 2273)
+Step 513, Epot=-8.852674e+04, Fnorm=1.490e+01, Fmax=1.637e+02 (atom 13716)
+Step 514, Epot=-8.852927e+04, Fnorm=1.565e+01, Fmax=1.751e+02 (atom 1556)
+Step 515, Epot=-8.853170e+04, Fnorm=1.476e+01, Fmax=1.914e+02 (atom 13716)
+Step 516, Epot=-8.853277e+04, Fnorm=2.028e+01, Fmax=2.546e+02 (atom 1556)
+Step 517, Epot=-8.853754e+04, Fnorm=1.445e+01, Fmax=1.644e+02 (atom 15586)
+Step 518, Epot=-8.853985e+04, Fnorm=1.440e+01, Fmax=1.656e+02 (atom 1556)
+Step 519, Epot=-8.854225e+04, Fnorm=1.378e+01, Fmax=1.617e+02 (atom 14935)
+Step 520, Epot=-8.854326e+04, Fnorm=1.860e+01, Fmax=2.737e+02 (atom 12623)
+Step 521, Epot=-8.854752e+04, Fnorm=1.454e+01, Fmax=1.554e+02 (atom 14959)
+Step 522, Epot=-8.854995e+04, Fnorm=1.468e+01, Fmax=1.809e+02 (atom 1458)
+Step 523, Epot=-8.855234e+04, Fnorm=1.405e+01, Fmax=1.594e+02 (atom 12623)
+Step 524, Epot=-8.855338e+04, Fnorm=1.861e+01, Fmax=2.174e+02 (atom 1458)
+Step 525, Epot=-8.855732e+04, Fnorm=1.438e+01, Fmax=1.431e+02 (atom 15559)
+Step 526, Epot=-8.855962e+04, Fnorm=1.476e+01, Fmax=2.069e+02 (atom 1458)
+Step 527, Epot=-8.856188e+04, Fnorm=1.413e+01, Fmax=1.716e+02 (atom 15586)
+Step 528, Epot=-8.856293e+04, Fnorm=1.879e+01, Fmax=2.180e+02 (atom 14935)
+Step 529, Epot=-8.856694e+04, Fnorm=1.445e+01, Fmax=1.817e+02 (atom 15586)
+Step 530, Epot=-8.856904e+04, Fnorm=1.468e+01, Fmax=1.691e+02 (atom 522)
+Step 531, Epot=-8.857152e+04, Fnorm=1.377e+01, Fmax=1.489e+02 (atom 16276)
+Step 532, Epot=-8.857270e+04, Fnorm=1.777e+01, Fmax=2.028e+02 (atom 14935)
+Step 533, Epot=-8.857630e+04, Fnorm=1.438e+01, Fmax=1.536e+02 (atom 16276)
+Step 534, Epot=-8.857840e+04, Fnorm=1.548e+01, Fmax=1.782e+02 (atom 14956)
+Step 535, Epot=-8.858098e+04, Fnorm=1.431e+01, Fmax=1.620e+02 (atom 12623)
+Step 536, Epot=-8.858219e+04, Fnorm=1.839e+01, Fmax=2.276e+02 (atom 16276)
+Step 537, Epot=-8.858591e+04, Fnorm=1.462e+01, Fmax=1.759e+02 (atom 522)
+Step 538, Epot=-8.858798e+04, Fnorm=1.611e+01, Fmax=1.680e+02 (atom 1556)
+Step 539, Epot=-8.859072e+04, Fnorm=1.452e+01, Fmax=1.859e+02 (atom 12623)
+Step 540, Epot=-8.859206e+04, Fnorm=1.877e+01, Fmax=2.140e+02 (atom 13702)
+Step 541, Epot=-8.859622e+04, Fnorm=1.480e+01, Fmax=2.057e+02 (atom 12623)
+Step 542, Epot=-8.859841e+04, Fnorm=1.619e+01, Fmax=1.840e+02 (atom 1556)
+Step 543, Epot=-8.860124e+04, Fnorm=1.462e+01, Fmax=1.735e+02 (atom 12623)
+Step 544, Epot=-8.860234e+04, Fnorm=1.928e+01, Fmax=2.634e+02 (atom 12623)
+Step 545, Epot=-8.860678e+04, Fnorm=1.499e+01, Fmax=1.738e+02 (atom 12623)
+Step 546, Epot=-8.860893e+04, Fnorm=1.595e+01, Fmax=1.926e+02 (atom 12623)
+Step 547, Epot=-8.861154e+04, Fnorm=1.459e+01, Fmax=1.618e+02 (atom 12623)
+Step 548, Epot=-8.861280e+04, Fnorm=1.957e+01, Fmax=2.734e+02 (atom 12623)
+Step 549, Epot=-8.861727e+04, Fnorm=1.488e+01, Fmax=1.691e+02 (atom 15858)
+Step 550, Epot=-8.861971e+04, Fnorm=1.534e+01, Fmax=1.764e+02 (atom 12623)
+Step 551, Epot=-8.862213e+04, Fnorm=1.455e+01, Fmax=1.613e+02 (atom 4632)
+Step 552, Epot=-8.862314e+04, Fnorm=1.946e+01, Fmax=2.592e+02 (atom 12623)
+Step 553, Epot=-8.862751e+04, Fnorm=1.448e+01, Fmax=1.679e+02 (atom 15586)
+Step 554, Epot=-8.862994e+04, Fnorm=1.469e+01, Fmax=1.519e+02 (atom 4632)
+Step 555, Epot=-8.863220e+04, Fnorm=1.454e+01, Fmax=1.611e+02 (atom 15858)
+Step 556, Epot=-8.863300e+04, Fnorm=1.968e+01, Fmax=2.815e+02 (atom 15586)
+Step 557, Epot=-8.863597e+04, Fnorm=1.303e+01, Fmax=1.301e+02 (atom 15586)
+Step 558, Epot=-8.863711e+04, Fnorm=9.265e+00, Fmax=1.322e+02 (atom 12141)
+Step 559, Epot=-8.863759e+04, Fnorm=1.239e+01, Fmax=1.568e+02 (atom 522)
+Step 560, Epot=-8.863862e+04, Fnorm=1.358e+01, Fmax=1.547e+02 (atom 14935)
+Step 561, Epot=-8.864086e+04, Fnorm=1.363e+01, Fmax=1.631e+02 (atom 12623)
+Step 562, Epot=-8.864299e+04, Fnorm=1.355e+01, Fmax=1.608e+02 (atom 17992)
+Step 563, Epot=-8.864518e+04, Fnorm=1.351e+01, Fmax=1.653e+02 (atom 15586)
+Step 564, Epot=-8.864649e+04, Fnorm=1.646e+01, Fmax=1.886e+02 (atom 17992)
+Step 565, Epot=-8.864998e+04, Fnorm=1.424e+01, Fmax=1.674e+02 (atom 13702)
+Step 566, Epot=-8.865228e+04, Fnorm=1.455e+01, Fmax=2.660e+02 (atom 15586)
+Step 567, Epot=-8.865471e+04, Fnorm=1.355e+01, Fmax=1.721e+02 (atom 15586)
+Step 568, Epot=-8.865659e+04, Fnorm=1.685e+01, Fmax=2.530e+02 (atom 15586)
+Step 569, Epot=-8.865992e+04, Fnorm=1.435e+01, Fmax=1.692e+02 (atom 12141)
+Step 570, Epot=-8.866207e+04, Fnorm=1.547e+01, Fmax=1.922e+02 (atom 15586)
+Step 571, Epot=-8.866523e+04, Fnorm=1.428e+01, Fmax=1.608e+02 (atom 4632)
+Step 572, Epot=-8.866668e+04, Fnorm=1.798e+01, Fmax=2.106e+02 (atom 4840)
+Step 573, Epot=-8.867054e+04, Fnorm=1.503e+01, Fmax=1.853e+02 (atom 788)
+Step 574, Epot=-8.867274e+04, Fnorm=1.646e+01, Fmax=1.922e+02 (atom 4632)
+Step 575, Epot=-8.867594e+04, Fnorm=1.462e+01, Fmax=1.939e+02 (atom 788)
+Step 576, Epot=-8.867720e+04, Fnorm=1.899e+01, Fmax=2.761e+02 (atom 4840)
+Step 577, Epot=-8.868147e+04, Fnorm=1.505e+01, Fmax=2.085e+02 (atom 788)
+Step 578, Epot=-8.868370e+04, Fnorm=1.657e+01, Fmax=2.290e+02 (atom 15586)
+Step 579, Epot=-8.868680e+04, Fnorm=1.496e+01, Fmax=2.127e+02 (atom 788)
+Step 580, Epot=-8.868829e+04, Fnorm=1.945e+01, Fmax=3.024e+02 (atom 4840)
+Step 581, Epot=-8.869279e+04, Fnorm=1.521e+01, Fmax=2.161e+02 (atom 12623)
+Step 582, Epot=-8.869522e+04, Fnorm=1.635e+01, Fmax=2.476e+02 (atom 15586)
+Step 583, Epot=-8.869814e+04, Fnorm=1.499e+01, Fmax=2.152e+02 (atom 788)
+Step 584, Epot=-8.869938e+04, Fnorm=1.989e+01, Fmax=2.768e+02 (atom 788)
+Step 585, Epot=-8.870408e+04, Fnorm=1.509e+01, Fmax=2.201e+02 (atom 788)
+Step 586, Epot=-8.870633e+04, Fnorm=1.595e+01, Fmax=2.134e+02 (atom 788)
+Step 587, Epot=-8.870909e+04, Fnorm=1.514e+01, Fmax=2.450e+02 (atom 788)
+Step 588, Epot=-8.871018e+04, Fnorm=2.068e+01, Fmax=3.052e+02 (atom 788)
+Step 589, Epot=-8.871505e+04, Fnorm=1.514e+01, Fmax=2.232e+02 (atom 788)
+Step 590, Epot=-8.871752e+04, Fnorm=1.542e+01, Fmax=2.107e+02 (atom 788)
+Step 591, Epot=-8.872010e+04, Fnorm=1.463e+01, Fmax=2.247e+02 (atom 788)
+Step 592, Epot=-8.872134e+04, Fnorm=1.941e+01, Fmax=3.127e+02 (atom 788)
+Step 593, Epot=-8.872538e+04, Fnorm=1.508e+01, Fmax=2.339e+02 (atom 19235)
+Step 594, Epot=-8.872773e+04, Fnorm=1.611e+01, Fmax=2.476e+02 (atom 788)
+Step 595, Epot=-8.873048e+04, Fnorm=1.504e+01, Fmax=2.561e+02 (atom 19235)
+Step 596, Epot=-8.873162e+04, Fnorm=2.003e+01, Fmax=3.500e+02 (atom 788)
+Step 597, Epot=-8.873598e+04, Fnorm=1.530e+01, Fmax=2.624e+02 (atom 19235)
+Step 598, Epot=-8.873802e+04, Fnorm=1.621e+01, Fmax=2.544e+02 (atom 12623)
+Step 599, Epot=-8.874095e+04, Fnorm=1.463e+01, Fmax=2.259e+02 (atom 788)
+Step 600, Epot=-8.874205e+04, Fnorm=1.917e+01, Fmax=3.523e+02 (atom 19235)
+Step 601, Epot=-8.874588e+04, Fnorm=1.540e+01, Fmax=2.231e+02 (atom 788)
+Step 602, Epot=-8.874803e+04, Fnorm=1.693e+01, Fmax=2.821e+02 (atom 12623)
+Step 603, Epot=-8.875116e+04, Fnorm=1.503e+01, Fmax=2.245e+02 (atom 788)
+Step 604, Epot=-8.875241e+04, Fnorm=1.955e+01, Fmax=3.338e+02 (atom 788)
+Step 605, Epot=-8.875636e+04, Fnorm=1.535e+01, Fmax=2.180e+02 (atom 788)
+Step 606, Epot=-8.875835e+04, Fnorm=1.727e+01, Fmax=2.842e+02 (atom 788)
+Step 607, Epot=-8.876165e+04, Fnorm=1.509e+01, Fmax=1.963e+02 (atom 10987)
+Step 608, Epot=-8.876279e+04, Fnorm=1.968e+01, Fmax=3.614e+02 (atom 788)
+Step 609, Epot=-8.876699e+04, Fnorm=1.528e+01, Fmax=2.060e+02 (atom 10987)
+Step 610, Epot=-8.876902e+04, Fnorm=1.719e+01, Fmax=2.737e+02 (atom 788)
+Step 611, Epot=-8.877197e+04, Fnorm=1.511e+01, Fmax=2.005e+02 (atom 4840)
+Step 612, Epot=-8.877327e+04, Fnorm=2.013e+01, Fmax=3.305e+02 (atom 788)
+Step 613, Epot=-8.877751e+04, Fnorm=1.530e+01, Fmax=1.790e+02 (atom 4840)
+Step 614, Epot=-8.877972e+04, Fnorm=1.687e+01, Fmax=2.322e+02 (atom 788)
+Step 615, Epot=-8.878257e+04, Fnorm=1.523e+01, Fmax=1.884e+02 (atom 10987)
+Step 616, Epot=-8.878357e+04, Fnorm=2.068e+01, Fmax=2.940e+02 (atom 788)
+Step 617, Epot=-8.878818e+04, Fnorm=1.498e+01, Fmax=1.683e+02 (atom 10987)
+Step 618, Epot=-8.879058e+04, Fnorm=1.589e+01, Fmax=2.526e+02 (atom 12623)
+Step 619, Epot=-8.879318e+04, Fnorm=1.504e+01, Fmax=1.978e+02 (atom 10987)
+Step 620, Epot=-8.879418e+04, Fnorm=2.039e+01, Fmax=2.711e+02 (atom 19235)
+Step 621, Epot=-8.879905e+04, Fnorm=1.501e+01, Fmax=1.847e+02 (atom 4840)
+Step 622, Epot=-8.880120e+04, Fnorm=1.560e+01, Fmax=2.425e+02 (atom 12623)
+Step 623, Epot=-8.880375e+04, Fnorm=1.470e+01, Fmax=2.318e+02 (atom 4840)
+Step 624, Epot=-8.880495e+04, Fnorm=1.946e+01, Fmax=2.643e+02 (atom 19235)
+Step 625, Epot=-8.880912e+04, Fnorm=1.484e+01, Fmax=1.945e+02 (atom 4840)
+Step 626, Epot=-8.881105e+04, Fnorm=1.623e+01, Fmax=2.520e+02 (atom 12623)
+Step 627, Epot=-8.881405e+04, Fnorm=1.483e+01, Fmax=2.016e+02 (atom 4840)
+Step 628, Epot=-8.881543e+04, Fnorm=1.901e+01, Fmax=2.595e+02 (atom 19235)
+Step 629, Epot=-8.881967e+04, Fnorm=1.473e+01, Fmax=1.686e+02 (atom 4840)
+Step 630, Epot=-8.882159e+04, Fnorm=1.649e+01, Fmax=2.176e+02 (atom 12623)
+Step 631, Epot=-8.882448e+04, Fnorm=1.498e+01, Fmax=2.307e+02 (atom 4840)
+Step 632, Epot=-8.882566e+04, Fnorm=1.960e+01, Fmax=2.782e+02 (atom 19234)
+Step 633, Epot=-8.883007e+04, Fnorm=1.503e+01, Fmax=2.022e+02 (atom 15586)
+Step 634, Epot=-8.883213e+04, Fnorm=1.643e+01, Fmax=2.464e+02 (atom 19234)
+Step 635, Epot=-8.883502e+04, Fnorm=1.494e+01, Fmax=1.880e+02 (atom 19234)
+Step 636, Epot=-8.883622e+04, Fnorm=1.988e+01, Fmax=3.092e+02 (atom 19234)
+Step 637, Epot=-8.884066e+04, Fnorm=1.503e+01, Fmax=1.892e+02 (atom 4840)
+Step 638, Epot=-8.884310e+04, Fnorm=1.612e+01, Fmax=2.431e+02 (atom 19234)
+Step 639, Epot=-8.884563e+04, Fnorm=1.477e+01, Fmax=2.443e+02 (atom 4840)
+Step 640, Epot=-8.884698e+04, Fnorm=1.965e+01, Fmax=2.900e+02 (atom 19234)
+Step 641, Epot=-8.885150e+04, Fnorm=1.524e+01, Fmax=2.301e+02 (atom 4840)
+Step 642, Epot=-8.885380e+04, Fnorm=1.664e+01, Fmax=2.349e+02 (atom 19234)
+Step 643, Epot=-8.885654e+04, Fnorm=1.493e+01, Fmax=2.024e+02 (atom 19234)
+Step 644, Epot=-8.885770e+04, Fnorm=2.028e+01, Fmax=3.445e+02 (atom 4840)
+Step 645, Epot=-8.886233e+04, Fnorm=1.515e+01, Fmax=2.112e+02 (atom 13716)
+Step 646, Epot=-8.886468e+04, Fnorm=1.578e+01, Fmax=2.125e+02 (atom 4840)
+Step 647, Epot=-8.886745e+04, Fnorm=1.454e+01, Fmax=1.906e+02 (atom 12623)
+Step 648, Epot=-8.886861e+04, Fnorm=1.947e+01, Fmax=3.122e+02 (atom 4840)
+Step 649, Epot=-8.887265e+04, Fnorm=1.495e+01, Fmax=2.211e+02 (atom 12623)
+Step 650, Epot=-8.887504e+04, Fnorm=1.578e+01, Fmax=2.201e+02 (atom 4840)
+Step 651, Epot=-8.887782e+04, Fnorm=1.457e+01, Fmax=2.045e+02 (atom 13716)
+Step 652, Epot=-8.887895e+04, Fnorm=1.913e+01, Fmax=3.317e+02 (atom 4840)
+Step 653, Epot=-8.888322e+04, Fnorm=1.511e+01, Fmax=1.748e+02 (atom 12152)
+Step 654, Epot=-8.888532e+04, Fnorm=1.666e+01, Fmax=2.276e+02 (atom 4840)
+Step 655, Epot=-8.888834e+04, Fnorm=1.466e+01, Fmax=1.842e+02 (atom 10842)
+Step 656, Epot=-8.888965e+04, Fnorm=1.888e+01, Fmax=2.445e+02 (atom 4840)
+Step 657, Epot=-8.889386e+04, Fnorm=1.512e+01, Fmax=1.988e+02 (atom 12623)
+Step 658, Epot=-8.889595e+04, Fnorm=1.718e+01, Fmax=2.371e+02 (atom 19234)
+Step 659, Epot=-8.889905e+04, Fnorm=1.507e+01, Fmax=1.908e+02 (atom 10842)
+Step 660, Epot=-8.890059e+04, Fnorm=1.977e+01, Fmax=2.406e+02 (atom 10842)
+Step 661, Epot=-8.890518e+04, Fnorm=1.522e+01, Fmax=1.827e+02 (atom 12623)
+Step 662, Epot=-8.890726e+04, Fnorm=1.740e+01, Fmax=2.488e+02 (atom 19234)
+Step 663, Epot=-8.891053e+04, Fnorm=1.510e+01, Fmax=2.077e+02 (atom 12623)
+Step 664, Epot=-8.891193e+04, Fnorm=2.005e+01, Fmax=2.511e+02 (atom 19234)
+Step 665, Epot=-8.891662e+04, Fnorm=1.503e+01, Fmax=1.722e+02 (atom 12623)
+Step 666, Epot=-8.891898e+04, Fnorm=1.682e+01, Fmax=2.403e+02 (atom 12623)
+Step 667, Epot=-8.892202e+04, Fnorm=1.538e+01, Fmax=2.234e+02 (atom 12623)
+Step 668, Epot=-8.892333e+04, Fnorm=2.053e+01, Fmax=2.920e+02 (atom 12623)
+Step 669, Epot=-8.892845e+04, Fnorm=1.494e+01, Fmax=1.879e+02 (atom 4840)
+Step 670, Epot=-8.893073e+04, Fnorm=1.557e+01, Fmax=2.512e+02 (atom 12623)
+Step 671, Epot=-8.893356e+04, Fnorm=1.478e+01, Fmax=2.338e+02 (atom 4840)
+Step 672, Epot=-8.893458e+04, Fnorm=2.052e+01, Fmax=2.976e+02 (atom 12623)
+Step 673, Epot=-8.893943e+04, Fnorm=1.487e+01, Fmax=2.097e+02 (atom 4840)
+Step 674, Epot=-8.894215e+04, Fnorm=1.460e+01, Fmax=1.717e+02 (atom 4840)
+Step 675, Epot=-8.894434e+04, Fnorm=1.432e+01, Fmax=2.436e+02 (atom 5611)
+Step 676, Epot=-8.894530e+04, Fnorm=1.916e+01, Fmax=3.209e+02 (atom 4840)
+Step 677, Epot=-8.894965e+04, Fnorm=1.468e+01, Fmax=1.871e+02 (atom 4840)
+Step 678, Epot=-8.895205e+04, Fnorm=1.493e+01, Fmax=2.005e+02 (atom 4840)
+Step 679, Epot=-8.895464e+04, Fnorm=1.414e+01, Fmax=1.763e+02 (atom 4840)
+Step 680, Epot=-8.895593e+04, Fnorm=1.838e+01, Fmax=3.023e+02 (atom 4840)
+Step 681, Epot=-8.895978e+04, Fnorm=1.491e+01, Fmax=1.959e+02 (atom 4840)
+Step 682, Epot=-8.896188e+04, Fnorm=1.607e+01, Fmax=2.301e+02 (atom 4840)
+Step 683, Epot=-8.896498e+04, Fnorm=1.463e+01, Fmax=1.935e+02 (atom 10842)
+Step 684, Epot=-8.896614e+04, Fnorm=1.912e+01, Fmax=3.384e+02 (atom 4840)
+Step 685, Epot=-8.896999e+04, Fnorm=1.540e+01, Fmax=2.149e+02 (atom 12623)
+Step 686, Epot=-8.897220e+04, Fnorm=1.722e+01, Fmax=2.454e+02 (atom 4840)
+Step 687, Epot=-8.897535e+04, Fnorm=1.514e+01, Fmax=2.323e+02 (atom 12623)
+Step 688, Epot=-8.897673e+04, Fnorm=1.964e+01, Fmax=2.621e+02 (atom 4840)
+Step 689, Epot=-8.898095e+04, Fnorm=1.562e+01, Fmax=2.089e+02 (atom 13716)
+Step 690, Epot=-8.898307e+04, Fnorm=1.774e+01, Fmax=2.134e+02 (atom 12623)
+Step 691, Epot=-8.898638e+04, Fnorm=1.546e+01, Fmax=2.045e+02 (atom 12623)
+Step 692, Epot=-8.898778e+04, Fnorm=2.021e+01, Fmax=3.241e+02 (atom 4840)
+Step 693, Epot=-8.899213e+04, Fnorm=1.545e+01, Fmax=1.852e+02 (atom 12623)
+Step 694, Epot=-8.899417e+04, Fnorm=1.752e+01, Fmax=2.179e+02 (atom 12623)
+Step 695, Epot=-8.899747e+04, Fnorm=1.550e+01, Fmax=1.905e+02 (atom 9152)
+Step 696, Epot=-8.899861e+04, Fnorm=2.078e+01, Fmax=2.911e+02 (atom 12623)
+Step 697, Epot=-8.900298e+04, Fnorm=1.553e+01, Fmax=1.997e+02 (atom 9152)
+Step 698, Epot=-8.900552e+04, Fnorm=1.702e+01, Fmax=2.077e+02 (atom 10842)
+Step 699, Epot=-8.900837e+04, Fnorm=1.567e+01, Fmax=1.811e+02 (atom 12623)
+Step 700, Epot=-8.900896e+04, Fnorm=2.161e+01, Fmax=3.187e+02 (atom 4840)
+Step 701, Epot=-8.901245e+04, Fnorm=1.314e+01, Fmax=1.399e+02 (atom 12141)
+Step 702, Epot=-8.901334e+04, Fnorm=9.330e+00, Fmax=1.308e+02 (atom 522)
+Step 703, Epot=-8.901380e+04, Fnorm=1.259e+01, Fmax=1.334e+02 (atom 18036)
+Step 704, Epot=-8.901436e+04, Fnorm=1.481e+01, Fmax=1.548e+02 (atom 9972)
+Step 705, Epot=-8.901688e+04, Fnorm=1.379e+01, Fmax=1.889e+02 (atom 12623)
+Step 706, Epot=-8.901882e+04, Fnorm=1.383e+01, Fmax=1.817e+02 (atom 15586)
+Step 707, Epot=-8.902081e+04, Fnorm=1.403e+01, Fmax=1.810e+02 (atom 13716)
+Step 708, Epot=-8.902186e+04, Fnorm=1.767e+01, Fmax=1.976e+02 (atom 13980)
+Step 709, Epot=-8.902534e+04, Fnorm=1.435e+01, Fmax=1.905e+02 (atom 9152)
+Step 710, Epot=-8.902752e+04, Fnorm=1.467e+01, Fmax=1.724e+02 (atom 1452)
+Step 711, Epot=-8.902978e+04, Fnorm=1.383e+01, Fmax=1.453e+02 (atom 12623)
+Step 712, Epot=-8.903082e+04, Fnorm=1.792e+01, Fmax=2.048e+02 (atom 13716)
+Step 713, Epot=-8.903442e+04, Fnorm=1.444e+01, Fmax=1.723e+02 (atom 17934)
+Step 714, Epot=-8.903652e+04, Fnorm=1.508e+01, Fmax=1.953e+02 (atom 1452)
+Step 715, Epot=-8.903898e+04, Fnorm=1.441e+01, Fmax=1.567e+02 (atom 12623)
+Step 716, Epot=-8.904009e+04, Fnorm=1.906e+01, Fmax=2.451e+02 (atom 13716)
+Step 717, Epot=-8.904421e+04, Fnorm=1.486e+01, Fmax=1.699e+02 (atom 12623)
+Step 718, Epot=-8.904638e+04, Fnorm=1.563e+01, Fmax=2.109e+02 (atom 1452)
+Step 719, Epot=-8.904904e+04, Fnorm=1.461e+01, Fmax=1.833e+02 (atom 12623)
+Step 720, Epot=-8.905026e+04, Fnorm=1.913e+01, Fmax=2.470e+02 (atom 13716)
+Step 721, Epot=-8.905445e+04, Fnorm=1.493e+01, Fmax=1.631e+02 (atom 13720)
+Step 722, Epot=-8.905652e+04, Fnorm=1.597e+01, Fmax=2.005e+02 (atom 12623)
+Step 723, Epot=-8.905939e+04, Fnorm=1.480e+01, Fmax=1.780e+02 (atom 19234)
+Step 724, Epot=-8.906064e+04, Fnorm=1.944e+01, Fmax=2.726e+02 (atom 13716)
+Step 725, Epot=-8.906484e+04, Fnorm=1.501e+01, Fmax=2.066e+02 (atom 19234)
+Step 726, Epot=-8.906705e+04, Fnorm=1.609e+01, Fmax=2.036e+02 (atom 12623)
+Step 727, Epot=-8.906962e+04, Fnorm=1.500e+01, Fmax=2.307e+02 (atom 19234)
+Step 728, Epot=-8.907070e+04, Fnorm=2.019e+01, Fmax=2.740e+02 (atom 12623)
+Step 729, Epot=-8.907506e+04, Fnorm=1.515e+01, Fmax=2.450e+02 (atom 19234)
+Step 730, Epot=-8.907739e+04, Fnorm=1.572e+01, Fmax=1.848e+02 (atom 19234)
+Step 731, Epot=-8.907998e+04, Fnorm=1.493e+01, Fmax=2.740e+02 (atom 19234)
+Step 732, Epot=-8.908069e+04, Fnorm=2.035e+01, Fmax=3.029e+02 (atom 19234)
+Step 733, Epot=-8.908374e+04, Fnorm=1.261e+01, Fmax=1.286e+02 (atom 15858)
+Step 734, Epot=-8.908479e+04, Fnorm=8.891e+00, Fmax=1.038e+02 (atom 523)
+Step 735, Epot=-8.908519e+04, Fnorm=1.194e+01, Fmax=1.271e+02 (atom 206)
+Step 736, Epot=-8.908605e+04, Fnorm=1.379e+01, Fmax=1.545e+02 (atom 17992)
+Step 737, Epot=-8.908830e+04, Fnorm=1.367e+01, Fmax=2.093e+02 (atom 4840)
+Step 738, Epot=-8.909024e+04, Fnorm=1.341e+01, Fmax=1.636e+02 (atom 17992)
+Step 739, Epot=-8.909232e+04, Fnorm=1.370e+01, Fmax=2.470e+02 (atom 4840)
+Step 740, Epot=-8.909343e+04, Fnorm=1.715e+01, Fmax=2.136e+02 (atom 4840)
+Step 741, Epot=-8.909683e+04, Fnorm=1.458e+01, Fmax=2.049e+02 (atom 4840)
+Step 742, Epot=-8.909905e+04, Fnorm=1.420e+01, Fmax=2.001e+02 (atom 4840)
+Step 743, Epot=-8.910142e+04, Fnorm=1.359e+01, Fmax=1.800e+02 (atom 4840)
+Step 744, Epot=-8.910263e+04, Fnorm=1.739e+01, Fmax=2.992e+02 (atom 4840)
+Step 745, Epot=-8.910608e+04, Fnorm=1.467e+01, Fmax=1.933e+02 (atom 4840)
+Step 746, Epot=-8.910840e+04, Fnorm=1.521e+01, Fmax=2.251e+02 (atom 4840)
+Step 747, Epot=-8.911077e+04, Fnorm=1.453e+01, Fmax=1.817e+02 (atom 19234)
+Step 748, Epot=-8.911185e+04, Fnorm=1.916e+01, Fmax=3.849e+02 (atom 4840)
+Step 749, Epot=-8.911604e+04, Fnorm=1.495e+01, Fmax=1.770e+02 (atom 12623)
+Step 750, Epot=-8.911846e+04, Fnorm=1.510e+01, Fmax=1.942e+02 (atom 4840)
+Step 751, Epot=-8.912091e+04, Fnorm=1.433e+01, Fmax=1.597e+02 (atom 4840)
+Step 752, Epot=-8.912185e+04, Fnorm=1.927e+01, Fmax=2.909e+02 (atom 4840)
+Step 753, Epot=-8.912595e+04, Fnorm=1.487e+01, Fmax=1.652e+02 (atom 4840)
+Step 754, Epot=-8.912799e+04, Fnorm=1.537e+01, Fmax=1.892e+02 (atom 4840)
+Step 755, Epot=-8.913062e+04, Fnorm=1.449e+01, Fmax=1.634e+02 (atom 19234)
+Step 756, Epot=-8.913163e+04, Fnorm=1.889e+01, Fmax=3.229e+02 (atom 4840)
+Step 757, Epot=-8.913545e+04, Fnorm=1.518e+01, Fmax=1.669e+02 (atom 4840)
+Step 758, Epot=-8.913754e+04, Fnorm=1.635e+01, Fmax=2.237e+02 (atom 4840)
+Step 759, Epot=-8.914028e+04, Fnorm=1.503e+01, Fmax=2.008e+02 (atom 8138)
+Step 760, Epot=-8.914132e+04, Fnorm=2.005e+01, Fmax=3.196e+02 (atom 4840)
+Step 761, Epot=-8.914408e+04, Fnorm=1.221e+01, Fmax=1.409e+02 (atom 4840)
+Step 762, Epot=-8.914518e+04, Fnorm=9.122e+00, Fmax=1.068e+02 (atom 6336)
+Step 763, Epot=-8.914563e+04, Fnorm=1.257e+01, Fmax=1.394e+02 (atom 5838)
+Step 764, Epot=-8.914612e+04, Fnorm=1.477e+01, Fmax=1.481e+02 (atom 13220)
+Step 765, Epot=-8.914847e+04, Fnorm=1.360e+01, Fmax=2.019e+02 (atom 8138)
+Step 766, Epot=-8.915066e+04, Fnorm=1.329e+01, Fmax=1.481e+02 (atom 9029)
+Step 767, Epot=-8.915255e+04, Fnorm=1.366e+01, Fmax=1.579e+02 (atom 4840)
+Step 768, Epot=-8.915367e+04, Fnorm=1.701e+01, Fmax=2.024e+02 (atom 17989)
+Step 769, Epot=-8.915733e+04, Fnorm=1.389e+01, Fmax=1.555e+02 (atom 13716)
+Step 770, Epot=-8.915937e+04, Fnorm=1.366e+01, Fmax=1.838e+02 (atom 4840)
+Step 771, Epot=-8.916164e+04, Fnorm=1.360e+01, Fmax=1.802e+02 (atom 12623)
+Step 772, Epot=-8.916273e+04, Fnorm=1.758e+01, Fmax=2.322e+02 (atom 4840)
+Step 773, Epot=-8.916659e+04, Fnorm=1.426e+01, Fmax=1.812e+02 (atom 8138)
+Step 774, Epot=-8.916878e+04, Fnorm=1.417e+01, Fmax=2.508e+02 (atom 4840)
+Step 775, Epot=-8.917096e+04, Fnorm=1.397e+01, Fmax=1.898e+02 (atom 4840)
+Step 776, Epot=-8.917200e+04, Fnorm=1.816e+01, Fmax=2.887e+02 (atom 12623)
+Step 777, Epot=-8.917577e+04, Fnorm=1.426e+01, Fmax=1.652e+02 (atom 13716)
+Step 778, Epot=-8.917800e+04, Fnorm=1.467e+01, Fmax=2.221e+02 (atom 12623)
+Step 779, Epot=-8.918031e+04, Fnorm=1.401e+01, Fmax=1.785e+02 (atom 13716)
+Step 780, Epot=-8.918109e+04, Fnorm=1.864e+01, Fmax=2.686e+02 (atom 12623)
+Step 781, Epot=-8.918520e+04, Fnorm=1.449e+01, Fmax=1.676e+02 (atom 13716)
+Step 782, Epot=-8.918753e+04, Fnorm=1.529e+01, Fmax=2.527e+02 (atom 4840)
+Step 783, Epot=-8.918995e+04, Fnorm=1.433e+01, Fmax=1.825e+02 (atom 4840)
+Step 784, Epot=-8.919090e+04, Fnorm=1.869e+01, Fmax=2.521e+02 (atom 12623)
+Step 785, Epot=-8.919491e+04, Fnorm=1.458e+01, Fmax=1.555e+02 (atom 9672)
+Step 786, Epot=-8.919712e+04, Fnorm=1.530e+01, Fmax=2.178e+02 (atom 13716)
+Step 787, Epot=-8.919979e+04, Fnorm=1.418e+01, Fmax=1.795e+02 (atom 9672)
+Step 788, Epot=-8.920099e+04, Fnorm=1.858e+01, Fmax=2.764e+02 (atom 13716)
+Step 789, Epot=-8.920470e+04, Fnorm=1.481e+01, Fmax=1.694e+02 (atom 9672)
+Step 790, Epot=-8.920695e+04, Fnorm=1.593e+01, Fmax=1.934e+02 (atom 13716)
+Step 791, Epot=-8.920976e+04, Fnorm=1.488e+01, Fmax=1.831e+02 (atom 9672)
+Step 792, Epot=-8.921088e+04, Fnorm=1.974e+01, Fmax=2.405e+02 (atom 9672)
+Step 793, Epot=-8.921527e+04, Fnorm=1.488e+01, Fmax=1.491e+02 (atom 9672)
+Step 794, Epot=-8.921750e+04, Fnorm=1.532e+01, Fmax=1.945e+02 (atom 12623)
+Step 795, Epot=-8.922007e+04, Fnorm=1.439e+01, Fmax=1.748e+02 (atom 12623)
+Step 796, Epot=-8.922097e+04, Fnorm=1.931e+01, Fmax=2.349e+02 (atom 12623)
+Step 797, Epot=-8.922512e+04, Fnorm=1.485e+01, Fmax=1.561e+02 (atom 19234)
+Step 798, Epot=-8.922753e+04, Fnorm=1.552e+01, Fmax=2.125e+02 (atom 12623)
+Step 799, Epot=-8.923015e+04, Fnorm=1.473e+01, Fmax=1.748e+02 (atom 15586)
+Step 800, Epot=-8.923105e+04, Fnorm=1.975e+01, Fmax=2.782e+02 (atom 12623)
+Step 801, Epot=-8.923551e+04, Fnorm=1.480e+01, Fmax=1.669e+02 (atom 13716)
+Step 802, Epot=-8.923791e+04, Fnorm=1.517e+01, Fmax=2.028e+02 (atom 12623)
+Step 803, Epot=-8.924042e+04, Fnorm=1.428e+01, Fmax=1.549e+02 (atom 15458)
+Step 804, Epot=-8.924144e+04, Fnorm=1.865e+01, Fmax=2.468e+02 (atom 9672)
+Step 805, Epot=-8.924549e+04, Fnorm=1.468e+01, Fmax=1.529e+02 (atom 15458)
+Step 806, Epot=-8.924769e+04, Fnorm=1.576e+01, Fmax=2.043e+02 (atom 12623)
+Step 807, Epot=-8.925021e+04, Fnorm=1.462e+01, Fmax=1.726e+02 (atom 4840)
+Step 808, Epot=-8.925145e+04, Fnorm=1.928e+01, Fmax=2.592e+02 (atom 12623)
+Step 809, Epot=-8.925566e+04, Fnorm=1.483e+01, Fmax=1.721e+02 (atom 13716)
+Step 810, Epot=-8.925787e+04, Fnorm=1.579e+01, Fmax=2.082e+02 (atom 12623)
+Step 811, Epot=-8.926052e+04, Fnorm=1.441e+01, Fmax=1.865e+02 (atom 13716)
+Step 812, Epot=-8.926148e+04, Fnorm=1.942e+01, Fmax=2.399e+02 (atom 9672)
+Step 813, Epot=-8.926582e+04, Fnorm=1.474e+01, Fmax=2.086e+02 (atom 13716)
+Step 814, Epot=-8.926796e+04, Fnorm=1.553e+01, Fmax=1.913e+02 (atom 12623)
+Step 815, Epot=-8.927048e+04, Fnorm=1.448e+01, Fmax=2.201e+02 (atom 4840)
+Step 816, Epot=-8.927147e+04, Fnorm=1.944e+01, Fmax=2.372e+02 (atom 9672)
+Step 817, Epot=-8.927586e+04, Fnorm=1.465e+01, Fmax=1.497e+02 (atom 1452)
+Step 818, Epot=-8.927818e+04, Fnorm=1.539e+01, Fmax=2.298e+02 (atom 13716)
+Step 819, Epot=-8.928071e+04, Fnorm=1.430e+01, Fmax=1.642e+02 (atom 1556)
+Step 820, Epot=-8.928155e+04, Fnorm=1.932e+01, Fmax=2.988e+02 (atom 13716)
+Step 821, Epot=-8.928566e+04, Fnorm=1.486e+01, Fmax=1.681e+02 (atom 1554)
+Step 822, Epot=-8.928795e+04, Fnorm=1.546e+01, Fmax=2.224e+02 (atom 13716)
+Step 823, Epot=-8.929038e+04, Fnorm=1.450e+01, Fmax=1.937e+02 (atom 4840)
+Step 824, Epot=-8.929111e+04, Fnorm=1.944e+01, Fmax=2.627e+02 (atom 12623)
+Step 825, Epot=-8.929387e+04, Fnorm=1.231e+01, Fmax=1.662e+02 (atom 13716)
+Step 826, Epot=-8.929490e+04, Fnorm=9.016e+00, Fmax=1.265e+02 (atom 5611)
+Step 827, Epot=-8.929529e+04, Fnorm=8.607e+00, Fmax=1.112e+02 (atom 4354)
+Step 828, Epot=-8.929602e+04, Fnorm=9.691e+00, Fmax=1.222e+02 (atom 13029)
+Step 829, Epot=-8.929716e+04, Fnorm=1.350e+01, Fmax=1.855e+02 (atom 12623)
+Step 830, Epot=-8.930069e+04, Fnorm=1.893e+01, Fmax=3.147e+02 (atom 13716)
+Step 831, Epot=-8.931016e+04, Fnorm=3.227e+01, Fmax=5.477e+02 (atom 12623)
+Step 832, Epot=-8.932873e+04, Fnorm=4.227e+01, Fmax=7.614e+02 (atom 13716)
+Step 833, Epot=-8.935626e+04, Fnorm=3.121e+01, Fmax=4.411e+02 (atom 12623)
+Step 834, Epot=-8.937859e+04, Fnorm=3.302e+01, Fmax=4.994e+02 (atom 13716)
+Step 835, Epot=-8.939009e+04, Fnorm=6.011e+01, Fmax=1.369e+03 (atom 13716)
+Step 836, Epot=-8.942188e+04, Fnorm=1.777e+01, Fmax=1.655e+02 (atom 15586)
+Step 837, Epot=-8.942720e+04, Fnorm=1.348e+01, Fmax=1.386e+02 (atom 13716)
+Step 838, Epot=-8.943174e+04, Fnorm=1.500e+01, Fmax=1.834e+02 (atom 13716)
+Step 839, Epot=-8.943676e+04, Fnorm=2.304e+01, Fmax=2.398e+02 (atom 4840)
+Step 840, Epot=-8.943698e+04, Fnorm=2.616e+01, Fmax=2.598e+02 (atom 13716)
+Step 841, Epot=-8.944268e+04, Fnorm=2.126e+01, Fmax=1.819e+02 (atom 14425)
+Step 842, Epot=-8.945273e+04, Fnorm=1.952e+01, Fmax=2.089e+02 (atom 4973)
+Step 843, Epot=-8.945620e+04, Fnorm=3.080e+01, Fmax=4.227e+02 (atom 2297)
+Step 844, Epot=-8.946455e+04, Fnorm=1.431e+01, Fmax=1.398e+02 (atom 15910)
+Step 845, Epot=-8.946790e+04, Fnorm=1.172e+01, Fmax=1.165e+02 (atom 12337)
+Step 846, Epot=-8.946955e+04, Fnorm=1.672e+01, Fmax=2.175e+02 (atom 12337)
+Step 847, Epot=-8.947027e+04, Fnorm=2.033e+01, Fmax=2.614e+02 (atom 834)
+Step 848, Epot=-8.947421e+04, Fnorm=1.064e+01, Fmax=8.931e+01 (atom 15210)
+Step 849, Epot=-8.947564e+04, Fnorm=1.069e+01, Fmax=1.120e+02 (atom 13143)
+Step 850, Epot=-8.947730e+04, Fnorm=1.435e+01, Fmax=1.660e+02 (atom 14438)
+Step 851, Epot=-8.947976e+04, Fnorm=1.485e+01, Fmax=2.016e+02 (atom 834)
+Step 852, Epot=-8.948325e+04, Fnorm=1.890e+01, Fmax=3.617e+02 (atom 834)
+Step 853, Epot=-8.948774e+04, Fnorm=2.029e+01, Fmax=3.154e+02 (atom 834)
+Step 854, Epot=-8.949046e+04, Fnorm=2.754e+01, Fmax=5.263e+02 (atom 834)
+Step 855, Epot=-8.949456e+04, Fnorm=2.107e+01, Fmax=3.140e+02 (atom 834)
+Step 856, Epot=-8.949787e+04, Fnorm=9.068e+00, Fmax=9.074e+01 (atom 14486)
+Step 857, Epot=-8.949835e+04, Fnorm=8.909e+00, Fmax=1.485e+02 (atom 15586)
+Step 858, Epot=-8.949907e+04, Fnorm=9.196e+00, Fmax=9.764e+01 (atom 14438)
+Step 859, Epot=-8.950033e+04, Fnorm=1.278e+01, Fmax=1.309e+02 (atom 6834)
+Step 860, Epot=-8.950286e+04, Fnorm=1.766e+01, Fmax=1.769e+02 (atom 4861)
+Step 861, Epot=-8.950771e+04, Fnorm=1.710e+01, Fmax=1.565e+02 (atom 18457)
+Step 862, Epot=-8.951305e+04, Fnorm=2.141e+01, Fmax=3.036e+02 (atom 14118)
+Step 863, Epot=-8.951789e+04, Fnorm=2.573e+01, Fmax=3.324e+02 (atom 8437)
+Step 864, Epot=-8.952158e+04, Fnorm=3.406e+01, Fmax=4.974e+02 (atom 2713)
+Step 865, Epot=-8.952780e+04, Fnorm=2.568e+01, Fmax=4.379e+02 (atom 2713)
+Step 866, Epot=-8.953274e+04, Fnorm=9.513e+00, Fmax=9.456e+01 (atom 14990)
+Step 867, Epot=-8.953330e+04, Fnorm=9.172e+00, Fmax=8.928e+01 (atom 2713)
+Step 868, Epot=-8.953439e+04, Fnorm=8.929e+00, Fmax=8.644e+01 (atom 9006)
+Step 869, Epot=-8.953552e+04, Fnorm=1.165e+01, Fmax=1.203e+02 (atom 2713)
+Step 870, Epot=-8.953812e+04, Fnorm=1.596e+01, Fmax=1.648e+02 (atom 4840)
+Step 871, Epot=-8.954097e+04, Fnorm=1.660e+01, Fmax=1.723e+02 (atom 9029)
+Step 872, Epot=-8.954566e+04, Fnorm=2.048e+01, Fmax=2.564e+02 (atom 9029)
+Step 873, Epot=-8.955080e+04, Fnorm=2.066e+01, Fmax=2.671e+02 (atom 9029)
+Step 874, Epot=-8.955375e+04, Fnorm=2.804e+01, Fmax=4.346e+02 (atom 9029)
+Step 875, Epot=-8.955823e+04, Fnorm=2.163e+01, Fmax=3.202e+02 (atom 9029)
+Step 876, Epot=-8.956165e+04, Fnorm=9.408e+00, Fmax=1.179e+02 (atom 4685)
+Step 877, Epot=-8.956241e+04, Fnorm=9.349e+00, Fmax=1.175e+02 (atom 4685)
+Step 878, Epot=-8.956327e+04, Fnorm=9.397e+00, Fmax=1.518e+02 (atom 13220)
+Step 879, Epot=-8.956481e+04, Fnorm=1.206e+01, Fmax=1.450e+02 (atom 15580)
+Step 880, Epot=-8.956785e+04, Fnorm=1.621e+01, Fmax=2.725e+02 (atom 4840)
+Step 881, Epot=-8.957117e+04, Fnorm=1.645e+01, Fmax=2.338e+02 (atom 15580)
+Step 882, Epot=-8.957443e+04, Fnorm=2.151e+01, Fmax=2.623e+02 (atom 834)
+Step 883, Epot=-8.957748e+04, Fnorm=2.695e+01, Fmax=4.723e+02 (atom 15580)
+Step 884, Epot=-8.958505e+04, Fnorm=1.416e+01, Fmax=1.233e+02 (atom 15586)
+Step 885, Epot=-8.958805e+04, Fnorm=1.138e+01, Fmax=1.004e+02 (atom 14425)
+Step 886, Epot=-8.959078e+04, Fnorm=1.382e+01, Fmax=1.525e+02 (atom 14990)
+Step 887, Epot=-8.959205e+04, Fnorm=2.205e+01, Fmax=2.345e+02 (atom 12337)
+Step 888, Epot=-8.959262e+04, Fnorm=2.136e+01, Fmax=2.159e+02 (atom 12337)
+Step 889, Epot=-8.959862e+04, Fnorm=1.515e+01, Fmax=1.766e+02 (atom 14990)
+Step 890, Epot=-8.960142e+04, Fnorm=1.484e+01, Fmax=1.500e+02 (atom 14990)
+Step 891, Epot=-8.960248e+04, Fnorm=1.458e+01, Fmax=1.359e+02 (atom 15754)
+Step 892, Epot=-8.960487e+04, Fnorm=1.148e+01, Fmax=1.123e+02 (atom 13220)
+Step 893, Epot=-8.960693e+04, Fnorm=1.040e+01, Fmax=1.323e+02 (atom 12623)
+Step 894, Epot=-8.960822e+04, Fnorm=1.367e+01, Fmax=1.884e+02 (atom 4840)
+Step 895, Epot=-8.960852e+04, Fnorm=1.484e+01, Fmax=2.192e+02 (atom 5611)
+Step 896, Epot=-8.961084e+04, Fnorm=1.114e+01, Fmax=1.191e+02 (atom 4840)
+Step 897, Epot=-8.961239e+04, Fnorm=1.066e+01, Fmax=1.641e+02 (atom 4840)
+Step 898, Epot=-8.961325e+04, Fnorm=1.565e+01, Fmax=2.117e+02 (atom 12623)
+Step 899, Epot=-8.961353e+04, Fnorm=1.689e+01, Fmax=2.156e+02 (atom 12623)
+Step 900, Epot=-8.961655e+04, Fnorm=1.103e+01, Fmax=1.088e+02 (atom 5869)
+Step 901, Epot=-8.961858e+04, Fnorm=1.015e+01, Fmax=1.242e+02 (atom 14990)
+Step 902, Epot=-8.961919e+04, Fnorm=1.477e+01, Fmax=2.195e+02 (atom 12623)
+Step 903, Epot=-8.961950e+04, Fnorm=1.562e+01, Fmax=2.155e+02 (atom 12623)
+Step 904, Epot=-8.962152e+04, Fnorm=1.056e+01, Fmax=1.433e+02 (atom 14270)
+Step 905, Epot=-8.962299e+04, Fnorm=1.065e+01, Fmax=1.773e+02 (atom 14990)
+Step 906, Epot=-8.962324e+04, Fnorm=1.638e+01, Fmax=2.683e+02 (atom 4840)
+Step 907, Epot=-8.962372e+04, Fnorm=1.767e+01, Fmax=2.183e+02 (atom 4840)
+Step 908, Epot=-8.962673e+04, Fnorm=1.147e+01, Fmax=1.393e+02 (atom 5869)
+Step 909, Epot=-8.962905e+04, Fnorm=1.044e+01, Fmax=1.234e+02 (atom 8451)
+Step 910, Epot=-8.962958e+04, Fnorm=1.530e+01, Fmax=2.192e+02 (atom 17992)
+Step 911, Epot=-8.962962e+04, Fnorm=1.599e+01, Fmax=2.129e+02 (atom 17992)
+Step 912, Epot=-8.963171e+04, Fnorm=1.025e+01, Fmax=1.188e+02 (atom 5869)
+Step 913, Epot=-8.963333e+04, Fnorm=1.037e+01, Fmax=1.592e+02 (atom 4840)
+Step 914, Epot=-8.963362e+04, Fnorm=1.638e+01, Fmax=2.253e+02 (atom 15586)
+Step 915, Epot=-8.963388e+04, Fnorm=1.792e+01, Fmax=2.313e+02 (atom 15586)
+Step 916, Epot=-8.963713e+04, Fnorm=1.162e+01, Fmax=1.574e+02 (atom 5869)
+Step 917, Epot=-8.963923e+04, Fnorm=1.057e+01, Fmax=1.644e+02 (atom 9198)
+Step 918, Epot=-8.963938e+04, Fnorm=1.571e+01, Fmax=2.303e+02 (atom 9198)
+Step 919, Epot=-8.963941e+04, Fnorm=1.621e+01, Fmax=2.351e+02 (atom 9198)
+Step 920, Epot=-8.964198e+04, Fnorm=1.031e+01, Fmax=1.328e+02 (atom 5869)
+Step 921, Epot=-8.964338e+04, Fnorm=1.038e+01, Fmax=1.216e+02 (atom 4840)
+Step 922, Epot=-8.964430e+04, Fnorm=1.225e+01, Fmax=1.537e+02 (atom 13220)
+Step 923, Epot=-8.964546e+04, Fnorm=1.501e+01, Fmax=2.102e+02 (atom 4840)
+Step 924, Epot=-8.964768e+04, Fnorm=1.332e+01, Fmax=1.393e+02 (atom 5869)
+Step 925, Epot=-8.965038e+04, Fnorm=1.215e+01, Fmax=1.852e+02 (atom 9198)
+Step 926, Epot=-8.965124e+04, Fnorm=1.700e+01, Fmax=2.167e+02 (atom 4840)
+Step 927, Epot=-8.965159e+04, Fnorm=2.041e+01, Fmax=2.049e+02 (atom 5869)
+Step 928, Epot=-8.965552e+04, Fnorm=1.583e+01, Fmax=1.984e+02 (atom 5869)
+Step 929, Epot=-8.965951e+04, Fnorm=1.196e+01, Fmax=1.524e+02 (atom 5869)
+Step 930, Epot=-8.966134e+04, Fnorm=1.438e+01, Fmax=1.754e+02 (atom 9134)
+Step 931, Epot=-8.966170e+04, Fnorm=1.484e+01, Fmax=1.599e+02 (atom 15559)
+Step 932, Epot=-8.966373e+04, Fnorm=1.028e+01, Fmax=1.474e+02 (atom 13220)
+Step 933, Epot=-8.966502e+04, Fnorm=1.086e+01, Fmax=1.801e+02 (atom 14990)
+Step 934, Epot=-8.966538e+04, Fnorm=1.669e+01, Fmax=2.981e+02 (atom 14990)
+Step 935, Epot=-8.966573e+04, Fnorm=1.796e+01, Fmax=3.145e+02 (atom 14990)
+Step 936, Epot=-8.966900e+04, Fnorm=1.210e+01, Fmax=1.640e+02 (atom 5869)
+Step 937, Epot=-8.967107e+04, Fnorm=1.107e+01, Fmax=1.725e+02 (atom 17992)
+Step 938, Epot=-8.967134e+04, Fnorm=1.619e+01, Fmax=2.090e+02 (atom 14118)
+Step 939, Epot=-8.967118e+04, Fnorm=1.643e+01, Fmax=2.070e+02 (atom 12623)
+Step 940, Epot=-8.967362e+04, Fnorm=1.018e+01, Fmax=1.123e+02 (atom 14270)
+Step 941, Epot=-8.967495e+04, Fnorm=1.002e+01, Fmax=1.493e+02 (atom 14270)
+Step 942, Epot=-8.967500e+04, Fnorm=1.646e+01, Fmax=2.510e+02 (atom 14118)
+Step 943, Epot=-8.967509e+04, Fnorm=1.726e+01, Fmax=2.403e+02 (atom 14118)
+Step 944, Epot=-8.967774e+04, Fnorm=1.100e+01, Fmax=1.089e+02 (atom 4840)
+Step 945, Epot=-8.967939e+04, Fnorm=1.048e+01, Fmax=1.716e+02 (atom 9134)
+Step 946, Epot=-8.968038e+04, Fnorm=1.154e+01, Fmax=1.547e+02 (atom 1452)
+Step 947, Epot=-8.968105e+04, Fnorm=1.468e+01, Fmax=1.610e+02 (atom 4840)
+Step 948, Epot=-8.968316e+04, Fnorm=1.333e+01, Fmax=1.578e+02 (atom 18457)
+Step 949, Epot=-8.968549e+04, Fnorm=1.205e+01, Fmax=1.444e+02 (atom 15586)
+Step 950, Epot=-8.968689e+04, Fnorm=1.718e+01, Fmax=2.847e+02 (atom 1452)
+Step 951, Epot=-8.968746e+04, Fnorm=2.056e+01, Fmax=2.020e+02 (atom 5869)
+Step 952, Epot=-8.969173e+04, Fnorm=1.623e+01, Fmax=1.461e+02 (atom 11840)
+Step 953, Epot=-8.969567e+04, Fnorm=1.232e+01, Fmax=1.222e+02 (atom 9134)
+Step 954, Epot=-8.969706e+04, Fnorm=1.486e+01, Fmax=2.132e+02 (atom 9198)
+Step 955, Epot=-8.969740e+04, Fnorm=1.506e+01, Fmax=1.534e+02 (atom 14486)
+Step 956, Epot=-8.969951e+04, Fnorm=9.734e+00, Fmax=7.889e+01 (atom 13482)
+Step 957, Epot=-8.970071e+04, Fnorm=1.036e+01, Fmax=1.164e+02 (atom 13391)
+Step 958, Epot=-8.970086e+04, Fnorm=1.650e+01, Fmax=1.660e+02 (atom 12337)
+Step 959, Epot=-8.970091e+04, Fnorm=1.735e+01, Fmax=1.989e+02 (atom 6336)
+Step 960, Epot=-8.970392e+04, Fnorm=1.131e+01, Fmax=1.011e+02 (atom 12253)
+Step 961, Epot=-8.970562e+04, Fnorm=1.085e+01, Fmax=1.208e+02 (atom 8110)
+Step 962, Epot=-8.970640e+04, Fnorm=1.159e+01, Fmax=1.353e+02 (atom 8451)
+Step 963, Epot=-8.970720e+04, Fnorm=1.449e+01, Fmax=1.728e+02 (atom 19084)
+Step 964, Epot=-8.970923e+04, Fnorm=1.330e+01, Fmax=1.166e+02 (atom 17992)
+Step 965, Epot=-8.971153e+04, Fnorm=1.179e+01, Fmax=1.363e+02 (atom 14270)
+Step 966, Epot=-8.971284e+04, Fnorm=1.662e+01, Fmax=1.898e+02 (atom 13220)
+Step 967, Epot=-8.971322e+04, Fnorm=2.053e+01, Fmax=2.073e+02 (atom 12623)
+Step 968, Epot=-8.971697e+04, Fnorm=1.658e+01, Fmax=1.697e+02 (atom 12253)
+Step 969, Epot=-8.972139e+04, Fnorm=1.237e+01, Fmax=1.535e+02 (atom 13220)
+Step 970, Epot=-8.972271e+04, Fnorm=1.493e+01, Fmax=1.860e+02 (atom 12623)
+Step 971, Epot=-8.972274e+04, Fnorm=1.500e+01, Fmax=1.805e+02 (atom 12623)
+Step 972, Epot=-8.972489e+04, Fnorm=9.638e+00, Fmax=1.175e+02 (atom 9198)
+Step 973, Epot=-8.972609e+04, Fnorm=1.054e+01, Fmax=1.677e+02 (atom 4840)
+Step 974, Epot=-8.972708e+04, Fnorm=1.245e+01, Fmax=1.345e+02 (atom 13391)
+Step 975, Epot=-8.972794e+04, Fnorm=1.550e+01, Fmax=2.362e+02 (atom 4840)
+Step 976, Epot=-8.973019e+04, Fnorm=1.471e+01, Fmax=1.317e+02 (atom 12253)
+Step 977, Epot=-8.973327e+04, Fnorm=1.306e+01, Fmax=2.252e+02 (atom 4840)
+Step 978, Epot=-8.973465e+04, Fnorm=1.200e+01, Fmax=1.352e+02 (atom 19084)
+Step 979, Epot=-8.973588e+04, Fnorm=1.258e+01, Fmax=1.546e+02 (atom 12623)
+Step 980, Epot=-8.973680e+04, Fnorm=1.506e+01, Fmax=1.735e+02 (atom 14990)
+Step 981, Epot=-8.973948e+04, Fnorm=1.289e+01, Fmax=1.863e+02 (atom 4840)
+Step 982, Epot=-8.974119e+04, Fnorm=1.322e+01, Fmax=1.432e+02 (atom 14270)
+Step 983, Epot=-8.974299e+04, Fnorm=1.319e+01, Fmax=2.019e+02 (atom 12623)
+Step 984, Epot=-8.974423e+04, Fnorm=1.588e+01, Fmax=2.143e+02 (atom 14990)
+Step 985, Epot=-8.974714e+04, Fnorm=1.378e+01, Fmax=1.875e+02 (atom 12623)
+Step 986, Epot=-8.974899e+04, Fnorm=1.495e+01, Fmax=2.088e+02 (atom 12623)
+Step 987, Epot=-8.975159e+04, Fnorm=1.356e+01, Fmax=1.812e+02 (atom 12623)
+Step 988, Epot=-8.975285e+04, Fnorm=1.667e+01, Fmax=2.296e+02 (atom 12623)
+Step 989, Epot=-8.975601e+04, Fnorm=1.450e+01, Fmax=1.613e+02 (atom 681)
+Step 990, Epot=-8.975765e+04, Fnorm=1.656e+01, Fmax=2.085e+02 (atom 12623)
+Step 991, Epot=-8.976062e+04, Fnorm=1.455e+01, Fmax=1.933e+02 (atom 17992)
+Step 992, Epot=-8.976209e+04, Fnorm=1.792e+01, Fmax=2.633e+02 (atom 681)
+Step 993, Epot=-8.976545e+04, Fnorm=1.455e+01, Fmax=1.552e+02 (atom 681)
+Step 994, Epot=-8.976713e+04, Fnorm=1.712e+01, Fmax=2.244e+02 (atom 12623)
+Step 995, Epot=-8.976999e+04, Fnorm=1.467e+01, Fmax=1.579e+02 (atom 13242)
+Step 996, Epot=-8.977140e+04, Fnorm=1.845e+01, Fmax=2.628e+02 (atom 681)
+Step 997, Epot=-8.977507e+04, Fnorm=1.488e+01, Fmax=1.595e+02 (atom 14118)
+Step 998, Epot=-8.977660e+04, Fnorm=1.753e+01, Fmax=2.105e+02 (atom 681)
+Step 999, Epot=-8.977965e+04, Fnorm=1.512e+01, Fmax=1.689e+02 (atom 13242)
+Step 1000, Epot=-8.978080e+04, Fnorm=1.947e+01, Fmax=2.574e+02 (atom 681)
+Step 1001, Epot=-8.978163e+04, Fnorm=1.844e+01, Fmax=2.376e+02 (atom 681)
+Step 1002, Epot=-8.978398e+04, Fnorm=8.958e+00, Fmax=1.427e+02 (atom 4840)
+Step 1003, Epot=-8.978434e+04, Fnorm=9.549e+00, Fmax=8.659e+01 (atom 13242)
+Step 1004, Epot=-8.978518e+04, Fnorm=9.766e+00, Fmax=1.154e+02 (atom 6336)
+Step 1005, Epot=-8.978558e+04, Fnorm=1.502e+01, Fmax=1.793e+02 (atom 4840)
+Step 1006, Epot=-8.978711e+04, Fnorm=1.767e+01, Fmax=1.798e+02 (atom 9198)
+Step 1007, Epot=-8.979073e+04, Fnorm=1.503e+01, Fmax=1.768e+02 (atom 15586)
+Step 1008, Epot=-8.979275e+04, Fnorm=1.623e+01, Fmax=2.209e+02 (atom 4840)
+Step 1009, Epot=-8.979516e+04, Fnorm=1.511e+01, Fmax=2.192e+02 (atom 4840)
+Step 1010, Epot=-8.979603e+04, Fnorm=1.985e+01, Fmax=2.720e+02 (atom 4840)
+Step 1011, Epot=-8.980015e+04, Fnorm=1.466e+01, Fmax=2.032e+02 (atom 4840)
+Step 1012, Epot=-8.980218e+04, Fnorm=1.489e+01, Fmax=1.978e+02 (atom 4840)
+Step 1013, Epot=-8.980421e+04, Fnorm=1.408e+01, Fmax=1.663e+02 (atom 4840)
+Step 1014, Epot=-8.980462e+04, Fnorm=1.990e+01, Fmax=2.984e+02 (atom 4840)
+Step 1015, Epot=-8.980731e+04, Fnorm=1.310e+01, Fmax=1.579e+02 (atom 16620)
+Step 1016, Epot=-8.980843e+04, Fnorm=8.930e+00, Fmax=1.056e+02 (atom 12623)
+Step 1017, Epot=-8.980881e+04, Fnorm=8.728e+00, Fmax=1.032e+02 (atom 9198)
+Step 1018, Epot=-8.980935e+04, Fnorm=9.816e+00, Fmax=8.973e+01 (atom 4840)
+Step 1019, Epot=-8.981005e+04, Fnorm=1.403e+01, Fmax=1.563e+02 (atom 10670)
+Step 1020, Epot=-8.981180e+04, Fnorm=1.410e+01, Fmax=1.501e+02 (atom 9029)
+Step 1021, Epot=-8.981453e+04, Fnorm=1.333e+01, Fmax=1.620e+02 (atom 4840)
+Step 1022, Epot=-8.981600e+04, Fnorm=1.443e+01, Fmax=1.784e+02 (atom 9198)
+Step 1023, Epot=-8.981830e+04, Fnorm=1.382e+01, Fmax=2.234e+02 (atom 4840)
+Step 1024, Epot=-8.981948e+04, Fnorm=1.648e+01, Fmax=2.316e+02 (atom 10670)
+Step 1025, Epot=-8.982247e+04, Fnorm=1.396e+01, Fmax=2.439e+02 (atom 4840)
+Step 1026, Epot=-8.982438e+04, Fnorm=1.473e+01, Fmax=2.039e+02 (atom 4840)
+Step 1027, Epot=-8.982640e+04, Fnorm=1.378e+01, Fmax=2.521e+02 (atom 4840)
+Step 1028, Epot=-8.982721e+04, Fnorm=1.824e+01, Fmax=2.784e+02 (atom 4840)
+Step 1029, Epot=-8.982959e+04, Fnorm=1.196e+01, Fmax=1.473e+02 (atom 4175)
+Step 1030, Epot=-8.983063e+04, Fnorm=8.890e+00, Fmax=1.234e+02 (atom 14118)
+Step 1031, Epot=-8.983102e+04, Fnorm=8.829e+00, Fmax=1.489e+02 (atom 13220)
+Step 1032, Epot=-8.983164e+04, Fnorm=1.002e+01, Fmax=1.449e+02 (atom 14118)
+Step 1033, Epot=-8.983258e+04, Fnorm=1.394e+01, Fmax=1.812e+02 (atom 9029)
+Step 1034, Epot=-8.983436e+04, Fnorm=1.376e+01, Fmax=1.463e+02 (atom 4840)
+Step 1035, Epot=-8.983678e+04, Fnorm=1.315e+01, Fmax=1.951e+02 (atom 4840)
+Step 1036, Epot=-8.983838e+04, Fnorm=1.453e+01, Fmax=1.835e+02 (atom 4840)
+Step 1037, Epot=-8.984092e+04, Fnorm=1.361e+01, Fmax=2.104e+02 (atom 4840)
+Step 1038, Epot=-8.984215e+04, Fnorm=1.592e+01, Fmax=2.154e+02 (atom 9029)
+Step 1039, Epot=-8.984497e+04, Fnorm=1.414e+01, Fmax=2.321e+02 (atom 4840)
+Step 1040, Epot=-8.984643e+04, Fnorm=1.565e+01, Fmax=2.235e+02 (atom 9029)
+Step 1041, Epot=-8.984904e+04, Fnorm=1.388e+01, Fmax=2.339e+02 (atom 14118)
+Step 1042, Epot=-8.985016e+04, Fnorm=1.698e+01, Fmax=2.573e+02 (atom 9029)
+Step 1043, Epot=-8.985336e+04, Fnorm=1.446e+01, Fmax=2.462e+02 (atom 14118)
+Step 1044, Epot=-8.985494e+04, Fnorm=1.654e+01, Fmax=2.437e+02 (atom 9134)
+Step 1045, Epot=-8.985766e+04, Fnorm=1.454e+01, Fmax=2.393e+02 (atom 19084)
+Step 1046, Epot=-8.985870e+04, Fnorm=1.830e+01, Fmax=3.301e+02 (atom 14118)
+Step 1047, Epot=-8.986226e+04, Fnorm=1.478e+01, Fmax=2.329e+02 (atom 19084)
+Step 1048, Epot=-8.986388e+04, Fnorm=1.690e+01, Fmax=2.995e+02 (atom 4840)
+Step 1049, Epot=-8.986658e+04, Fnorm=1.486e+01, Fmax=2.318e+02 (atom 19084)
+Step 1050, Epot=-8.986766e+04, Fnorm=1.911e+01, Fmax=2.972e+02 (atom 4840)
+Step 1051, Epot=-8.987121e+04, Fnorm=1.488e+01, Fmax=1.815e+02 (atom 8185)
+Step 1052, Epot=-8.987314e+04, Fnorm=1.679e+01, Fmax=2.956e+02 (atom 4840)
+Step 1053, Epot=-8.987541e+04, Fnorm=1.520e+01, Fmax=2.025e+02 (atom 19084)
+Step 1054, Epot=-8.987612e+04, Fnorm=2.069e+01, Fmax=3.035e+02 (atom 19084)
+Step 1055, Epot=-8.987901e+04, Fnorm=1.280e+01, Fmax=1.891e+02 (atom 4840)
+Step 1056, Epot=-8.988001e+04, Fnorm=8.568e+00, Fmax=1.008e+02 (atom 14118)
+Step 1057, Epot=-8.988046e+04, Fnorm=8.180e+00, Fmax=7.317e+01 (atom 14438)
+Step 1058, Epot=-8.988091e+04, Fnorm=9.686e+00, Fmax=1.014e+02 (atom 4840)
+Step 1059, Epot=-8.988127e+04, Fnorm=1.045e+01, Fmax=1.103e+02 (atom 14776)
+Step 1060, Epot=-8.988225e+04, Fnorm=1.048e+01, Fmax=1.192e+02 (atom 18457)
+Step 1061, Epot=-8.988344e+04, Fnorm=1.352e+01, Fmax=1.550e+02 (atom 10911)
+Step 1062, Epot=-8.988700e+04, Fnorm=1.919e+01, Fmax=3.210e+02 (atom 4840)
+Step 1063, Epot=-8.989498e+04, Fnorm=3.367e+01, Fmax=3.629e+02 (atom 10911)
+Step 1064, Epot=-8.990963e+04, Fnorm=4.557e+01, Fmax=6.844e+02 (atom 4840)
+Step 1065, Epot=-8.993770e+04, Fnorm=2.791e+01, Fmax=2.291e+02 (atom 2238)
+Step 1066, Epot=-8.995427e+04, Fnorm=2.850e+01, Fmax=3.005e+02 (atom 18457)
+Step 1067, Epot=-8.996873e+04, Fnorm=2.357e+01, Fmax=1.970e+02 (atom 1366)
+Step 1068, Epot=-8.997380e+04, Fnorm=2.915e+01, Fmax=3.163e+02 (atom 9134)
+Step 1069, Epot=-8.997418e+04, Fnorm=3.131e+01, Fmax=3.221e+02 (atom 9134)
+Step 1070, Epot=-8.998294e+04, Fnorm=1.208e+01, Fmax=1.038e+02 (atom 3121)
+Step 1071, Epot=-8.998499e+04, Fnorm=1.148e+01, Fmax=1.244e+02 (atom 4973)
+Step 1072, Epot=-8.998849e+04, Fnorm=1.486e+01, Fmax=1.953e+02 (atom 9134)
+Step 1073, Epot=-8.999338e+04, Fnorm=2.329e+01, Fmax=3.597e+02 (atom 9134)
+Step 1074, Epot=-8.999586e+04, Fnorm=2.132e+01, Fmax=3.247e+02 (atom 9134)
+Step 1075, Epot=-9.000094e+04, Fnorm=1.558e+01, Fmax=2.494e+02 (atom 9134)
+Step 1076, Epot=-9.000349e+04, Fnorm=1.392e+01, Fmax=2.114e+02 (atom 9134)
+Step 1077, Epot=-9.000584e+04, Fnorm=1.256e+01, Fmax=1.386e+02 (atom 9134)
+Step 1078, Epot=-9.000704e+04, Fnorm=1.346e+01, Fmax=2.373e+02 (atom 9134)
+Step 1079, Epot=-9.000917e+04, Fnorm=1.205e+01, Fmax=1.824e+02 (atom 9134)
+Step 1080, Epot=-9.001027e+04, Fnorm=1.341e+01, Fmax=2.254e+02 (atom 9134)
+Step 1081, Epot=-9.001216e+04, Fnorm=1.261e+01, Fmax=1.843e+02 (atom 14118)
+Step 1082, Epot=-9.001331e+04, Fnorm=1.501e+01, Fmax=2.259e+02 (atom 9134)
+Step 1083, Epot=-9.001565e+04, Fnorm=1.293e+01, Fmax=1.955e+02 (atom 2171)
+Step 1084, Epot=-9.001705e+04, Fnorm=1.488e+01, Fmax=2.335e+02 (atom 9134)
+Step 1085, Epot=-9.001923e+04, Fnorm=1.391e+01, Fmax=1.872e+02 (atom 12623)
+Step 1086, Epot=-9.002055e+04, Fnorm=1.706e+01, Fmax=2.936e+02 (atom 4840)
+Step 1087, Epot=-9.002340e+04, Fnorm=1.424e+01, Fmax=2.077e+02 (atom 4840)
+Step 1088, Epot=-9.002497e+04, Fnorm=1.590e+01, Fmax=2.468e+02 (atom 4840)
+Step 1089, Epot=-9.002756e+04, Fnorm=1.448e+01, Fmax=2.301e+02 (atom 4840)
+Step 1090, Epot=-9.002838e+04, Fnorm=1.851e+01, Fmax=2.930e+02 (atom 4840)
+Step 1091, Epot=-9.003196e+04, Fnorm=1.450e+01, Fmax=1.989e+02 (atom 4840)
+Step 1092, Epot=-9.003367e+04, Fnorm=1.560e+01, Fmax=2.230e+02 (atom 4840)
+Step 1093, Epot=-9.003578e+04, Fnorm=1.471e+01, Fmax=1.593e+02 (atom 2171)
+Step 1094, Epot=-9.003612e+04, Fnorm=2.053e+01, Fmax=3.681e+02 (atom 4840)
+Step 1095, Epot=-9.003906e+04, Fnorm=1.338e+01, Fmax=2.525e+02 (atom 4840)
+Step 1096, Epot=-9.004021e+04, Fnorm=8.830e+00, Fmax=1.011e+02 (atom 4840)
+Step 1097, Epot=-9.004067e+04, Fnorm=8.545e+00, Fmax=1.129e+02 (atom 9029)
+Step 1098, Epot=-9.004116e+04, Fnorm=9.870e+00, Fmax=1.323e+02 (atom 13220)
+Step 1099, Epot=-9.004158e+04, Fnorm=1.088e+01, Fmax=1.400e+02 (atom 2171)
+Step 1100, Epot=-9.004251e+04, Fnorm=1.056e+01, Fmax=1.376e+02 (atom 15559)
+Step 1101, Epot=-9.004390e+04, Fnorm=1.310e+01, Fmax=1.380e+02 (atom 14486)
+Step 1102, Epot=-9.004555e+04, Fnorm=1.367e+01, Fmax=1.694e+02 (atom 2171)
+Step 1103, Epot=-9.004811e+04, Fnorm=1.310e+01, Fmax=1.379e+02 (atom 10968)
+Step 1104, Epot=-9.004949e+04, Fnorm=1.513e+01, Fmax=1.486e+02 (atom 15559)
+Step 1105, Epot=-9.005240e+04, Fnorm=1.359e+01, Fmax=1.475e+02 (atom 13220)
+Step 1106, Epot=-9.005438e+04, Fnorm=1.493e+01, Fmax=1.849e+02 (atom 2171)
+Step 1107, Epot=-9.005691e+04, Fnorm=1.351e+01, Fmax=1.583e+02 (atom 2154)
+Step 1108, Epot=-9.005831e+04, Fnorm=1.635e+01, Fmax=1.884e+02 (atom 10968)
+Step 1109, Epot=-9.006115e+04, Fnorm=1.419e+01, Fmax=1.838e+02 (atom 17934)
+Step 1110, Epot=-9.006272e+04, Fnorm=1.605e+01, Fmax=1.969e+02 (atom 4745)
+Step 1111, Epot=-9.006541e+04, Fnorm=1.439e+01, Fmax=1.900e+02 (atom 9134)
+Step 1112, Epot=-9.006660e+04, Fnorm=1.751e+01, Fmax=2.680e+02 (atom 9029)
+Step 1113, Epot=-9.006972e+04, Fnorm=1.473e+01, Fmax=1.962e+02 (atom 17934)
+Step 1114, Epot=-9.007118e+04, Fnorm=1.699e+01, Fmax=2.044e+02 (atom 12623)
+Step 1115, Epot=-9.007396e+04, Fnorm=1.460e+01, Fmax=1.605e+02 (atom 12623)
+Step 1116, Epot=-9.007509e+04, Fnorm=1.798e+01, Fmax=2.380e+02 (atom 9029)
+Step 1117, Epot=-9.007823e+04, Fnorm=1.472e+01, Fmax=1.613e+02 (atom 17753)
+Step 1118, Epot=-9.007970e+04, Fnorm=1.735e+01, Fmax=2.212e+02 (atom 9198)
+Step 1119, Epot=-9.008251e+04, Fnorm=1.486e+01, Fmax=1.978e+02 (atom 4840)
+Step 1120, Epot=-9.008322e+04, Fnorm=1.902e+01, Fmax=2.002e+02 (atom 9134)
+Step 1121, Epot=-9.008675e+04, Fnorm=1.498e+01, Fmax=2.298e+02 (atom 4840)
+Step 1122, Epot=-9.008827e+04, Fnorm=1.718e+01, Fmax=2.809e+02 (atom 9198)
+Step 1123, Epot=-9.009098e+04, Fnorm=1.540e+01, Fmax=2.552e+02 (atom 4840)
+Step 1124, Epot=-9.009141e+04, Fnorm=2.085e+01, Fmax=2.665e+02 (atom 4840)
+Step 1125, Epot=-9.009429e+04, Fnorm=1.290e+01, Fmax=1.420e+02 (atom 9198)
+Step 1126, Epot=-9.009534e+04, Fnorm=8.787e+00, Fmax=1.385e+02 (atom 13220)
+Step 1127, Epot=-9.009580e+04, Fnorm=8.596e+00, Fmax=1.134e+02 (atom 5869)
+Step 1128, Epot=-9.009621e+04, Fnorm=1.015e+01, Fmax=1.193e+02 (atom 9198)
+Step 1129, Epot=-9.009667e+04, Fnorm=1.124e+01, Fmax=1.272e+02 (atom 13582)
+Step 1130, Epot=-9.009756e+04, Fnorm=1.026e+01, Fmax=1.339e+02 (atom 4840)
+Step 1131, Epot=-9.009850e+04, Fnorm=1.318e+01, Fmax=1.758e+02 (atom 4973)
+Step 1132, Epot=-9.009982e+04, Fnorm=1.380e+01, Fmax=1.525e+02 (atom 4840)
+Step 1133, Epot=-9.010213e+04, Fnorm=1.311e+01, Fmax=1.946e+02 (atom 14118)
+Step 1134, Epot=-9.010327e+04, Fnorm=1.487e+01, Fmax=2.214e+02 (atom 2154)
+Step 1135, Epot=-9.010571e+04, Fnorm=1.403e+01, Fmax=1.919e+02 (atom 9134)
+Step 1136, Epot=-9.010710e+04, Fnorm=1.548e+01, Fmax=2.449e+02 (atom 4840)
+Step 1137, Epot=-9.010947e+04, Fnorm=1.437e+01, Fmax=2.232e+02 (atom 4840)
+Step 1138, Epot=-9.011041e+04, Fnorm=1.752e+01, Fmax=2.699e+02 (atom 4840)
+Step 1139, Epot=-9.011335e+04, Fnorm=1.437e+01, Fmax=2.201e+02 (atom 4840)
+Step 1140, Epot=-9.011491e+04, Fnorm=1.607e+01, Fmax=2.454e+02 (atom 4840)
+Step 1141, Epot=-9.011713e+04, Fnorm=1.427e+01, Fmax=2.246e+02 (atom 4840)
+Step 1142, Epot=-9.011804e+04, Fnorm=1.825e+01, Fmax=2.718e+02 (atom 4840)
+Step 1143, Epot=-9.012035e+04, Fnorm=1.166e+01, Fmax=1.522e+02 (atom 17973)
+Step 1144, Epot=-9.012096e+04, Fnorm=8.911e+00, Fmax=1.023e+02 (atom 11883)
+Step 1145, Epot=-9.012152e+04, Fnorm=8.832e+00, Fmax=1.724e+02 (atom 4840)
+Step 1146, Epot=-9.012196e+04, Fnorm=9.858e+00, Fmax=1.147e+02 (atom 16008)
+Step 1147, Epot=-9.012246e+04, Fnorm=1.063e+01, Fmax=1.243e+02 (atom 5869)
+Step 1148, Epot=-9.012340e+04, Fnorm=1.045e+01, Fmax=2.064e+02 (atom 9198)
+Step 1149, Epot=-9.012414e+04, Fnorm=1.399e+01, Fmax=1.636e+02 (atom 2154)
+Step 1150, Epot=-9.012600e+04, Fnorm=1.419e+01, Fmax=1.917e+02 (atom 9198)
+Step 1151, Epot=-9.012833e+04, Fnorm=1.327e+01, Fmax=1.622e+02 (atom 2154)
+Step 1152, Epot=-9.012946e+04, Fnorm=1.532e+01, Fmax=1.875e+02 (atom 9198)
+Step 1153, Epot=-9.013193e+04, Fnorm=1.383e+01, Fmax=2.306e+02 (atom 4840)
+Step 1154, Epot=-9.013351e+04, Fnorm=1.454e+01, Fmax=1.897e+02 (atom 7634)
+Step 1155, Epot=-9.013547e+04, Fnorm=1.360e+01, Fmax=2.516e+02 (atom 4840)
+Step 1156, Epot=-9.013632e+04, Fnorm=1.680e+01, Fmax=2.266e+02 (atom 4840)
+Step 1157, Epot=-9.013916e+04, Fnorm=1.409e+01, Fmax=2.620e+02 (atom 4840)
+Step 1158, Epot=-9.014059e+04, Fnorm=1.529e+01, Fmax=1.805e+02 (atom 7634)
+Step 1159, Epot=-9.014271e+04, Fnorm=1.420e+01, Fmax=1.649e+02 (atom 4840)
+Step 1160, Epot=-9.014328e+04, Fnorm=1.833e+01, Fmax=2.758e+02 (atom 9198)
+Step 1161, Epot=-9.014579e+04, Fnorm=1.202e+01, Fmax=1.396e+02 (atom 13702)
+Step 1162, Epot=-9.014678e+04, Fnorm=8.940e+00, Fmax=1.248e+02 (atom 14118)
+Step 1163, Epot=-9.014706e+04, Fnorm=8.757e+00, Fmax=1.216e+02 (atom 4840)
+Step 1164, Epot=-9.014755e+04, Fnorm=1.014e+01, Fmax=1.242e+02 (atom 16008)
+Step 1165, Epot=-9.014799e+04, Fnorm=1.101e+01, Fmax=1.508e+02 (atom 13220)
+Step 1166, Epot=-9.014891e+04, Fnorm=1.033e+01, Fmax=1.143e+02 (atom 14956)
+Step 1167, Epot=-9.014978e+04, Fnorm=1.337e+01, Fmax=1.725e+02 (atom 15586)
+Step 1168, Epot=-9.015138e+04, Fnorm=1.397e+01, Fmax=1.786e+02 (atom 8138)
+Step 1169, Epot=-9.015396e+04, Fnorm=1.307e+01, Fmax=1.732e+02 (atom 15586)
+Step 1170, Epot=-9.015538e+04, Fnorm=1.462e+01, Fmax=1.941e+02 (atom 13702)
+Step 1171, Epot=-9.015769e+04, Fnorm=1.384e+01, Fmax=1.692e+02 (atom 9134)
+Step 1172, Epot=-9.015908e+04, Fnorm=1.635e+01, Fmax=2.427e+02 (atom 15586)
+Step 1173, Epot=-9.016170e+04, Fnorm=1.472e+01, Fmax=1.993e+02 (atom 12623)
+Step 1174, Epot=-9.016323e+04, Fnorm=1.633e+01, Fmax=2.364e+02 (atom 13702)
+Step 1175, Epot=-9.016577e+04, Fnorm=1.428e+01, Fmax=1.624e+02 (atom 9134)
+Step 1176, Epot=-9.016665e+04, Fnorm=1.767e+01, Fmax=2.321e+02 (atom 15586)
+Step 1177, Epot=-9.016953e+04, Fnorm=1.508e+01, Fmax=1.757e+02 (atom 15580)
+Step 1178, Epot=-9.017102e+04, Fnorm=1.670e+01, Fmax=2.283e+02 (atom 9134)
+Step 1179, Epot=-9.017330e+04, Fnorm=1.507e+01, Fmax=1.713e+02 (atom 19084)
+Step 1180, Epot=-9.017384e+04, Fnorm=1.968e+01, Fmax=3.215e+02 (atom 9134)
+Step 1181, Epot=-9.017646e+04, Fnorm=1.257e+01, Fmax=1.983e+02 (atom 9134)
+Step 1182, Epot=-9.017738e+04, Fnorm=8.849e+00, Fmax=1.407e+02 (atom 9198)
+Step 1183, Epot=-9.017777e+04, Fnorm=8.691e+00, Fmax=1.263e+02 (atom 4840)
+Step 1184, Epot=-9.017821e+04, Fnorm=9.789e+00, Fmax=1.461e+02 (atom 17934)
+Step 1185, Epot=-9.017869e+04, Fnorm=1.064e+01, Fmax=1.498e+02 (atom 4840)
+Step 1186, Epot=-9.017955e+04, Fnorm=1.076e+01, Fmax=1.354e+02 (atom 9134)
+Step 1187, Epot=-9.018053e+04, Fnorm=1.413e+01, Fmax=1.907e+02 (atom 9198)
+Step 1188, Epot=-9.018237e+04, Fnorm=1.403e+01, Fmax=1.923e+02 (atom 9134)
+Step 1189, Epot=-9.018439e+04, Fnorm=1.326e+01, Fmax=1.749e+02 (atom 9134)
+Step 1190, Epot=-9.018575e+04, Fnorm=1.538e+01, Fmax=1.943e+02 (atom 9134)
+Step 1191, Epot=-9.018820e+04, Fnorm=1.425e+01, Fmax=1.963e+02 (atom 4973)
+Step 1192, Epot=-9.018942e+04, Fnorm=1.590e+01, Fmax=1.927e+02 (atom 9134)
+Step 1193, Epot=-9.019180e+04, Fnorm=1.408e+01, Fmax=2.312e+02 (atom 4973)
+Step 1194, Epot=-9.019285e+04, Fnorm=1.661e+01, Fmax=2.302e+02 (atom 9134)
+Step 1195, Epot=-9.019530e+04, Fnorm=1.440e+01, Fmax=2.276e+02 (atom 4840)
+Step 1196, Epot=-9.019648e+04, Fnorm=1.715e+01, Fmax=2.298e+02 (atom 14990)
+Step 1197, Epot=-9.019902e+04, Fnorm=1.462e+01, Fmax=2.499e+02 (atom 4840)
+Step 1198, Epot=-9.020011e+04, Fnorm=1.738e+01, Fmax=2.461e+02 (atom 9134)
+Step 1199, Epot=-9.020253e+04, Fnorm=1.472e+01, Fmax=2.550e+02 (atom 4840)
+Step 1200, Epot=-9.020339e+04, Fnorm=1.765e+01, Fmax=2.705e+02 (atom 4840)
+Step 1201, Epot=-9.020624e+04, Fnorm=1.479e+01, Fmax=2.110e+02 (atom 15580)
+Step 1202, Epot=-9.020697e+04, Fnorm=1.804e+01, Fmax=3.266e+02 (atom 4840)
+Step 1203, Epot=-9.020969e+04, Fnorm=1.489e+01, Fmax=2.127e+02 (atom 4840)
+Step 1204, Epot=-9.021065e+04, Fnorm=1.835e+01, Fmax=2.895e+02 (atom 4840)
+Step 1205, Epot=-9.021328e+04, Fnorm=1.500e+01, Fmax=2.112e+02 (atom 4840)
+Step 1206, Epot=-9.021417e+04, Fnorm=1.834e+01, Fmax=2.705e+02 (atom 4840)
+Step 1207, Epot=-9.021696e+04, Fnorm=1.545e+01, Fmax=2.089e+02 (atom 4840)
+Step 1208, Epot=-9.021752e+04, Fnorm=1.969e+01, Fmax=2.675e+02 (atom 4840)
+Step 1209, Epot=-9.022012e+04, Fnorm=1.174e+01, Fmax=1.489e+02 (atom 4840)
+Step 1210, Epot=-9.022095e+04, Fnorm=8.818e+00, Fmax=1.322e+02 (atom 13220)
+Step 1211, Epot=-9.022124e+04, Fnorm=8.594e+00, Fmax=9.250e+01 (atom 12334)
+Step 1212, Epot=-9.022167e+04, Fnorm=9.875e+00, Fmax=1.552e+02 (atom 17992)
+Step 1213, Epot=-9.022196e+04, Fnorm=1.077e+01, Fmax=1.357e+02 (atom 15857)
+Step 1214, Epot=-9.022297e+04, Fnorm=1.063e+01, Fmax=1.142e+02 (atom 17934)
+Step 1215, Epot=-9.022374e+04, Fnorm=1.379e+01, Fmax=1.766e+02 (atom 4973)
+Step 1216, Epot=-9.022538e+04, Fnorm=1.431e+01, Fmax=1.831e+02 (atom 9198)
+Step 1217, Epot=-9.022780e+04, Fnorm=1.348e+01, Fmax=2.086e+02 (atom 4840)
+Step 1218, Epot=-9.022898e+04, Fnorm=1.573e+01, Fmax=1.857e+02 (atom 17973)
+Step 1219, Epot=-9.023123e+04, Fnorm=1.446e+01, Fmax=2.444e+02 (atom 4840)
+Step 1220, Epot=-9.023264e+04, Fnorm=1.576e+01, Fmax=2.144e+02 (atom 4840)
+Step 1221, Epot=-9.023502e+04, Fnorm=1.419e+01, Fmax=2.522e+02 (atom 4840)
+Step 1222, Epot=-9.023603e+04, Fnorm=1.708e+01, Fmax=2.672e+02 (atom 4840)
+Step 1223, Epot=-9.023863e+04, Fnorm=1.450e+01, Fmax=2.422e+02 (atom 4840)
+Step 1224, Epot=-9.023970e+04, Fnorm=1.679e+01, Fmax=2.699e+02 (atom 4840)
+Step 1225, Epot=-9.024214e+04, Fnorm=1.453e+01, Fmax=1.926e+02 (atom 17992)
+Step 1226, Epot=-9.024312e+04, Fnorm=1.803e+01, Fmax=3.340e+02 (atom 4840)
+Step 1227, Epot=-9.024526e+04, Fnorm=1.105e+01, Fmax=1.693e+02 (atom 9198)
+Step 1228, Epot=-9.024612e+04, Fnorm=8.544e+00, Fmax=9.893e+01 (atom 2154)
+Step 1229, Epot=-9.024645e+04, Fnorm=8.848e+00, Fmax=9.459e+01 (atom 17992)
+Step 1230, Epot=-9.024672e+04, Fnorm=1.026e+01, Fmax=1.559e+02 (atom 15580)
+Step 1231, Epot=-9.024719e+04, Fnorm=1.109e+01, Fmax=1.355e+02 (atom 18633)
+Step 1232, Epot=-9.024830e+04, Fnorm=9.941e+00, Fmax=1.419e+02 (atom 4840)
+Step 1233, Epot=-9.024892e+04, Fnorm=1.352e+01, Fmax=1.690e+02 (atom 18633)
+Step 1234, Epot=-9.025009e+04, Fnorm=1.489e+01, Fmax=1.734e+02 (atom 18633)
+Step 1235, Epot=-9.025249e+04, Fnorm=1.315e+01, Fmax=1.849e+02 (atom 17992)
+Step 1236, Epot=-9.025384e+04, Fnorm=1.425e+01, Fmax=1.974e+02 (atom 18633)
+Step 1237, Epot=-9.025572e+04, Fnorm=1.394e+01, Fmax=2.165e+02 (atom 17992)
+Step 1238, Epot=-9.025685e+04, Fnorm=1.669e+01, Fmax=2.352e+02 (atom 4973)
+Step 1239, Epot=-9.025943e+04, Fnorm=1.447e+01, Fmax=1.988e+02 (atom 9198)
+Step 1240, Epot=-9.026095e+04, Fnorm=1.550e+01, Fmax=2.680e+02 (atom 17992)
+Step 1241, Epot=-9.026305e+04, Fnorm=1.411e+01, Fmax=2.386e+02 (atom 9198)
+Step 1242, Epot=-9.026349e+04, Fnorm=1.805e+01, Fmax=2.913e+02 (atom 17992)
+Step 1243, Epot=-9.026570e+04, Fnorm=1.173e+01, Fmax=1.649e+02 (atom 17992)
+Step 1244, Epot=-9.026655e+04, Fnorm=8.579e+00, Fmax=1.358e+02 (atom 9198)
+Step 1245, Epot=-9.026670e+04, Fnorm=8.481e+00, Fmax=9.318e+01 (atom 17992)
+Step 1246, Epot=-9.026722e+04, Fnorm=9.843e+00, Fmax=1.438e+02 (atom 13220)
+Step 1247, Epot=-9.026752e+04, Fnorm=1.087e+01, Fmax=1.306e+02 (atom 17973)
+Step 1248, Epot=-9.026849e+04, Fnorm=1.062e+01, Fmax=1.282e+02 (atom 9198)
+Step 1249, Epot=-9.026927e+04, Fnorm=1.369e+01, Fmax=2.300e+02 (atom 2273)
+Step 1250, Epot=-9.027072e+04, Fnorm=1.424e+01, Fmax=1.601e+02 (atom 18633)
+Step 1251, Epot=-9.027304e+04, Fnorm=1.326e+01, Fmax=1.456e+02 (atom 12337)
+Step 1252, Epot=-9.027404e+04, Fnorm=1.539e+01, Fmax=1.979e+02 (atom 12334)
+Step 1253, Epot=-9.027652e+04, Fnorm=1.457e+01, Fmax=1.811e+02 (atom 4973)
+Step 1254, Epot=-9.027785e+04, Fnorm=1.588e+01, Fmax=2.079e+02 (atom 18633)
+Step 1255, Epot=-9.028034e+04, Fnorm=1.417e+01, Fmax=1.983e+02 (atom 17992)
+Step 1256, Epot=-9.028131e+04, Fnorm=1.686e+01, Fmax=2.115e+02 (atom 10670)
+Step 1257, Epot=-9.028373e+04, Fnorm=1.465e+01, Fmax=2.068e+02 (atom 17992)
+Step 1258, Epot=-9.028477e+04, Fnorm=1.722e+01, Fmax=2.127e+02 (atom 18633)
+Step 1259, Epot=-9.028725e+04, Fnorm=1.479e+01, Fmax=2.353e+02 (atom 4840)
+Step 1260, Epot=-9.028819e+04, Fnorm=1.783e+01, Fmax=2.486e+02 (atom 18633)
+Step 1261, Epot=-9.029079e+04, Fnorm=1.496e+01, Fmax=2.054e+02 (atom 17992)
+Step 1262, Epot=-9.029173e+04, Fnorm=1.784e+01, Fmax=2.251e+02 (atom 17992)
+Step 1263, Epot=-9.029437e+04, Fnorm=1.492e+01, Fmax=2.397e+02 (atom 4840)
+Step 1264, Epot=-9.029523e+04, Fnorm=1.830e+01, Fmax=2.690e+02 (atom 9198)
+Step 1265, Epot=-9.029759e+04, Fnorm=1.091e+01, Fmax=1.598e+02 (atom 9198)
+Step 1266, Epot=-9.029824e+04, Fnorm=8.625e+00, Fmax=9.835e+01 (atom 10478)
+Step 1267, Epot=-9.029852e+04, Fnorm=8.943e+00, Fmax=1.429e+02 (atom 13220)
+Step 1268, Epot=-9.029908e+04, Fnorm=1.028e+01, Fmax=1.489e+02 (atom 7634)
+Step 1269, Epot=-9.029960e+04, Fnorm=1.083e+01, Fmax=1.254e+02 (atom 12254)
+Step 1270, Epot=-9.030036e+04, Fnorm=1.038e+01, Fmax=1.298e+02 (atom 14891)
+Step 1271, Epot=-9.030116e+04, Fnorm=1.347e+01, Fmax=1.910e+02 (atom 13220)
+Step 1272, Epot=-9.030246e+04, Fnorm=1.457e+01, Fmax=1.993e+02 (atom 13220)
+Step 1273, Epot=-9.030477e+04, Fnorm=1.330e+01, Fmax=2.173e+02 (atom 9669)
+Step 1274, Epot=-9.030604e+04, Fnorm=1.463e+01, Fmax=2.124e+02 (atom 9198)
+Step 1275, Epot=-9.030812e+04, Fnorm=1.380e+01, Fmax=2.299e+02 (atom 9669)
+Step 1276, Epot=-9.030937e+04, Fnorm=1.615e+01, Fmax=2.628e+02 (atom 9198)
+Step 1277, Epot=-9.031168e+04, Fnorm=1.458e+01, Fmax=2.477e+02 (atom 17992)
+Step 1278, Epot=-9.031283e+04, Fnorm=1.679e+01, Fmax=2.440e+02 (atom 9669)
+Step 1279, Epot=-9.031522e+04, Fnorm=1.467e+01, Fmax=3.051e+02 (atom 17992)
+Step 1280, Epot=-9.031609e+04, Fnorm=1.765e+01, Fmax=2.608e+02 (atom 17991)
+Step 1281, Epot=-9.031845e+04, Fnorm=1.109e+01, Fmax=1.553e+02 (atom 12264)
+Step 1282, Epot=-9.031925e+04, Fnorm=8.807e+00, Fmax=1.056e+02 (atom 8123)
+Step 1283, Epot=-9.031966e+04, Fnorm=8.928e+00, Fmax=1.114e+02 (atom 11972)
+Step 1284, Epot=-9.032009e+04, Fnorm=1.027e+01, Fmax=1.294e+02 (atom 9198)
+Step 1285, Epot=-9.032042e+04, Fnorm=1.098e+01, Fmax=1.487e+02 (atom 13220)
+Step 1286, Epot=-9.032130e+04, Fnorm=1.033e+01, Fmax=1.387e+02 (atom 9198)
+Step 1287, Epot=-9.032188e+04, Fnorm=1.368e+01, Fmax=1.936e+02 (atom 9198)
+Step 1288, Epot=-9.032313e+04, Fnorm=1.475e+01, Fmax=1.997e+02 (atom 9198)
+Step 1289, Epot=-9.032572e+04, Fnorm=1.343e+01, Fmax=1.913e+02 (atom 9198)
+Step 1290, Epot=-9.032702e+04, Fnorm=1.492e+01, Fmax=2.325e+02 (atom 9029)
+Step 1291, Epot=-9.032910e+04, Fnorm=1.416e+01, Fmax=2.358e+02 (atom 9198)
+Step 1292, Epot=-9.033015e+04, Fnorm=1.643e+01, Fmax=2.341e+02 (atom 17992)
+Step 1293, Epot=-9.033241e+04, Fnorm=1.470e+01, Fmax=2.131e+02 (atom 17992)
+Step 1294, Epot=-9.033355e+04, Fnorm=1.685e+01, Fmax=2.397e+02 (atom 17992)
+Step 1295, Epot=-9.033605e+04, Fnorm=1.495e+01, Fmax=2.490e+02 (atom 4840)
+Step 1296, Epot=-9.033682e+04, Fnorm=1.824e+01, Fmax=2.557e+02 (atom 17992)
+Step 1297, Epot=-9.033909e+04, Fnorm=1.129e+01, Fmax=1.646e+02 (atom 9198)
+Step 1298, Epot=-9.033980e+04, Fnorm=8.768e+00, Fmax=1.151e+02 (atom 17992)
+Step 1299, Epot=-9.034028e+04, Fnorm=8.809e+00, Fmax=1.232e+02 (atom 14776)
+Step 1300, Epot=-9.034066e+04, Fnorm=1.015e+01, Fmax=1.378e+02 (atom 17992)
+Step 1301, Epot=-9.034117e+04, Fnorm=1.093e+01, Fmax=1.515e+02 (atom 9198)
+Step 1302, Epot=-9.034195e+04, Fnorm=1.036e+01, Fmax=1.331e+02 (atom 2273)
+Step 1303, Epot=-9.034267e+04, Fnorm=1.382e+01, Fmax=1.843e+02 (atom 14776)
+Step 1304, Epot=-9.034390e+04, Fnorm=1.491e+01, Fmax=1.983e+02 (atom 14776)
+Step 1305, Epot=-9.034627e+04, Fnorm=1.335e+01, Fmax=1.631e+02 (atom 9198)
+Step 1306, Epot=-9.034780e+04, Fnorm=1.423e+01, Fmax=1.788e+02 (atom 14486)
+Step 1307, Epot=-9.034970e+04, Fnorm=1.406e+01, Fmax=1.818e+02 (atom 14776)
+Step 1308, Epot=-9.035062e+04, Fnorm=1.655e+01, Fmax=2.227e+02 (atom 9134)
+Step 1309, Epot=-9.035320e+04, Fnorm=1.444e+01, Fmax=1.872e+02 (atom 19084)
+Step 1310, Epot=-9.035470e+04, Fnorm=1.535e+01, Fmax=1.789e+02 (atom 14776)
+Step 1311, Epot=-9.035691e+04, Fnorm=1.398e+01, Fmax=1.962e+02 (atom 4840)
+Step 1312, Epot=-9.035746e+04, Fnorm=1.789e+01, Fmax=2.611e+02 (atom 14776)
+Step 1313, Epot=-9.035945e+04, Fnorm=1.184e+01, Fmax=1.359e+02 (atom 14959)
+Step 1314, Epot=-9.036038e+04, Fnorm=8.807e+00, Fmax=1.502e+02 (atom 13220)
+Step 1315, Epot=-9.036077e+04, Fnorm=8.700e+00, Fmax=1.162e+02 (atom 4840)
+Step 1316, Epot=-9.036116e+04, Fnorm=1.022e+01, Fmax=1.453e+02 (atom 17992)
+Step 1317, Epot=-9.036150e+04, Fnorm=1.129e+01, Fmax=1.401e+02 (atom 15017)
+Step 1318, Epot=-9.036243e+04, Fnorm=1.058e+01, Fmax=1.443e+02 (atom 13220)
+Step 1319, Epot=-9.036323e+04, Fnorm=1.358e+01, Fmax=1.712e+02 (atom 9669)
+Step 1320, Epot=-9.036441e+04, Fnorm=1.414e+01, Fmax=1.563e+02 (atom 9198)
+Step 1321, Epot=-9.036662e+04, Fnorm=1.359e+01, Fmax=2.193e+02 (atom 9669)
+Step 1322, Epot=-9.036785e+04, Fnorm=1.559e+01, Fmax=1.810e+02 (atom 9669)
+Step 1323, Epot=-9.037011e+04, Fnorm=1.439e+01, Fmax=2.563e+02 (atom 9669)
+Step 1324, Epot=-9.037149e+04, Fnorm=1.602e+01, Fmax=2.093e+02 (atom 10670)
+Step 1325, Epot=-9.037373e+04, Fnorm=1.437e+01, Fmax=2.124e+02 (atom 13702)
+Step 1326, Epot=-9.037479e+04, Fnorm=1.717e+01, Fmax=2.317e+02 (atom 4973)
+Step 1327, Epot=-9.037724e+04, Fnorm=1.486e+01, Fmax=2.338e+02 (atom 4840)
+Step 1328, Epot=-9.037805e+04, Fnorm=1.747e+01, Fmax=3.041e+02 (atom 9669)
+Step 1329, Epot=-9.038061e+04, Fnorm=1.470e+01, Fmax=2.492e+02 (atom 4840)
+Step 1330, Epot=-9.038146e+04, Fnorm=1.751e+01, Fmax=2.543e+02 (atom 4973)
+Step 1331, Epot=-9.038391e+04, Fnorm=1.501e+01, Fmax=2.527e+02 (atom 4840)
+Step 1332, Epot=-9.038449e+04, Fnorm=1.843e+01, Fmax=3.289e+02 (atom 9669)
+Step 1333, Epot=-9.038697e+04, Fnorm=1.144e+01, Fmax=1.557e+02 (atom 13702)
+Step 1334, Epot=-9.038771e+04, Fnorm=8.639e+00, Fmax=1.079e+02 (atom 4248)
+Step 1335, Epot=-9.038802e+04, Fnorm=8.748e+00, Fmax=1.080e+02 (atom 4248)
+Step 1336, Epot=-9.038838e+04, Fnorm=9.996e+00, Fmax=1.542e+02 (atom 17992)
+Step 1337, Epot=-9.038888e+04, Fnorm=1.075e+01, Fmax=1.461e+02 (atom 17992)
+Step 1338, Epot=-9.038959e+04, Fnorm=1.004e+01, Fmax=1.261e+02 (atom 17992)
+Step 1339, Epot=-9.039033e+04, Fnorm=1.361e+01, Fmax=1.617e+02 (atom 13220)
+Step 1340, Epot=-9.039129e+04, Fnorm=1.473e+01, Fmax=1.651e+02 (atom 14776)
+Step 1341, Epot=-9.039363e+04, Fnorm=1.322e+01, Fmax=1.956e+02 (atom 9669)
+Step 1342, Epot=-9.039522e+04, Fnorm=1.387e+01, Fmax=1.411e+02 (atom 4973)
+Step 1343, Epot=-9.039697e+04, Fnorm=1.369e+01, Fmax=2.076e+02 (atom 9669)
+Step 1344, Epot=-9.039784e+04, Fnorm=1.689e+01, Fmax=1.761e+02 (atom 4973)
+Step 1345, Epot=-9.039977e+04, Fnorm=1.182e+01, Fmax=1.249e+02 (atom 5869)
+Step 1346, Epot=-9.040056e+04, Fnorm=9.046e+00, Fmax=1.395e+02 (atom 12254)
+Step 1347, Epot=-9.040093e+04, Fnorm=9.292e+00, Fmax=1.360e+02 (atom 9198)
+Step 1348, Epot=-9.040120e+04, Fnorm=1.024e+01, Fmax=1.246e+02 (atom 9669)
+Step 1349, Epot=-9.040173e+04, Fnorm=1.092e+01, Fmax=1.562e+02 (atom 2171)
+Step 1350, Epot=-9.040258e+04, Fnorm=1.018e+01, Fmax=1.411e+02 (atom 2273)
+Step 1351, Epot=-9.040313e+04, Fnorm=1.397e+01, Fmax=1.696e+02 (atom 18254)
+Step 1352, Epot=-9.040439e+04, Fnorm=1.525e+01, Fmax=1.874e+02 (atom 9669)
+Step 1353, Epot=-9.040670e+04, Fnorm=1.312e+01, Fmax=1.816e+02 (atom 9669)
+Step 1354, Epot=-9.040838e+04, Fnorm=1.361e+01, Fmax=1.721e+02 (atom 7634)
+Step 1355, Epot=-9.041002e+04, Fnorm=1.358e+01, Fmax=1.850e+02 (atom 9669)
+Step 1356, Epot=-9.041057e+04, Fnorm=1.733e+01, Fmax=2.597e+02 (atom 9669)
+Step 1357, Epot=-9.041260e+04, Fnorm=1.189e+01, Fmax=1.240e+02 (atom 14118)
+Step 1358, Epot=-9.041359e+04, Fnorm=8.739e+00, Fmax=1.333e+02 (atom 9198)
+Step 1359, Epot=-9.041389e+04, Fnorm=8.664e+00, Fmax=1.371e+02 (atom 2273)
+Step 1360, Epot=-9.041438e+04, Fnorm=1.020e+01, Fmax=1.300e+02 (atom 17995)
+Step 1361, Epot=-9.041460e+04, Fnorm=1.149e+01, Fmax=1.324e+02 (atom 4840)
+Step 1362, Epot=-9.041524e+04, Fnorm=9.838e+00, Fmax=1.136e+02 (atom 4248)
+Step 1363, Epot=-9.041577e+04, Fnorm=8.346e+00, Fmax=1.136e+02 (atom 4248)
+Step 1364, Epot=-9.041594e+04, Fnorm=1.037e+01, Fmax=1.424e+02 (atom 2273)
+Step 1365, Epot=-9.041615e+04, Fnorm=1.175e+01, Fmax=1.540e+02 (atom 12254)
+Step 1366, Epot=-9.041682e+04, Fnorm=9.643e+00, Fmax=1.314e+02 (atom 17973)
+Step 1367, Epot=-9.041731e+04, Fnorm=8.259e+00, Fmax=1.401e+02 (atom 13220)
+Step 1368, Epot=-9.041765e+04, Fnorm=1.063e+01, Fmax=1.482e+02 (atom 9669)
+Step 1369, Epot=-9.041776e+04, Fnorm=1.238e+01, Fmax=1.478e+02 (atom 17674)
+Step 1370, Epot=-9.041829e+04, Fnorm=1.073e+01, Fmax=1.462e+02 (atom 17674)
+Step 1371, Epot=-9.041899e+04, Fnorm=8.745e+00, Fmax=1.268e+02 (atom 9198)
+Step 1372, Epot=-9.041927e+04, Fnorm=1.015e+01, Fmax=1.334e+02 (atom 9198)
+Step 1373, Epot=-9.041938e+04, Fnorm=1.205e+01, Fmax=1.590e+02 (atom 13220)
+Step 1374, Epot=-9.042000e+04, Fnorm=1.071e+01, Fmax=1.482e+02 (atom 13220)
+Step 1375, Epot=-9.042056e+04, Fnorm=8.638e+00, Fmax=1.132e+02 (atom 4248)
+Step 1376, Epot=-9.042100e+04, Fnorm=1.022e+01, Fmax=1.542e+02 (atom 9198)
+Step 1377, Epot=-9.042115e+04, Fnorm=1.199e+01, Fmax=1.417e+02 (atom 14776)
+Step 1378, Epot=-9.042155e+04, Fnorm=1.071e+01, Fmax=1.270e+02 (atom 14776)
+Step 1379, Epot=-9.042221e+04, Fnorm=8.685e+00, Fmax=1.317e+02 (atom 9198)
+Step 1380, Epot=-9.042255e+04, Fnorm=1.036e+01, Fmax=1.449e+02 (atom 12254)
+Step 1381, Epot=-9.042269e+04, Fnorm=1.214e+01, Fmax=1.678e+02 (atom 13220)
+Step 1382, Epot=-9.042336e+04, Fnorm=1.080e+01, Fmax=1.606e+02 (atom 13220)
+Step 1383, Epot=-9.042400e+04, Fnorm=8.675e+00, Fmax=1.317e+02 (atom 9198)
+Step 1384, Epot=-9.042426e+04, Fnorm=1.033e+01, Fmax=1.571e+02 (atom 9669)
+Step 1385, Epot=-9.042439e+04, Fnorm=1.228e+01, Fmax=1.677e+02 (atom 9198)
+Step 1386, Epot=-9.042512e+04, Fnorm=1.106e+01, Fmax=1.463e+02 (atom 9198)
+Step 1387, Epot=-9.042570e+04, Fnorm=8.726e+00, Fmax=1.125e+02 (atom 4248)
+Step 1388, Epot=-9.042603e+04, Fnorm=1.026e+01, Fmax=1.500e+02 (atom 9669)
+Step 1389, Epot=-9.042612e+04, Fnorm=1.236e+01, Fmax=1.568e+02 (atom 2273)
+Step 1390, Epot=-9.042654e+04, Fnorm=1.108e+01, Fmax=1.501e+02 (atom 2273)
+Step 1391, Epot=-9.042726e+04, Fnorm=8.650e+00, Fmax=1.121e+02 (atom 4248)
+Step 1392, Epot=-9.042774e+04, Fnorm=1.018e+01, Fmax=1.451e+02 (atom 14776)
+Step 1393, Epot=-9.042776e+04, Fnorm=1.226e+01, Fmax=1.336e+02 (atom 17674)
+Step 1394, Epot=-9.042823e+04, Fnorm=1.103e+01, Fmax=1.345e+02 (atom 17674)
+Step 1395, Epot=-9.042907e+04, Fnorm=8.803e+00, Fmax=1.117e+02 (atom 4248)
+Step 1396, Epot=-9.042939e+04, Fnorm=1.036e+01, Fmax=1.471e+02 (atom 13220)
+Step 1397, Epot=-9.042970e+04, Fnorm=1.215e+01, Fmax=1.515e+02 (atom 2273)
+Step 1398, Epot=-9.043007e+04, Fnorm=1.092e+01, Fmax=1.325e+02 (atom 17674)
+Step 1399, Epot=-9.043061e+04, Fnorm=8.915e+00, Fmax=1.112e+02 (atom 4248)
+Step 1400, Epot=-9.043106e+04, Fnorm=1.045e+01, Fmax=1.410e+02 (atom 12254)
+Step 1401, Epot=-9.043109e+04, Fnorm=1.226e+01, Fmax=1.493e+02 (atom 4840)
+Step 1402, Epot=-9.043162e+04, Fnorm=1.096e+01, Fmax=1.175e+02 (atom 9220)
+Step 1403, Epot=-9.043230e+04, Fnorm=9.005e+00, Fmax=1.155e+02 (atom 2420)
+Step 1404, Epot=-9.043270e+04, Fnorm=1.043e+01, Fmax=1.467e+02 (atom 12254)
+Step 1405, Epot=-9.043273e+04, Fnorm=1.249e+01, Fmax=1.384e+02 (atom 17674)
+Step 1406, Epot=-9.043338e+04, Fnorm=1.145e+01, Fmax=1.365e+02 (atom 17674)
+Step 1407, Epot=-9.043402e+04, Fnorm=8.711e+00, Fmax=1.103e+02 (atom 4248)
+Step 1408, Epot=-9.043434e+04, Fnorm=1.004e+01, Fmax=1.571e+02 (atom 17992)
+Step 1409, Epot=-9.043464e+04, Fnorm=1.205e+01, Fmax=1.588e+02 (atom 15017)
+Step 1410, Epot=-9.043500e+04, Fnorm=1.129e+01, Fmax=1.226e+02 (atom 2420)
+Step 1411, Epot=-9.043573e+04, Fnorm=8.992e+00, Fmax=1.166e+02 (atom 4840)
+Step 1412, Epot=-9.043607e+04, Fnorm=1.042e+01, Fmax=1.361e+02 (atom 9198)
+Step 1413, Epot=-9.043638e+04, Fnorm=1.213e+01, Fmax=1.407e+02 (atom 12254)
+Step 1414, Epot=-9.043691e+04, Fnorm=1.080e+01, Fmax=1.348e+02 (atom 17674)
+Step 1415, Epot=-9.043755e+04, Fnorm=8.636e+00, Fmax=1.282e+02 (atom 13220)
+Step 1416, Epot=-9.043784e+04, Fnorm=1.061e+01, Fmax=1.566e+02 (atom 10478)
+Step 1417, Epot=-9.043796e+04, Fnorm=1.293e+01, Fmax=1.575e+02 (atom 10478)
+Step 1418, Epot=-9.043862e+04, Fnorm=1.160e+01, Fmax=1.201e+02 (atom 2420)
+Step 1419, Epot=-9.043925e+04, Fnorm=9.060e+00, Fmax=1.136e+02 (atom 14891)
+Step 1420, Epot=-9.043964e+04, Fnorm=1.019e+01, Fmax=1.331e+02 (atom 12254)
+Step 1421, Epot=-9.043986e+04, Fnorm=1.203e+01, Fmax=1.456e+02 (atom 19084)
+Step 1422, Epot=-9.044041e+04, Fnorm=1.106e+01, Fmax=1.346e+02 (atom 18254)
+Step 1423, Epot=-9.044109e+04, Fnorm=8.814e+00, Fmax=1.079e+02 (atom 4248)
+Step 1424, Epot=-9.044153e+04, Fnorm=1.027e+01, Fmax=1.282e+02 (atom 14776)
+Step 1425, Epot=-9.044157e+04, Fnorm=1.146e+01, Fmax=1.426e+02 (atom 17992)
+Step 1426, Epot=-9.044205e+04, Fnorm=9.708e+00, Fmax=1.174e+02 (atom 14891)
+Step 1427, Epot=-9.044259e+04, Fnorm=8.750e+00, Fmax=1.276e+02 (atom 9669)
+Step 1428, Epot=-9.044284e+04, Fnorm=1.139e+01, Fmax=1.696e+02 (atom 15017)
+Step 1429, Epot=-9.044298e+04, Fnorm=1.348e+01, Fmax=1.876e+02 (atom 2171)
+Step 1430, Epot=-9.044376e+04, Fnorm=1.149e+01, Fmax=1.311e+02 (atom 9198)
+Step 1431, Epot=-9.044455e+04, Fnorm=9.076e+00, Fmax=1.377e+02 (atom 12254)
+Step 1432, Epot=-9.044495e+04, Fnorm=1.072e+01, Fmax=1.175e+02 (atom 4840)
+Step 1433, Epot=-9.044496e+04, Fnorm=1.312e+01, Fmax=1.419e+02 (atom 9198)
+Step 1434, Epot=-9.044552e+04, Fnorm=1.162e+01, Fmax=1.490e+02 (atom 10478)
+Step 1435, Epot=-9.044628e+04, Fnorm=8.970e+00, Fmax=1.557e+02 (atom 15017)
+Step 1436, Epot=-9.044653e+04, Fnorm=1.033e+01, Fmax=1.185e+02 (atom 9198)
+Step 1437, Epot=-9.044659e+04, Fnorm=1.119e+01, Fmax=1.152e+02 (atom 17674)
+Step 1438, Epot=-9.044706e+04, Fnorm=9.594e+00, Fmax=1.114e+02 (atom 17674)
+Step 1439, Epot=-9.044751e+04, Fnorm=8.542e+00, Fmax=1.287e+02 (atom 13220)
+Step 1440, Epot=-9.044767e+04, Fnorm=1.140e+01, Fmax=1.420e+02 (atom 19084)
+Step 1441, Epot=-9.044788e+04, Fnorm=1.353e+01, Fmax=1.407e+02 (atom 15017)
+Step 1442, Epot=-9.044851e+04, Fnorm=1.143e+01, Fmax=1.381e+02 (atom 15017)
+Step 1443, Epot=-9.044930e+04, Fnorm=9.123e+00, Fmax=1.171e+02 (atom 14891)
+Step 1444, Epot=-9.044970e+04, Fnorm=1.056e+01, Fmax=1.492e+02 (atom 12254)
+Step 1445, Epot=-9.044982e+04, Fnorm=1.141e+01, Fmax=1.265e+02 (atom 17992)
+Step 1446, Epot=-9.045017e+04, Fnorm=9.380e+00, Fmax=1.147e+02 (atom 17674)
+Step 1447, Epot=-9.045082e+04, Fnorm=8.563e+00, Fmax=1.261e+02 (atom 18254)
+Step 1448, Epot=-9.045095e+04, Fnorm=1.021e+01, Fmax=1.375e+02 (atom 12254)
+Step 1449, Epot=-9.045107e+04, Fnorm=1.180e+01, Fmax=1.455e+02 (atom 13220)
+Step 1450, Epot=-9.045160e+04, Fnorm=1.081e+01, Fmax=1.320e+02 (atom 14891)
+Step 1451, Epot=-9.045226e+04, Fnorm=8.778e+00, Fmax=1.028e+02 (atom 4248)
+Step 1452, Epot=-9.045265e+04, Fnorm=1.086e+01, Fmax=1.412e+02 (atom 12254)
+Step 1453, Epot=-9.045274e+04, Fnorm=1.289e+01, Fmax=1.781e+02 (atom 18254)
+Step 1454, Epot=-9.045333e+04, Fnorm=1.103e+01, Fmax=1.368e+02 (atom 2273)
+Step 1455, Epot=-9.045420e+04, Fnorm=8.504e+00, Fmax=1.089e+02 (atom 17674)
+Step 1456, Epot=-9.045443e+04, Fnorm=1.010e+01, Fmax=1.554e+02 (atom 17992)
+Step 1457, Epot=-9.045451e+04, Fnorm=1.130e+01, Fmax=1.381e+02 (atom 17992)
+Step 1458, Epot=-9.045509e+04, Fnorm=1.001e+01, Fmax=1.258e+02 (atom 14891)
+Step 1459, Epot=-9.045554e+04, Fnorm=8.814e+00, Fmax=1.419e+02 (atom 9198)
+Step 1460, Epot=-9.045578e+04, Fnorm=1.143e+01, Fmax=1.420e+02 (atom 17992)
+Step 1461, Epot=-9.045591e+04, Fnorm=1.283e+01, Fmax=1.446e+02 (atom 17992)
+Step 1462, Epot=-9.045677e+04, Fnorm=1.070e+01, Fmax=1.340e+02 (atom 17674)
+Step 1463, Epot=-9.045740e+04, Fnorm=8.646e+00, Fmax=1.255e+02 (atom 2273)
+Step 1464, Epot=-9.045766e+04, Fnorm=1.039e+01, Fmax=1.483e+02 (atom 17992)
+Step 1465, Epot=-9.045767e+04, Fnorm=1.312e+01, Fmax=1.487e+02 (atom 15017)
+Step 1466, Epot=-9.045811e+04, Fnorm=1.233e+01, Fmax=1.574e+02 (atom 17674)
+Step 1467, Epot=-9.045895e+04, Fnorm=9.104e+00, Fmax=1.344e+02 (atom 17674)
+Step 1468, Epot=-9.045934e+04, Fnorm=1.005e+01, Fmax=1.806e+02 (atom 2171)
+Step 1469, Epot=-9.045938e+04, Fnorm=1.179e+01, Fmax=1.508e+02 (atom 12254)
+Step 1470, Epot=-9.045992e+04, Fnorm=1.057e+01, Fmax=1.359e+02 (atom 17674)
+Step 1471, Epot=-9.046070e+04, Fnorm=8.735e+00, Fmax=1.309e+02 (atom 13220)
+Step 1472, Epot=-9.046100e+04, Fnorm=1.060e+01, Fmax=1.282e+02 (atom 9198)
+Step 1473, Epot=-9.046102e+04, Fnorm=1.275e+01, Fmax=1.269e+02 (atom 17674)
+Step 1474, Epot=-9.046152e+04, Fnorm=1.145e+01, Fmax=1.313e+02 (atom 17674)
+Step 1475, Epot=-9.046226e+04, Fnorm=8.774e+00, Fmax=9.926e+01 (atom 17973)
+Step 1476, Epot=-9.046269e+04, Fnorm=1.041e+01, Fmax=1.485e+02 (atom 17992)
+Step 1477, Epot=-9.046274e+04, Fnorm=1.252e+01, Fmax=1.495e+02 (atom 834)
+Step 1478, Epot=-9.046327e+04, Fnorm=1.173e+01, Fmax=1.560e+02 (atom 2273)
+Step 1479, Epot=-9.046382e+04, Fnorm=8.761e+00, Fmax=1.225e+02 (atom 14776)
+Step 1480, Epot=-9.046432e+04, Fnorm=9.948e+00, Fmax=1.572e+02 (atom 17992)
+Step 1481, Epot=-9.046443e+04, Fnorm=1.211e+01, Fmax=1.379e+02 (atom 17992)
+Step 1482, Epot=-9.046477e+04, Fnorm=1.140e+01, Fmax=1.341e+02 (atom 9198)
+Step 1483, Epot=-9.046541e+04, Fnorm=9.100e+00, Fmax=1.189e+02 (atom 9198)
+Step 1484, Epot=-9.046589e+04, Fnorm=1.019e+01, Fmax=1.199e+02 (atom 17992)
+Step 1485, Epot=-9.046604e+04, Fnorm=1.202e+01, Fmax=1.436e+02 (atom 14776)
+Step 1486, Epot=-9.046650e+04, Fnorm=1.086e+01, Fmax=1.476e+02 (atom 2273)
+Step 1487, Epot=-9.046731e+04, Fnorm=8.774e+00, Fmax=1.301e+02 (atom 17992)
+Step 1488, Epot=-9.046740e+04, Fnorm=1.047e+01, Fmax=1.370e+02 (atom 19084)
+Step 1489, Epot=-9.046759e+04, Fnorm=1.175e+01, Fmax=1.434e+02 (atom 2298)
+Step 1490, Epot=-9.046807e+04, Fnorm=9.662e+00, Fmax=1.001e+02 (atom 10478)
+Step 1491, Epot=-9.046862e+04, Fnorm=8.693e+00, Fmax=1.554e+02 (atom 17992)
+Step 1492, Epot=-9.046880e+04, Fnorm=1.140e+01, Fmax=1.646e+02 (atom 9669)
+Step 1493, Epot=-9.046887e+04, Fnorm=1.398e+01, Fmax=1.754e+02 (atom 9198)
+Step 1494, Epot=-9.046957e+04, Fnorm=1.202e+01, Fmax=1.430e+02 (atom 2190)
+Step 1495, Epot=-9.047032e+04, Fnorm=9.257e+00, Fmax=1.368e+02 (atom 17992)
+Step 1496, Epot=-9.047073e+04, Fnorm=1.015e+01, Fmax=1.404e+02 (atom 4840)
+Step 1497, Epot=-9.047077e+04, Fnorm=1.222e+01, Fmax=1.271e+02 (atom 10911)
+Step 1498, Epot=-9.047112e+04, Fnorm=1.149e+01, Fmax=1.113e+02 (atom 10911)
+Step 1499, Epot=-9.047180e+04, Fnorm=8.860e+00, Fmax=1.016e+02 (atom 17674)
+Step 1500, Epot=-9.047230e+04, Fnorm=1.003e+01, Fmax=1.275e+02 (atom 9669)
+Step 1501, Epot=-9.047242e+04, Fnorm=1.197e+01, Fmax=1.796e+02 (atom 2171)
+Step 1502, Epot=-9.047290e+04, Fnorm=1.102e+01, Fmax=1.587e+02 (atom 2273)
+Step 1503, Epot=-9.047349e+04, Fnorm=8.882e+00, Fmax=1.401e+02 (atom 17992)
+Step 1504, Epot=-9.047382e+04, Fnorm=1.061e+01, Fmax=1.241e+02 (atom 4840)
+Step 1505, Epot=-9.047396e+04, Fnorm=1.255e+01, Fmax=1.261e+02 (atom 14776)
+Step 1506, Epot=-9.047453e+04, Fnorm=1.105e+01, Fmax=1.261e+02 (atom 17674)
+Step 1507, Epot=-9.047526e+04, Fnorm=9.008e+00, Fmax=1.165e+02 (atom 10478)
+Step 1508, Epot=-9.047559e+04, Fnorm=1.066e+01, Fmax=1.385e+02 (atom 19084)
+Step 1509, Epot=-9.047581e+04, Fnorm=1.152e+01, Fmax=1.561e+02 (atom 10478)
+Step 1510, Epot=-9.047622e+04, Fnorm=9.358e+00, Fmax=1.482e+02 (atom 2273)
+Step 1511, Epot=-9.047655e+04, Fnorm=8.280e+00, Fmax=1.392e+02 (atom 17992)
+Step 1512, Epot=-9.047675e+04, Fnorm=1.140e+01, Fmax=1.822e+02 (atom 2171)
+Step 1513, Epot=-9.047688e+04, Fnorm=1.246e+01, Fmax=1.387e+02 (atom 522)
+Step 1514, Epot=-9.047754e+04, Fnorm=1.019e+01, Fmax=1.483e+02 (atom 12254)
+Step 1515, Epot=-9.047808e+04, Fnorm=8.849e+00, Fmax=1.306e+02 (atom 17992)
+Step 1516, Epot=-9.047812e+04, Fnorm=1.156e+01, Fmax=1.499e+02 (atom 9198)
+Step 1517, Epot=-9.047819e+04, Fnorm=1.232e+01, Fmax=1.575e+02 (atom 9198)
+Step 1518, Epot=-9.047868e+04, Fnorm=9.889e+00, Fmax=1.149e+02 (atom 8557)
+Step 1519, Epot=-9.047927e+04, Fnorm=8.690e+00, Fmax=1.243e+02 (atom 17992)
+Step 1520, Epot=-9.047938e+04, Fnorm=1.124e+01, Fmax=1.518e+02 (atom 9198)
+Step 1521, Epot=-9.047940e+04, Fnorm=1.180e+01, Fmax=1.532e+02 (atom 8557)
+Step 1522, Epot=-9.047982e+04, Fnorm=9.474e+00, Fmax=1.688e+02 (atom 2171)
+Step 1523, Epot=-9.048030e+04, Fnorm=8.824e+00, Fmax=1.321e+02 (atom 9669)
+Step 1524, Epot=-9.048059e+04, Fnorm=9.066e+00, Fmax=9.919e+01 (atom 4840)
+Step 1525, Epot=-9.048085e+04, Fnorm=9.864e+00, Fmax=1.405e+02 (atom 2273)
+Step 1526, Epot=-9.048109e+04, Fnorm=1.012e+01, Fmax=1.438e+02 (atom 19084)
+Step 1527, Epot=-9.048160e+04, Fnorm=8.889e+00, Fmax=1.052e+02 (atom 4840)
+Step 1528, Epot=-9.048195e+04, Fnorm=1.147e+01, Fmax=1.618e+02 (atom 9669)
+Step 1529, Epot=-9.048234e+04, Fnorm=1.260e+01, Fmax=1.667e+02 (atom 9669)
+Step 1530, Epot=-9.048384e+04, Fnorm=1.022e+01, Fmax=1.242e+02 (atom 9669)
+Step 1531, Epot=-9.048465e+04, Fnorm=1.329e+01, Fmax=1.756e+02 (atom 17992)
+Step 1532, Epot=-9.048548e+04, Fnorm=1.635e+01, Fmax=2.146e+02 (atom 14486)
+Step 1533, Epot=-9.048748e+04, Fnorm=1.207e+01, Fmax=1.343e+02 (atom 18021)
+Step 1534, Epot=-9.048848e+04, Fnorm=9.260e+00, Fmax=1.037e+02 (atom 4589)
+Step 1535, Epot=-9.048873e+04, Fnorm=1.273e+01, Fmax=1.383e+02 (atom 15559)
+Step 1537, Epot=-9.048955e+04, Fnorm=8.294e+00, Fmax=1.320e+02 (atom 17992)
+Step 1538, Epot=-9.048993e+04, Fnorm=9.620e+00, Fmax=1.269e+02 (atom 17992)
+Step 1539, Epot=-9.048995e+04, Fnorm=1.070e+01, Fmax=1.366e+02 (atom 17992)
+Step 1540, Epot=-9.049044e+04, Fnorm=9.467e+00, Fmax=8.502e+01 (atom 2190)
+Step 1541, Epot=-9.049092e+04, Fnorm=8.727e+00, Fmax=1.279e+02 (atom 2273)
+Step 1542, Epot=-9.049106e+04, Fnorm=1.165e+01, Fmax=1.375e+02 (atom 18254)
+Step 1543, Epot=-9.049110e+04, Fnorm=1.297e+01, Fmax=1.586e+02 (atom 2298)
+Step 1544, Epot=-9.049189e+04, Fnorm=1.056e+01, Fmax=1.189e+02 (atom 17934)
+Step 1545, Epot=-9.049245e+04, Fnorm=9.004e+00, Fmax=1.569e+02 (atom 10478)
+Step 1546, Epot=-9.049273e+04, Fnorm=1.128e+01, Fmax=1.332e+02 (atom 14776)
+Step 1547, Epot=-9.049256e+04, Fnorm=1.166e+01, Fmax=1.258e+02 (atom 9198)
+Step 1548, Epot=-9.049330e+04, Fnorm=9.012e+00, Fmax=1.076e+02 (atom 10478)
+Step 1549, Epot=-9.049367e+04, Fnorm=8.432e+00, Fmax=1.306e+02 (atom 14776)
+Step 1550, Epot=-9.049368e+04, Fnorm=9.188e+00, Fmax=1.117e+02 (atom 17992)
+Step 1551, Epot=-9.049395e+04, Fnorm=8.944e+00, Fmax=1.134e+02 (atom 10478)
+Step 1552, Epot=-9.049419e+04, Fnorm=8.671e+00, Fmax=1.698e+02 (atom 2171)
+Step 1553, Epot=-9.049438e+04, Fnorm=1.034e+01, Fmax=1.459e+02 (atom 14776)
+Step 1554, Epot=-9.049455e+04, Fnorm=1.134e+01, Fmax=1.371e+02 (atom 12254)
+Step 1555, Epot=-9.049527e+04, Fnorm=9.369e+00, Fmax=1.068e+02 (atom 15017)
+Step 1556, Epot=-9.049577e+04, Fnorm=1.049e+01, Fmax=1.426e+02 (atom 9198)
+Step 1557, Epot=-9.049620e+04, Fnorm=1.214e+01, Fmax=1.533e+02 (atom 17995)
+Step 1558, Epot=-9.049740e+04, Fnorm=1.080e+01, Fmax=1.735e+02 (atom 17992)
+Step 1559, Epot=-9.049858e+04, Fnorm=1.273e+01, Fmax=1.504e+02 (atom 19084)
+Step 1560, Epot=-9.049991e+04, Fnorm=1.454e+01, Fmax=2.464e+02 (atom 17995)
+Step 1561, Epot=-9.050252e+04, Fnorm=1.376e+01, Fmax=1.958e+02 (atom 17992)
+Step 1562, Epot=-9.050420e+04, Fnorm=1.458e+01, Fmax=2.066e+02 (atom 12623)
+Step 1563, Epot=-9.050648e+04, Fnorm=1.405e+01, Fmax=2.485e+02 (atom 17992)
+Step 1564, Epot=-9.050770e+04, Fnorm=1.648e+01, Fmax=2.251e+02 (atom 17992)
+Step 1565, Epot=-9.051038e+04, Fnorm=1.481e+01, Fmax=3.057e+02 (atom 17992)
+Step 1566, Epot=-9.051176e+04, Fnorm=1.692e+01, Fmax=2.645e+02 (atom 17992)
+Step 1567, Epot=-9.051448e+04, Fnorm=1.532e+01, Fmax=3.320e+02 (atom 17992)
+Step 1568, Epot=-9.051540e+04, Fnorm=1.826e+01, Fmax=3.445e+02 (atom 17992)
+Step 1569, Epot=-9.051826e+04, Fnorm=1.525e+01, Fmax=2.977e+02 (atom 17991)
+Step 1570, Epot=-9.051935e+04, Fnorm=1.816e+01, Fmax=3.823e+02 (atom 17992)
+Step 1571, Epot=-9.052192e+04, Fnorm=1.568e+01, Fmax=3.056e+02 (atom 17992)
+Step 1572, Epot=-9.052265e+04, Fnorm=1.965e+01, Fmax=4.096e+02 (atom 17992)
+Step 1573, Epot=-9.052530e+04, Fnorm=1.175e+01, Fmax=1.486e+02 (atom 8138)
+Step 1574, Epot=-9.052607e+04, Fnorm=8.650e+00, Fmax=8.986e+01 (atom 11883)
+Step 1575, Epot=-9.052646e+04, Fnorm=8.817e+00, Fmax=1.216e+02 (atom 2420)
+Step 1576, Epot=-9.052664e+04, Fnorm=1.049e+01, Fmax=1.729e+02 (atom 17992)
+Step 1577, Epot=-9.052688e+04, Fnorm=1.163e+01, Fmax=1.841e+02 (atom 17992)
+Step 1578, Epot=-9.052745e+04, Fnorm=9.978e+00, Fmax=1.129e+02 (atom 19457)
+Step 1579, Epot=-9.052803e+04, Fnorm=8.442e+00, Fmax=1.215e+02 (atom 9669)
+Step 1580, Epot=-9.052832e+04, Fnorm=1.059e+01, Fmax=1.323e+02 (atom 17973)
+Step 1581, Epot=-9.052841e+04, Fnorm=1.179e+01, Fmax=1.435e+02 (atom 17973)
+Step 1582, Epot=-9.052922e+04, Fnorm=9.836e+00, Fmax=1.321e+02 (atom 14891)
+Step 1583, Epot=-9.052980e+04, Fnorm=8.330e+00, Fmax=1.229e+02 (atom 13702)
+Step 1584, Epot=-9.052998e+04, Fnorm=1.058e+01, Fmax=1.534e+02 (atom 12254)
+Step 1585, Epot=-9.053007e+04, Fnorm=1.147e+01, Fmax=1.429e+02 (atom 4840)
+Step 1586, Epot=-9.053062e+04, Fnorm=9.596e+00, Fmax=1.219e+02 (atom 19457)
+Step 1587, Epot=-9.053106e+04, Fnorm=8.785e+00, Fmax=1.071e+02 (atom 4840)
+Step 1588, Epot=-9.053112e+04, Fnorm=1.122e+01, Fmax=1.590e+02 (atom 10670)
+Step 1589, Epot=-9.053126e+04, Fnorm=1.205e+01, Fmax=1.412e+02 (atom 17973)
+Step 1590, Epot=-9.053200e+04, Fnorm=9.958e+00, Fmax=1.206e+02 (atom 17973)
+Step 1591, Epot=-9.053241e+04, Fnorm=8.533e+00, Fmax=9.423e+01 (atom 9669)
+Step 1592, Epot=-9.053270e+04, Fnorm=1.107e+01, Fmax=1.496e+02 (atom 17992)
+Step 1593, Epot=-9.053263e+04, Fnorm=1.160e+01, Fmax=1.503e+02 (atom 17992)
+Step 1594, Epot=-9.053313e+04, Fnorm=8.963e+00, Fmax=1.573e+02 (atom 9669)
+Step 1595, Epot=-9.053350e+04, Fnorm=8.471e+00, Fmax=1.130e+02 (atom 17992)
+Step 1596, Epot=-9.053370e+04, Fnorm=8.953e+00, Fmax=1.107e+02 (atom 10478)
+Step 1597, Epot=-9.053395e+04, Fnorm=1.006e+01, Fmax=1.338e+02 (atom 17992)
+Step 1598, Epot=-9.053429e+04, Fnorm=9.995e+00, Fmax=1.585e+02 (atom 9198)
+Step 1599, Epot=-9.053482e+04, Fnorm=9.183e+00, Fmax=1.512e+02 (atom 9669)
+Step 1600, Epot=-9.053517e+04, Fnorm=1.157e+01, Fmax=1.667e+02 (atom 17992)
+Step 1601, Epot=-9.053570e+04, Fnorm=1.233e+01, Fmax=1.930e+02 (atom 17992)
+Step 1602, Epot=-9.053704e+04, Fnorm=9.698e+00, Fmax=1.066e+02 (atom 4589)
+Step 1603, Epot=-9.053767e+04, Fnorm=1.330e+01, Fmax=2.529e+02 (atom 17992)
+Step 1604, Epot=-9.053848e+04, Fnorm=1.663e+01, Fmax=2.195e+02 (atom 12101)
+Step 1605, Epot=-9.054044e+04, Fnorm=1.205e+01, Fmax=1.454e+02 (atom 4686)
+Step 1606, Epot=-9.054169e+04, Fnorm=9.192e+00, Fmax=1.229e+02 (atom 17992)
+Step 1607, Epot=-9.054195e+04, Fnorm=8.818e+00, Fmax=1.413e+02 (atom 10670)
+Step 1608, Epot=-9.054243e+04, Fnorm=1.013e+01, Fmax=1.347e+02 (atom 19084)
+Step 1609, Epot=-9.054259e+04, Fnorm=1.131e+01, Fmax=1.264e+02 (atom 2171)
+Step 1610, Epot=-9.054324e+04, Fnorm=9.845e+00, Fmax=1.137e+02 (atom 2171)
+Step 1611, Epot=-9.054378e+04, Fnorm=8.637e+00, Fmax=1.132e+02 (atom 17674)
+Step 1612, Epot=-9.054391e+04, Fnorm=9.837e+00, Fmax=1.599e+02 (atom 4840)
+Step 1613, Epot=-9.054418e+04, Fnorm=1.095e+01, Fmax=1.899e+02 (atom 10670)
+Step 1614, Epot=-9.054466e+04, Fnorm=9.432e+00, Fmax=1.299e+02 (atom 17973)
+Step 1615, Epot=-9.054516e+04, Fnorm=8.475e+00, Fmax=1.302e+02 (atom 17992)
+Step 1616, Epot=-9.054530e+04, Fnorm=1.137e+01, Fmax=1.387e+02 (atom 6491)
+Step 1617, Epot=-9.054538e+04, Fnorm=1.353e+01, Fmax=2.088e+02 (atom 2171)
+Step 1618, Epot=-9.054604e+04, Fnorm=1.106e+01, Fmax=1.302e+02 (atom 6491)
+Step 1619, Epot=-9.054667e+04, Fnorm=8.870e+00, Fmax=1.303e+02 (atom 4840)
+Step 1620, Epot=-9.054703e+04, Fnorm=1.045e+01, Fmax=1.546e+02 (atom 9669)
+Step 1621, Epot=-9.054721e+04, Fnorm=1.113e+01, Fmax=1.434e+02 (atom 4840)
+Step 1622, Epot=-9.054753e+04, Fnorm=9.122e+00, Fmax=1.163e+02 (atom 14891)
+Step 1623, Epot=-9.054796e+04, Fnorm=8.278e+00, Fmax=1.240e+02 (atom 17992)
+Step 1624, Epot=-9.054824e+04, Fnorm=9.875e+00, Fmax=1.481e+02 (atom 10670)
+Step 1625, Epot=-9.054830e+04, Fnorm=1.174e+01, Fmax=1.680e+02 (atom 14776)
+Step 1626, Epot=-9.054895e+04, Fnorm=1.049e+01, Fmax=1.213e+02 (atom 17674)
+Step 1627, Epot=-9.054971e+04, Fnorm=8.629e+00, Fmax=1.080e+02 (atom 4589)
+Step 1628, Epot=-9.054986e+04, Fnorm=9.757e+00, Fmax=1.539e+02 (atom 2273)
+Step 1629, Epot=-9.055016e+04, Fnorm=1.119e+01, Fmax=1.534e+02 (atom 10670)
+Step 1630, Epot=-9.055068e+04, Fnorm=9.894e+00, Fmax=9.683e+01 (atom 19457)
+Step 1631, Epot=-9.055102e+04, Fnorm=8.432e+00, Fmax=8.949e+01 (atom 14776)
+Step 1632, Epot=-9.055137e+04, Fnorm=1.113e+01, Fmax=1.867e+02 (atom 2171)
+Step 1633, Epot=-9.055145e+04, Fnorm=1.345e+01, Fmax=2.021e+02 (atom 17995)
+Step 1634, Epot=-9.055208e+04, Fnorm=1.163e+01, Fmax=1.773e+02 (atom 17995)
+Step 1635, Epot=-9.055310e+04, Fnorm=8.785e+00, Fmax=9.185e+01 (atom 11975)
+Step 1636, Epot=-9.055313e+04, Fnorm=9.939e+00, Fmax=1.090e+02 (atom 2171)
+Step 1637, Epot=-9.055326e+04, Fnorm=1.094e+01, Fmax=1.355e+02 (atom 9220)
+Step 1638, Epot=-9.055372e+04, Fnorm=9.243e+00, Fmax=1.079e+02 (atom 4686)
+Step 1639, Epot=-9.055424e+04, Fnorm=8.262e+00, Fmax=8.098e+01 (atom 19084)
+Step 1640, Epot=-9.055426e+04, Fnorm=1.136e+01, Fmax=1.427e+02 (atom 15580)
+Step 1641, Epot=-9.055436e+04, Fnorm=1.255e+01, Fmax=1.463e+02 (atom 15580)
+Step 1642, Epot=-9.055505e+04, Fnorm=1.030e+01, Fmax=1.111e+02 (atom 19457)
+Step 1643, Epot=-9.055556e+04, Fnorm=8.813e+00, Fmax=9.971e+01 (atom 10478)
+Step 1644, Epot=-9.055575e+04, Fnorm=9.688e+00, Fmax=1.260e+02 (atom 18254)
+Step 1645, Epot=-9.055590e+04, Fnorm=1.127e+01, Fmax=1.768e+02 (atom 2171)
+Step 1646, Epot=-9.055623e+04, Fnorm=1.056e+01, Fmax=1.543e+02 (atom 10670)
+Step 1647, Epot=-9.055687e+04, Fnorm=8.629e+00, Fmax=1.002e+02 (atom 15580)
+Step 1648, Epot=-9.055698e+04, Fnorm=1.050e+01, Fmax=1.581e+02 (atom 10478)
+Step 1649, Epot=-9.055724e+04, Fnorm=1.294e+01, Fmax=1.624e+02 (atom 9026)
+Step 1650, Epot=-9.055773e+04, Fnorm=1.126e+01, Fmax=1.124e+02 (atom 19457)
+Step 1651, Epot=-9.055855e+04, Fnorm=8.744e+00, Fmax=1.219e+02 (atom 13702)
+Step 1652, Epot=-9.055878e+04, Fnorm=1.059e+01, Fmax=1.686e+02 (atom 17992)
+Step 1653, Epot=-9.055893e+04, Fnorm=1.102e+01, Fmax=1.667e+02 (atom 17992)
+Step 1654, Epot=-9.055934e+04, Fnorm=8.703e+00, Fmax=1.218e+02 (atom 17992)
+Step 1655, Epot=-9.055954e+04, Fnorm=8.481e+00, Fmax=1.360e+02 (atom 17992)
+Step 1656, Epot=-9.055970e+04, Fnorm=9.325e+00, Fmax=1.392e+02 (atom 17992)
+Step 1657, Epot=-9.055984e+04, Fnorm=9.176e+00, Fmax=1.178e+02 (atom 17992)
+Step 1658, Epot=-9.056016e+04, Fnorm=8.458e+00, Fmax=1.188e+02 (atom 8726)
+Step 1659, Epot=-9.056032e+04, Fnorm=9.991e+00, Fmax=1.659e+02 (atom 17992)
+Step 1660, Epot=-9.056061e+04, Fnorm=1.109e+01, Fmax=1.675e+02 (atom 17992)
+Step 1661, Epot=-9.056115e+04, Fnorm=9.527e+00, Fmax=1.532e+02 (atom 12254)
+Step 1662, Epot=-9.056165e+04, Fnorm=1.069e+01, Fmax=1.526e+02 (atom 2273)
+Step 1663, Epot=-9.056195e+04, Fnorm=1.206e+01, Fmax=1.273e+02 (atom 11975)
+Step 1664, Epot=-9.056312e+04, Fnorm=1.031e+01, Fmax=1.435e+02 (atom 17992)
+Step 1665, Epot=-9.056418e+04, Fnorm=1.331e+01, Fmax=1.828e+02 (atom 4766)
+Step 1666, Epot=-9.056519e+04, Fnorm=1.594e+01, Fmax=2.279e+02 (atom 17992)
+Step 1667, Epot=-9.056802e+04, Fnorm=1.371e+01, Fmax=2.092e+02 (atom 17992)
+Step 1668, Epot=-9.056968e+04, Fnorm=2.115e+01, Fmax=2.720e+02 (atom 12623)
+Step 1669, Epot=-9.057208e+04, Fnorm=2.710e+01, Fmax=2.740e+02 (atom 13702)
+Step 1670, Epot=-9.057984e+04, Fnorm=1.555e+01, Fmax=1.506e+02 (atom 4973)
+Step 1671, Epot=-9.058223e+04, Fnorm=1.172e+01, Fmax=1.502e+02 (atom 12623)
+Step 1672, Epot=-9.058320e+04, Fnorm=1.035e+01, Fmax=1.018e+02 (atom 14270)
+Step 1673, Epot=-9.058371e+04, Fnorm=1.201e+01, Fmax=1.836e+02 (atom 4973)
+Step 1674, Epot=-9.058398e+04, Fnorm=1.312e+01, Fmax=1.697e+02 (atom 12623)
+Step 1675, Epot=-9.058498e+04, Fnorm=9.212e+00, Fmax=1.087e+02 (atom 19457)
+Step 1676, Epot=-9.058556e+04, Fnorm=8.976e+00, Fmax=1.196e+02 (atom 9669)
+Step 1677, Epot=-9.058598e+04, Fnorm=1.009e+01, Fmax=1.300e+02 (atom 12623)
+Step 1678, Epot=-9.058628e+04, Fnorm=9.276e+00, Fmax=1.131e+02 (atom 12623)
+Step 1679, Epot=-9.058664e+04, Fnorm=8.370e+00, Fmax=1.498e+02 (atom 2273)
+Step 1680, Epot=-9.058680e+04, Fnorm=1.092e+01, Fmax=1.451e+02 (atom 4840)
+Step 1681, Epot=-9.058707e+04, Fnorm=1.303e+01, Fmax=1.688e+02 (atom 4973)
+Step 1682, Epot=-9.058770e+04, Fnorm=1.071e+01, Fmax=1.246e+02 (atom 13220)
+Step 1683, Epot=-9.058838e+04, Fnorm=8.753e+00, Fmax=1.127e+02 (atom 9669)
+Step 1684, Epot=-9.058862e+04, Fnorm=1.057e+01, Fmax=1.174e+02 (atom 12623)
+Step 1686, Epot=-9.058903e+04, Fnorm=7.976e+00, Fmax=8.803e+01 (atom 12253)
+Step 1687, Epot=-9.058911e+04, Fnorm=8.384e+00, Fmax=1.173e+02 (atom 9198)
+Step 1688, Epot=-9.058924e+04, Fnorm=1.000e+01, Fmax=1.421e+02 (atom 4840)
+Step 1689, Epot=-9.058949e+04, Fnorm=9.596e+00, Fmax=1.160e+02 (atom 6491)
+Step 1690, Epot=-9.058973e+04, Fnorm=7.980e+00, Fmax=1.341e+02 (atom 17992)
+Step 1691, Epot=-9.058994e+04, Fnorm=9.430e+00, Fmax=1.130e+02 (atom 10478)
+Step 1692, Epot=-9.059017e+04, Fnorm=1.025e+01, Fmax=1.232e+02 (atom 2273)
+Step 1693, Epot=-9.059062e+04, Fnorm=9.422e+00, Fmax=1.059e+02 (atom 13702)
+Step 1694, Epot=-9.059124e+04, Fnorm=1.050e+01, Fmax=1.332e+02 (atom 13702)
+Step 1695, Epot=-9.059164e+04, Fnorm=1.168e+01, Fmax=1.403e+02 (atom 15580)
+Step 1696, Epot=-9.059276e+04, Fnorm=1.071e+01, Fmax=1.564e+02 (atom 17992)
+Step 1697, Epot=-9.059377e+04, Fnorm=1.370e+01, Fmax=2.049e+02 (atom 15580)
+Step 1698, Epot=-9.059471e+04, Fnorm=1.682e+01, Fmax=3.174e+02 (atom 17992)
+Step 1699, Epot=-9.059829e+04, Fnorm=1.388e+01, Fmax=1.642e+02 (atom 4973)
+Step 1700, Epot=-9.060054e+04, Fnorm=2.076e+01, Fmax=2.823e+02 (atom 15583)
+Step 1701, Epot=-9.060413e+04, Fnorm=2.491e+01, Fmax=2.923e+02 (atom 13220)
+Step 1702, Epot=-9.061019e+04, Fnorm=3.037e+01, Fmax=3.999e+02 (atom 15583)
+Step 1703, Epot=-9.061083e+04, Fnorm=3.554e+01, Fmax=4.922e+02 (atom 15583)
+Step 1704, Epot=-9.062262e+04, Fnorm=1.283e+01, Fmax=1.277e+02 (atom 12252)
+Step 1705, Epot=-9.062406e+04, Fnorm=1.099e+01, Fmax=1.103e+02 (atom 13702)
+Step 1706, Epot=-9.062505e+04, Fnorm=1.135e+01, Fmax=1.280e+02 (atom 15586)
+Step 1707, Epot=-9.062595e+04, Fnorm=1.284e+01, Fmax=1.888e+02 (atom 13702)
+Step 1708, Epot=-9.062642e+04, Fnorm=1.434e+01, Fmax=1.530e+02 (atom 8557)
+Step 1709, Epot=-9.062776e+04, Fnorm=1.077e+01, Fmax=1.068e+02 (atom 523)
+Step 1710, Epot=-9.062856e+04, Fnorm=9.389e+00, Fmax=9.655e+01 (atom 14486)
+Step 1711, Epot=-9.062882e+04, Fnorm=1.301e+01, Fmax=1.418e+02 (atom 14118)
+Step 1712, Epot=-9.062888e+04, Fnorm=1.364e+01, Fmax=1.425e+02 (atom 12331)
+Step 1713, Epot=-9.063007e+04, Fnorm=9.462e+00, Fmax=8.953e+01 (atom 18254)
+Step 1714, Epot=-9.063085e+04, Fnorm=9.209e+00, Fmax=1.233e+02 (atom 13702)
+Step 1715, Epot=-9.063113e+04, Fnorm=9.385e+00, Fmax=9.537e+01 (atom 14891)
+Step 1716, Epot=-9.063156e+04, Fnorm=1.067e+01, Fmax=1.119e+02 (atom 19232)
+Step 1717, Epot=-9.063204e+04, Fnorm=1.148e+01, Fmax=1.074e+02 (atom 17973)
+Step 1718, Epot=-9.063270e+04, Fnorm=1.050e+01, Fmax=1.257e+02 (atom 10478)
+Step 1719, Epot=-9.063338e+04, Fnorm=1.386e+01, Fmax=1.783e+02 (atom 9198)
+Step 1720, Epot=-9.063447e+04, Fnorm=1.510e+01, Fmax=1.711e+02 (atom 17992)
+Step 1721, Epot=-9.063649e+04, Fnorm=1.357e+01, Fmax=2.404e+02 (atom 17992)
+Step 1722, Epot=-9.063780e+04, Fnorm=1.433e+01, Fmax=1.619e+02 (atom 4745)
+Step 1723, Epot=-9.063975e+04, Fnorm=1.393e+01, Fmax=1.799e+02 (atom 13702)
+Step 1724, Epot=-9.064066e+04, Fnorm=1.653e+01, Fmax=2.316e+02 (atom 13045)
+Step 1725, Epot=-9.064242e+04, Fnorm=1.150e+01, Fmax=1.307e+02 (atom 522)
+Step 1726, Epot=-9.064317e+04, Fnorm=9.226e+00, Fmax=1.415e+02 (atom 6492)
+Step 1727, Epot=-9.064357e+04, Fnorm=9.405e+00, Fmax=1.333e+02 (atom 13702)
+Step 1728, Epot=-9.064407e+04, Fnorm=1.037e+01, Fmax=1.237e+02 (atom 10478)
+Step 1729, Epot=-9.064430e+04, Fnorm=1.075e+01, Fmax=1.443e+02 (atom 13702)
+Step 1730, Epot=-9.064499e+04, Fnorm=1.019e+01, Fmax=1.385e+02 (atom 4973)
+Step 1731, Epot=-9.064552e+04, Fnorm=1.424e+01, Fmax=1.671e+02 (atom 6492)
+Step 1732, Epot=-9.064627e+04, Fnorm=1.607e+01, Fmax=1.822e+02 (atom 18457)
+Step 1733, Epot=-9.064820e+04, Fnorm=1.179e+01, Fmax=1.453e+02 (atom 17992)
+Step 1734, Epot=-9.064905e+04, Fnorm=9.831e+00, Fmax=1.740e+02 (atom 17992)
+Step 1735, Epot=-9.064910e+04, Fnorm=1.348e+01, Fmax=1.688e+02 (atom 14486)
+Step 1736, Epot=-9.064926e+04, Fnorm=1.378e+01, Fmax=1.688e+02 (atom 14486)
+Step 1737, Epot=-9.065027e+04, Fnorm=9.094e+00, Fmax=9.115e+01 (atom 19457)
+Step 1738, Epot=-9.065072e+04, Fnorm=9.320e+00, Fmax=1.255e+02 (atom 10670)
+Step 1739, Epot=-9.065088e+04, Fnorm=1.069e+01, Fmax=1.483e+02 (atom 9029)
+Step 1740, Epot=-9.065123e+04, Fnorm=9.834e+00, Fmax=1.158e+02 (atom 17973)
+Step 1741, Epot=-9.065167e+04, Fnorm=8.695e+00, Fmax=9.557e+01 (atom 17973)
+Step 1742, Epot=-9.065195e+04, Fnorm=1.112e+01, Fmax=1.451e+02 (atom 2273)
+Step 1743, Epot=-9.065215e+04, Fnorm=1.276e+01, Fmax=1.416e+02 (atom 4840)
+Step 1744, Epot=-9.065273e+04, Fnorm=1.060e+01, Fmax=1.076e+02 (atom 17973)
+Step 1745, Epot=-9.065335e+04, Fnorm=8.731e+00, Fmax=1.200e+02 (atom 13702)
+Step 1746, Epot=-9.065355e+04, Fnorm=1.090e+01, Fmax=1.576e+02 (atom 13702)
+Step 1747, Epot=-9.065370e+04, Fnorm=1.161e+01, Fmax=1.630e+02 (atom 13702)
+Step 1748, Epot=-9.065407e+04, Fnorm=9.163e+00, Fmax=8.564e+01 (atom 13550)
+Step 1749, Epot=-9.065445e+04, Fnorm=8.363e+00, Fmax=1.284e+02 (atom 10670)
+Step 1750, Epot=-9.065461e+04, Fnorm=8.870e+00, Fmax=1.387e+02 (atom 6492)
+Step 1751, Epot=-9.065479e+04, Fnorm=1.017e+01, Fmax=1.276e+02 (atom 9026)
+Step 1752, Epot=-9.065515e+04, Fnorm=1.029e+01, Fmax=1.187e+02 (atom 19084)
+Step 1753, Epot=-9.065572e+04, Fnorm=9.258e+00, Fmax=1.036e+02 (atom 10969)
+Step 1754, Epot=-9.065601e+04, Fnorm=1.128e+01, Fmax=1.766e+02 (atom 10670)
+Step 1755, Epot=-9.065645e+04, Fnorm=1.215e+01, Fmax=1.735e+02 (atom 10670)
+Step 1756, Epot=-9.065781e+04, Fnorm=1.016e+01, Fmax=1.547e+02 (atom 9669)
+Step 1757, Epot=-9.065840e+04, Fnorm=1.365e+01, Fmax=1.458e+02 (atom 6492)
+Step 1758, Epot=-9.065899e+04, Fnorm=1.660e+01, Fmax=2.172e+02 (atom 9669)
+Step 1759, Epot=-9.066105e+04, Fnorm=1.212e+01, Fmax=1.315e+02 (atom 13702)
+Step 1760, Epot=-9.066235e+04, Fnorm=9.401e+00, Fmax=1.229e+02 (atom 13702)
+Step 1761, Epot=-9.066253e+04, Fnorm=1.002e+01, Fmax=1.559e+02 (atom 17992)
+Step 1762, Epot=-9.066257e+04, Fnorm=1.217e+01, Fmax=1.665e+02 (atom 17992)
+Step 1763, Epot=-9.066311e+04, Fnorm=1.210e+01, Fmax=1.741e+02 (atom 6492)
+Step 1764, Epot=-9.066428e+04, Fnorm=1.005e+01, Fmax=1.151e+02 (atom 8138)
+Step 1765, Epot=-9.066479e+04, Fnorm=1.029e+01, Fmax=1.872e+02 (atom 17992)
+Step 1766, Epot=-9.066513e+04, Fnorm=1.080e+01, Fmax=1.694e+02 (atom 17992)
+Step 1767, Epot=-9.066553e+04, Fnorm=1.150e+01, Fmax=1.703e+02 (atom 13702)
+Step 1768, Epot=-9.066641e+04, Fnorm=1.015e+01, Fmax=1.307e+02 (atom 9669)
+Step 1769, Epot=-9.066677e+04, Fnorm=1.374e+01, Fmax=2.184e+02 (atom 13702)
+Step 1770, Epot=-9.066764e+04, Fnorm=1.558e+01, Fmax=2.729e+02 (atom 17992)
+Step 1771, Epot=-9.066934e+04, Fnorm=1.108e+01, Fmax=1.155e+02 (atom 10479)
+Step 1772, Epot=-9.067041e+04, Fnorm=9.457e+00, Fmax=1.251e+02 (atom 10670)
+Step 1773, Epot=-9.067085e+04, Fnorm=1.032e+01, Fmax=1.282e+02 (atom 9026)
+Step 1774, Epot=-9.067091e+04, Fnorm=1.258e+01, Fmax=1.526e+02 (atom 15559)
+Step 1775, Epot=-9.067135e+04, Fnorm=1.222e+01, Fmax=1.372e+02 (atom 18021)
+Step 1776, Epot=-9.067244e+04, Fnorm=9.967e+00, Fmax=1.772e+02 (atom 17992)
+Step 1777, Epot=-9.067266e+04, Fnorm=1.323e+01, Fmax=1.898e+02 (atom 17992)
+Step 1778, Epot=-9.067283e+04, Fnorm=1.529e+01, Fmax=1.729e+02 (atom 13220)
+Step 1779, Epot=-9.067413e+04, Fnorm=1.180e+01, Fmax=1.380e+02 (atom 523)
+Step 1780, Epot=-9.067545e+04, Fnorm=9.352e+00, Fmax=1.162e+02 (atom 19084)
+Step 1781, Epot=-9.067570e+04, Fnorm=1.187e+01, Fmax=1.664e+02 (atom 10670)
+Step 1782, Epot=-9.067578e+04, Fnorm=1.221e+01, Fmax=1.495e+02 (atom 10670)
+Step 1783, Epot=-9.067671e+04, Fnorm=9.079e+00, Fmax=9.971e+01 (atom 9669)
+Step 1784, Epot=-9.067718e+04, Fnorm=9.372e+00, Fmax=1.056e+02 (atom 17973)
+Step 1785, Epot=-9.067728e+04, Fnorm=1.073e+01, Fmax=1.043e+02 (atom 10478)
+Step 1786, Epot=-9.067766e+04, Fnorm=1.008e+01, Fmax=1.321e+02 (atom 10670)
+Step 1787, Epot=-9.067830e+04, Fnorm=8.716e+00, Fmax=1.515e+02 (atom 17992)
+Step 1788, Epot=-9.067839e+04, Fnorm=1.126e+01, Fmax=1.456e+02 (atom 2273)
+Step 1789, Epot=-9.067860e+04, Fnorm=1.277e+01, Fmax=1.892e+02 (atom 12101)
+Step 1790, Epot=-9.067927e+04, Fnorm=1.085e+01, Fmax=1.527e+02 (atom 12101)
+Step 1791, Epot=-9.067988e+04, Fnorm=8.888e+00, Fmax=1.204e+02 (atom 6492)
+Step 1792, Epot=-9.067990e+04, Fnorm=1.104e+01, Fmax=1.279e+02 (atom 9029)
+Step 1793, Epot=-9.067996e+04, Fnorm=1.165e+01, Fmax=1.287e+02 (atom 6491)
+Step 1794, Epot=-9.068053e+04, Fnorm=9.145e+00, Fmax=1.146e+02 (atom 10670)
+Step 1795, Epot=-9.068097e+04, Fnorm=8.600e+00, Fmax=1.130e+02 (atom 13220)
+Step 1796, Epot=-9.068123e+04, Fnorm=9.175e+00, Fmax=1.913e+02 (atom 6492)
+Step 1797, Epot=-9.068136e+04, Fnorm=1.029e+01, Fmax=1.429e+02 (atom 17992)
+Step 1798, Epot=-9.068162e+04, Fnorm=1.048e+01, Fmax=1.373e+02 (atom 12101)
+Step 1799, Epot=-9.068220e+04, Fnorm=9.300e+00, Fmax=1.380e+02 (atom 10670)
+Step 1800, Epot=-9.068241e+04, Fnorm=1.087e+01, Fmax=1.351e+02 (atom 9198)
+Step 1801, Epot=-9.068291e+04, Fnorm=1.220e+01, Fmax=1.422e+02 (atom 10670)
+Step 1802, Epot=-9.068423e+04, Fnorm=1.038e+01, Fmax=1.168e+02 (atom 14118)
+Step 1803, Epot=-9.068491e+04, Fnorm=1.368e+01, Fmax=2.360e+02 (atom 10670)
+Step 1804, Epot=-9.068555e+04, Fnorm=1.638e+01, Fmax=2.339e+02 (atom 10670)
+Step 1805, Epot=-9.068766e+04, Fnorm=1.188e+01, Fmax=1.559e+02 (atom 522)
+Step 1806, Epot=-9.068855e+04, Fnorm=9.188e+00, Fmax=1.110e+02 (atom 19084)
+Step 1807, Epot=-9.068900e+04, Fnorm=9.757e+00, Fmax=1.061e+02 (atom 8557)
+Step 1808, Epot=-9.068918e+04, Fnorm=1.210e+01, Fmax=1.992e+02 (atom 6492)
+Step 1809, Epot=-9.068967e+04, Fnorm=1.199e+01, Fmax=1.272e+02 (atom 14486)
+Step 1810, Epot=-9.069063e+04, Fnorm=1.012e+01, Fmax=1.468e+02 (atom 13702)
+Step 1811, Epot=-9.069110e+04, Fnorm=1.004e+01, Fmax=1.090e+02 (atom 9669)
+Step 1812, Epot=-9.069146e+04, Fnorm=1.056e+01, Fmax=1.971e+02 (atom 17992)
+Step 1813, Epot=-9.069192e+04, Fnorm=1.150e+01, Fmax=1.822e+02 (atom 9669)
+Step 1814, Epot=-9.069280e+04, Fnorm=1.091e+01, Fmax=1.722e+02 (atom 9669)
+Step 1815, Epot=-9.069351e+04, Fnorm=1.038e+01, Fmax=1.769e+02 (atom 9669)
+Step 1816, Epot=-9.069419e+04, Fnorm=1.024e+01, Fmax=2.105e+02 (atom 17992)
+Step 1817, Epot=-9.069465e+04, Fnorm=1.121e+01, Fmax=2.033e+02 (atom 17992)
+Step 1818, Epot=-9.069547e+04, Fnorm=1.103e+01, Fmax=1.874e+02 (atom 17992)
+Step 1819, Epot=-9.069612e+04, Fnorm=1.097e+01, Fmax=2.029e+02 (atom 17992)
+Step 1820, Epot=-9.069705e+04, Fnorm=1.014e+01, Fmax=1.587e+02 (atom 13702)
+Step 1821, Epot=-9.069739e+04, Fnorm=1.047e+01, Fmax=2.134e+02 (atom 17992)
+Step 1822, Epot=-9.069827e+04, Fnorm=1.069e+01, Fmax=1.331e+02 (atom 17992)
+Step 1823, Epot=-9.069881e+04, Fnorm=1.119e+01, Fmax=1.585e+02 (atom 17992)
+Step 1824, Epot=-9.069969e+04, Fnorm=1.067e+01, Fmax=1.938e+02 (atom 13702)
+Step 1825, Epot=-9.070052e+04, Fnorm=1.093e+01, Fmax=2.124e+02 (atom 17992)
+Step 1826, Epot=-9.070122e+04, Fnorm=1.068e+01, Fmax=1.247e+02 (atom 13702)
+Step 1827, Epot=-9.070173e+04, Fnorm=1.107e+01, Fmax=1.979e+02 (atom 13702)
+Step 1828, Epot=-9.070267e+04, Fnorm=1.055e+01, Fmax=1.748e+02 (atom 17992)
+Step 1829, Epot=-9.070328e+04, Fnorm=1.501e+01, Fmax=2.519e+02 (atom 13702)
+Step 1830, Epot=-9.070438e+04, Fnorm=1.700e+01, Fmax=1.957e+02 (atom 10670)
+Step 1831, Epot=-9.070762e+04, Fnorm=1.406e+01, Fmax=2.190e+02 (atom 9669)
+Step 1832, Epot=-9.070948e+04, Fnorm=1.381e+01, Fmax=1.735e+02 (atom 18473)
+Step 1833, Epot=-9.071108e+04, Fnorm=1.389e+01, Fmax=2.332e+02 (atom 9669)
+Step 1834, Epot=-9.071138e+04, Fnorm=1.818e+01, Fmax=2.246e+02 (atom 13702)
+Step 1835, Epot=-9.071338e+04, Fnorm=1.268e+01, Fmax=1.514e+02 (atom 18473)
+Step 1836, Epot=-9.071448e+04, Fnorm=9.221e+00, Fmax=1.033e+02 (atom 5647)
+Step 1837, Epot=-9.071471e+04, Fnorm=9.210e+00, Fmax=1.290e+02 (atom 6492)
+Step 1838, Epot=-9.071505e+04, Fnorm=1.055e+01, Fmax=2.084e+02 (atom 17992)
+Step 1839, Epot=-9.071523e+04, Fnorm=1.174e+01, Fmax=2.019e+02 (atom 17992)
+Step 1840, Epot=-9.071573e+04, Fnorm=1.000e+01, Fmax=1.067e+02 (atom 4686)
+Step 1841, Epot=-9.071628e+04, Fnorm=8.535e+00, Fmax=9.661e+01 (atom 14891)
+Step 1842, Epot=-9.071658e+04, Fnorm=1.100e+01, Fmax=1.789e+02 (atom 6492)
+Step 1843, Epot=-9.071663e+04, Fnorm=1.183e+01, Fmax=1.511e+02 (atom 9026)
+Step 1844, Epot=-9.071726e+04, Fnorm=9.455e+00, Fmax=1.021e+02 (atom 19357)
+Step 1845, Epot=-9.071752e+04, Fnorm=8.359e+00, Fmax=1.105e+02 (atom 17992)
+Step 1846, Epot=-9.071759e+04, Fnorm=1.159e+01, Fmax=1.842e+02 (atom 6492)
+Step 1848, Epot=-9.071805e+04, Fnorm=8.457e+00, Fmax=9.916e+01 (atom 4685)
+Step 1849, Epot=-9.071829e+04, Fnorm=8.585e+00, Fmax=1.180e+02 (atom 10670)
+Step 1850, Epot=-9.071836e+04, Fnorm=9.244e+00, Fmax=1.698e+02 (atom 10478)
+Step 1851, Epot=-9.071839e+04, Fnorm=8.459e+00, Fmax=1.174e+02 (atom 9669)
+Step 1852, Epot=-9.071859e+04, Fnorm=8.513e+00, Fmax=1.588e+02 (atom 17992)
+Step 1853, Epot=-9.071870e+04, Fnorm=8.785e+00, Fmax=1.535e+02 (atom 17992)
+Step 1854, Epot=-9.071895e+04, Fnorm=9.028e+00, Fmax=1.196e+02 (atom 17992)
+Step 1855, Epot=-9.071925e+04, Fnorm=1.074e+01, Fmax=1.885e+02 (atom 6492)
+Step 1856, Epot=-9.071967e+04, Fnorm=1.074e+01, Fmax=1.878e+02 (atom 6492)
+Step 1857, Epot=-9.072028e+04, Fnorm=9.478e+00, Fmax=1.699e+02 (atom 17992)
+Step 1858, Epot=-9.072066e+04, Fnorm=1.121e+01, Fmax=1.610e+02 (atom 9669)
+Step 1859, Epot=-9.072109e+04, Fnorm=1.246e+01, Fmax=1.734e+02 (atom 8138)
+Step 1860, Epot=-9.072253e+04, Fnorm=1.024e+01, Fmax=1.662e+02 (atom 9669)
+Step 1861, Epot=-9.072305e+04, Fnorm=1.423e+01, Fmax=2.553e+02 (atom 10670)
+Step 1862, Epot=-9.072344e+04, Fnorm=1.843e+01, Fmax=2.815e+02 (atom 8138)
+Step 1863, Epot=-9.072573e+04, Fnorm=1.321e+01, Fmax=1.815e+02 (atom 8138)
+Step 1864, Epot=-9.072692e+04, Fnorm=9.280e+00, Fmax=1.046e+02 (atom 7352)
+Step 1865, Epot=-9.072712e+04, Fnorm=1.260e+01, Fmax=1.791e+02 (atom 8138)
+Step 1867, Epot=-9.072783e+04, Fnorm=7.985e+00, Fmax=9.958e+01 (atom 8138)
+Step 1868, Epot=-9.072803e+04, Fnorm=9.533e+00, Fmax=1.165e+02 (atom 19084)
+Step 1869, Epot=-9.072809e+04, Fnorm=1.053e+01, Fmax=1.324e+02 (atom 8138)
+Step 1870, Epot=-9.072848e+04, Fnorm=9.020e+00, Fmax=1.165e+02 (atom 8138)
+Step 1871, Epot=-9.072872e+04, Fnorm=8.891e+00, Fmax=1.246e+02 (atom 14891)
+Step 1872, Epot=-9.072889e+04, Fnorm=9.432e+00, Fmax=1.057e+02 (atom 6492)
+Step 1873, Epot=-9.072924e+04, Fnorm=8.763e+00, Fmax=1.281e+02 (atom 17992)
+Step 1874, Epot=-9.072941e+04, Fnorm=8.106e+00, Fmax=1.312e+02 (atom 17992)
+Step 1875, Epot=-9.072958e+04, Fnorm=1.053e+01, Fmax=1.375e+02 (atom 2171)
+Step 1876, Epot=-9.072970e+04, Fnorm=1.133e+01, Fmax=1.358e+02 (atom 2171)
+Step 1877, Epot=-9.073005e+04, Fnorm=9.529e+00, Fmax=1.063e+02 (atom 8138)
+Step 1878, Epot=-9.073023e+04, Fnorm=8.181e+00, Fmax=1.029e+02 (atom 17992)
+Step 1879, Epot=-9.073037e+04, Fnorm=9.794e+00, Fmax=1.094e+02 (atom 13702)
+Step 1881, Epot=-9.073054e+04, Fnorm=8.071e+00, Fmax=9.666e+01 (atom 9029)
+Step 1882, Epot=-9.073064e+04, Fnorm=8.180e+00, Fmax=9.762e+01 (atom 9669)
+Step 1883, Epot=-9.073073e+04, Fnorm=8.767e+00, Fmax=1.153e+02 (atom 9669)
+Step 1884, Epot=-9.073085e+04, Fnorm=8.593e+00, Fmax=1.056e+02 (atom 10670)
+Step 1885, Epot=-9.073090e+04, Fnorm=8.336e+00, Fmax=1.103e+02 (atom 10478)
+Step 1886, Epot=-9.073101e+04, Fnorm=9.708e+00, Fmax=1.422e+02 (atom 17992)
+Step 1887, Epot=-9.073090e+04, Fnorm=9.858e+00, Fmax=1.242e+02 (atom 9029)
+Step 1888, Epot=-9.073140e+04, Fnorm=8.879e+00, Fmax=1.322e+02 (atom 17992)
+Step 1889, Epot=-9.073168e+04, Fnorm=9.507e+00, Fmax=1.308e+02 (atom 2171)
+Step 1890, Epot=-9.073181e+04, Fnorm=1.043e+01, Fmax=1.508e+02 (atom 9669)
+Step 1891, Epot=-9.073239e+04, Fnorm=9.410e+00, Fmax=1.283e+02 (atom 17992)
+Step 1892, Epot=-9.073289e+04, Fnorm=1.081e+01, Fmax=1.690e+02 (atom 6492)
+Step 1893, Epot=-9.073345e+04, Fnorm=1.187e+01, Fmax=1.835e+02 (atom 17992)
+Step 1894, Epot=-9.073469e+04, Fnorm=1.045e+01, Fmax=1.670e+02 (atom 10670)
+Step 1895, Epot=-9.073552e+04, Fnorm=1.396e+01, Fmax=2.910e+02 (atom 17992)
+Step 1896, Epot=-9.073655e+04, Fnorm=1.718e+01, Fmax=2.915e+02 (atom 17992)
+Step 1897, Epot=-9.074005e+04, Fnorm=1.414e+01, Fmax=2.611e+02 (atom 17991)
+Step 1898, Epot=-9.074200e+04, Fnorm=2.164e+01, Fmax=3.721e+02 (atom 10670)
+Step 1899, Epot=-9.074430e+04, Fnorm=2.788e+01, Fmax=4.556e+02 (atom 17991)
+Step 1900, Epot=-9.075233e+04, Fnorm=1.609e+01, Fmax=2.751e+02 (atom 17991)
+Step 1901, Epot=-9.075501e+04, Fnorm=1.195e+01, Fmax=1.949e+02 (atom 9669)
+Step 1902, Epot=-9.075593e+04, Fnorm=1.070e+01, Fmax=1.451e+02 (atom 17991)
+Step 1903, Epot=-9.075655e+04, Fnorm=1.208e+01, Fmax=1.825e+02 (atom 4840)
+Step 1904, Epot=-9.075661e+04, Fnorm=1.542e+01, Fmax=2.151e+02 (atom 4840)
+Step 1905, Epot=-9.075784e+04, Fnorm=1.206e+01, Fmax=1.090e+02 (atom 17989)
+Step 1906, Epot=-9.075882e+04, Fnorm=9.243e+00, Fmax=1.224e+02 (atom 4132)
+Step 1907, Epot=-9.075933e+04, Fnorm=8.903e+00, Fmax=1.204e+02 (atom 590)
+Step 1908, Epot=-9.075961e+04, Fnorm=1.021e+01, Fmax=1.334e+02 (atom 9026)
+Step 1909, Epot=-9.075981e+04, Fnorm=1.143e+01, Fmax=1.463e+02 (atom 12254)
+Step 1910, Epot=-9.076041e+04, Fnorm=9.868e+00, Fmax=1.030e+02 (atom 13702)
+Step 1911, Epot=-9.076095e+04, Fnorm=8.272e+00, Fmax=1.094e+02 (atom 11577)
+Step 1912, Epot=-9.076104e+04, Fnorm=1.087e+01, Fmax=1.310e+02 (atom 19084)
+Step 1913, Epot=-9.076116e+04, Fnorm=1.284e+01, Fmax=1.744e+02 (atom 17992)
+Step 1914, Epot=-9.076199e+04, Fnorm=1.069e+01, Fmax=1.130e+02 (atom 19181)
+Step 1915, Epot=-9.076262e+04, Fnorm=8.759e+00, Fmax=1.056e+02 (atom 5869)
+Step 1916, Epot=-9.076263e+04, Fnorm=1.079e+01, Fmax=1.847e+02 (atom 17992)
+Step 1917, Epot=-9.076265e+04, Fnorm=1.312e+01, Fmax=1.323e+02 (atom 13220)
+Step 1918, Epot=-9.076304e+04, Fnorm=1.151e+01, Fmax=1.293e+02 (atom 12254)
+Step 1919, Epot=-9.076377e+04, Fnorm=8.508e+00, Fmax=1.105e+02 (atom 4973)
+Step 1920, Epot=-9.076422e+04, Fnorm=1.016e+01, Fmax=1.549e+02 (atom 17992)
+Step 1922, Epot=-9.076456e+04, Fnorm=7.627e+00, Fmax=9.018e+01 (atom 13702)
+Step 1923, Epot=-9.076462e+04, Fnorm=8.710e+00, Fmax=1.185e+02 (atom 4132)
+Step 1924, Epot=-9.076476e+04, Fnorm=9.829e+00, Fmax=1.282e+02 (atom 4132)
+Step 1925, Epot=-9.076490e+04, Fnorm=8.805e+00, Fmax=8.710e+01 (atom 7196)
+Step 1926, Epot=-9.076516e+04, Fnorm=8.050e+00, Fmax=1.206e+02 (atom 17992)
+Step 1927, Epot=-9.076516e+04, Fnorm=9.950e+00, Fmax=1.187e+02 (atom 4132)
+Step 1928, Epot=-9.076522e+04, Fnorm=1.109e+01, Fmax=1.522e+02 (atom 17992)
+Step 1929, Epot=-9.076562e+04, Fnorm=9.740e+00, Fmax=1.082e+02 (atom 4132)
+Step 1930, Epot=-9.076597e+04, Fnorm=8.347e+00, Fmax=1.059e+02 (atom 5869)
+Step 1931, Epot=-9.076626e+04, Fnorm=9.644e+00, Fmax=1.396e+02 (atom 17992)
+Step 1933, Epot=-9.076633e+04, Fnorm=8.051e+00, Fmax=1.187e+02 (atom 17992)
+Step 1934, Epot=-9.076649e+04, Fnorm=8.289e+00, Fmax=1.509e+02 (atom 17992)
+Step 1935, Epot=-9.076652e+04, Fnorm=8.798e+00, Fmax=1.540e+02 (atom 17992)
+Step 1936, Epot=-9.076653e+04, Fnorm=8.323e+00, Fmax=1.408e+02 (atom 12254)
+Step 1937, Epot=-9.076669e+04, Fnorm=7.746e+00, Fmax=9.508e+01 (atom 18457)
+Step 1938, Epot=-9.076691e+04, Fnorm=9.410e+00, Fmax=1.740e+02 (atom 17992)
+Step 1939, Epot=-9.076705e+04, Fnorm=1.036e+01, Fmax=1.939e+02 (atom 17992)
+Step 1940, Epot=-9.076738e+04, Fnorm=9.158e+00, Fmax=1.610e+02 (atom 17992)
+Step 1941, Epot=-9.076761e+04, Fnorm=9.390e+00, Fmax=1.679e+02 (atom 17992)
+Step 1942, Epot=-9.076788e+04, Fnorm=9.960e+00, Fmax=1.967e+02 (atom 17992)
+Step 1943, Epot=-9.076840e+04, Fnorm=9.224e+00, Fmax=1.536e+02 (atom 10670)
+Step 1944, Epot=-9.076902e+04, Fnorm=1.089e+01, Fmax=1.700e+02 (atom 17992)
+Step 1945, Epot=-9.076959e+04, Fnorm=1.180e+01, Fmax=1.936e+02 (atom 10478)
+Step 1946, Epot=-9.077070e+04, Fnorm=9.935e+00, Fmax=1.462e+02 (atom 17992)
+Step 1947, Epot=-9.077156e+04, Fnorm=1.372e+01, Fmax=2.603e+02 (atom 10670)
+Step 1948, Epot=-9.077268e+04, Fnorm=1.602e+01, Fmax=2.939e+02 (atom 10670)
+Step 1949, Epot=-9.077559e+04, Fnorm=1.408e+01, Fmax=2.172e+02 (atom 10670)
+Step 1950, Epot=-9.077736e+04, Fnorm=1.438e+01, Fmax=2.594e+02 (atom 10670)
+Step 1951, Epot=-9.077974e+04, Fnorm=1.368e+01, Fmax=1.696e+02 (atom 4840)
+Step 1952, Epot=-9.078034e+04, Fnorm=1.687e+01, Fmax=2.760e+02 (atom 10670)
+Step 1953, Epot=-9.078231e+04, Fnorm=1.154e+01, Fmax=1.772e+02 (atom 10670)
+Step 1954, Epot=-9.078323e+04, Fnorm=9.017e+00, Fmax=1.334e+02 (atom 17992)
+Step 1955, Epot=-9.078355e+04, Fnorm=9.200e+00, Fmax=1.341e+02 (atom 10478)
+Step 1956, Epot=-9.078374e+04, Fnorm=8.970e+00, Fmax=1.247e+02 (atom 10670)
+Step 1957, Epot=-9.078417e+04, Fnorm=8.828e+00, Fmax=1.422e+02 (atom 17992)
+Step 1958, Epot=-9.078443e+04, Fnorm=9.313e+00, Fmax=1.241e+02 (atom 10969)
+Step 1959, Epot=-9.078476e+04, Fnorm=9.220e+00, Fmax=1.010e+02 (atom 19084)
+Step 1960, Epot=-9.078507e+04, Fnorm=1.191e+01, Fmax=1.418e+02 (atom 9198)
+Step 1961, Epot=-9.078562e+04, Fnorm=1.263e+01, Fmax=1.622e+02 (atom 4132)
+Step 1962, Epot=-9.078687e+04, Fnorm=1.015e+01, Fmax=1.577e+02 (atom 17992)
+Step 1963, Epot=-9.078727e+04, Fnorm=1.393e+01, Fmax=2.078e+02 (atom 17992)
+Step 1964, Epot=-9.078762e+04, Fnorm=1.747e+01, Fmax=2.423e+02 (atom 17992)
+Step 1965, Epot=-9.078978e+04, Fnorm=1.271e+01, Fmax=1.220e+02 (atom 522)
+Step 1966, Epot=-9.079092e+04, Fnorm=9.475e+00, Fmax=1.427e+02 (atom 9198)
+Step 1967, Epot=-9.079127e+04, Fnorm=8.887e+00, Fmax=1.575e+02 (atom 17992)
+Step 1968, Epot=-9.079150e+04, Fnorm=1.066e+01, Fmax=1.702e+02 (atom 17992)
+Step 1969, Epot=-9.079156e+04, Fnorm=1.259e+01, Fmax=1.819e+02 (atom 17992)
+Step 1970, Epot=-9.079198e+04, Fnorm=1.131e+01, Fmax=1.210e+02 (atom 11577)
+Step 1971, Epot=-9.079270e+04, Fnorm=8.786e+00, Fmax=1.020e+02 (atom 15586)
+Step 1972, Epot=-9.079278e+04, Fnorm=1.067e+01, Fmax=1.450e+02 (atom 9026)
+Step 1973, Epot=-9.079294e+04, Fnorm=1.124e+01, Fmax=1.929e+02 (atom 10670)
+Step 1974, Epot=-9.079340e+04, Fnorm=9.107e+00, Fmax=1.414e+02 (atom 17992)
+Step 1975, Epot=-9.079378e+04, Fnorm=8.420e+00, Fmax=1.459e+02 (atom 17992)
+Step 1976, Epot=-9.079409e+04, Fnorm=8.689e+00, Fmax=1.407e+02 (atom 17992)
+Step 1977, Epot=-9.079423e+04, Fnorm=9.747e+00, Fmax=1.507e+02 (atom 17992)
+Step 1978, Epot=-9.079457e+04, Fnorm=1.053e+01, Fmax=1.753e+02 (atom 18457)
+Step 1979, Epot=-9.079491e+04, Fnorm=9.703e+00, Fmax=1.221e+02 (atom 10969)
+Step 1980, Epot=-9.079512e+04, Fnorm=1.142e+01, Fmax=1.693e+02 (atom 17992)
+Step 1981, Epot=-9.079568e+04, Fnorm=1.170e+01, Fmax=1.459e+02 (atom 9198)
+Step 1982, Epot=-9.079675e+04, Fnorm=9.927e+00, Fmax=1.031e+02 (atom 4840)
+Step 1983, Epot=-9.079707e+04, Fnorm=1.489e+01, Fmax=2.159e+02 (atom 10670)
+Step 1984, Epot=-9.079737e+04, Fnorm=1.690e+01, Fmax=2.228e+02 (atom 15586)
+Step 1985, Epot=-9.079927e+04, Fnorm=1.084e+01, Fmax=1.282e+02 (atom 15586)
+Step 1986, Epot=-9.079991e+04, Fnorm=9.083e+00, Fmax=1.385e+02 (atom 17992)
+Step 1987, Epot=-9.080037e+04, Fnorm=9.555e+00, Fmax=1.383e+02 (atom 17992)
+Step 1988, Epot=-9.080051e+04, Fnorm=9.120e+00, Fmax=9.847e+01 (atom 14486)
+Step 1989, Epot=-9.080090e+04, Fnorm=8.987e+00, Fmax=1.108e+02 (atom 14334)
+Step 1990, Epot=-9.080098e+04, Fnorm=9.428e+00, Fmax=1.384e+02 (atom 10670)
+Step 1991, Epot=-9.080137e+04, Fnorm=9.778e+00, Fmax=1.310e+02 (atom 10969)
+Step 1992, Epot=-9.080161e+04, Fnorm=9.727e+00, Fmax=1.369e+02 (atom 17992)
+Step 1993, Epot=-9.080190e+04, Fnorm=9.326e+00, Fmax=9.950e+01 (atom 9026)
+Step 1994, Epot=-9.080209e+04, Fnorm=1.216e+01, Fmax=1.633e+02 (atom 6492)
+Step 1995, Epot=-9.080252e+04, Fnorm=1.298e+01, Fmax=1.583e+02 (atom 9198)
+Step 1996, Epot=-9.080386e+04, Fnorm=1.010e+01, Fmax=1.554e+02 (atom 17992)
+Step 1997, Epot=-9.080424e+04, Fnorm=1.394e+01, Fmax=1.900e+02 (atom 17992)
+Step 1998, Epot=-9.080436e+04, Fnorm=1.818e+01, Fmax=2.260e+02 (atom 17992)
+Step 1999, Epot=-9.080639e+04, Fnorm=1.349e+01, Fmax=1.527e+02 (atom 4132)
+Step 2000, Epot=-9.080762e+04, Fnorm=9.532e+00, Fmax=1.120e+02 (atom 17973)
+Step 2001, Epot=-9.080768e+04, Fnorm=1.225e+01, Fmax=1.810e+02 (atom 17992)
+Step 2002, Epot=-9.080780e+04, Fnorm=1.277e+01, Fmax=1.812e+02 (atom 17992)
+Step 2003, Epot=-9.080851e+04, Fnorm=8.254e+00, Fmax=9.443e+01 (atom 4685)
+Step 2004, Epot=-9.080883e+04, Fnorm=9.541e+00, Fmax=1.147e+02 (atom 5869)
+Step 2005, Epot=-9.080896e+04, Fnorm=1.045e+01, Fmax=1.444e+02 (atom 9026)
+Step 2006, Epot=-9.080927e+04, Fnorm=9.160e+00, Fmax=1.611e+02 (atom 6492)
+Step 2007, Epot=-9.080964e+04, Fnorm=8.708e+00, Fmax=1.119e+02 (atom 18457)
+Step 2008, Epot=-9.080969e+04, Fnorm=9.591e+00, Fmax=1.696e+02 (atom 14050)
+Step 2009, Epot=-9.080976e+04, Fnorm=9.079e+00, Fmax=1.130e+02 (atom 4685)
+Step 2010, Epot=-9.081012e+04, Fnorm=8.184e+00, Fmax=9.703e+01 (atom 14334)
+Step 2011, Epot=-9.081019e+04, Fnorm=1.010e+01, Fmax=1.335e+02 (atom 10670)
+Step 2012, Epot=-9.081032e+04, Fnorm=1.086e+01, Fmax=1.281e+02 (atom 18457)
+Step 2013, Epot=-9.081058e+04, Fnorm=9.236e+00, Fmax=1.115e+02 (atom 9220)
+Step 2014, Epot=-9.081078e+04, Fnorm=8.158e+00, Fmax=9.810e+01 (atom 13702)
+Step 2015, Epot=-9.081082e+04, Fnorm=1.014e+01, Fmax=1.325e+02 (atom 10478)
+Step 2016, Epot=-9.081084e+04, Fnorm=1.060e+01, Fmax=1.321e+02 (atom 10478)
+Step 2017, Epot=-9.081111e+04, Fnorm=9.138e+00, Fmax=1.340e+02 (atom 9198)
+Step 2018, Epot=-9.081134e+04, Fnorm=8.043e+00, Fmax=1.067e+02 (atom 19457)
+Step 2019, Epot=-9.081150e+04, Fnorm=8.889e+00, Fmax=1.291e+02 (atom 10478)
+Step 2020, Epot=-9.081153e+04, Fnorm=9.788e+00, Fmax=1.188e+02 (atom 10670)
+Step 2021, Epot=-9.081158e+04, Fnorm=9.191e+00, Fmax=1.066e+02 (atom 4685)
+Step 2022, Epot=-9.081194e+04, Fnorm=8.209e+00, Fmax=1.270e+02 (atom 17992)
+Step 2023, Epot=-9.081196e+04, Fnorm=1.022e+01, Fmax=1.480e+02 (atom 17992)
+Step 2024, Epot=-9.081213e+04, Fnorm=1.117e+01, Fmax=1.561e+02 (atom 17992)
+Step 2025, Epot=-9.081248e+04, Fnorm=9.853e+00, Fmax=1.294e+02 (atom 4685)
+Step 2026, Epot=-9.081299e+04, Fnorm=8.191e+00, Fmax=1.282e+02 (atom 9198)
+Step 2027, Epot=-9.081305e+04, Fnorm=9.568e+00, Fmax=1.350e+02 (atom 4132)
+Step 2028, Epot=-9.081309e+04, Fnorm=1.007e+01, Fmax=1.401e+02 (atom 4132)
+Step 2029, Epot=-9.081318e+04, Fnorm=8.717e+00, Fmax=1.121e+02 (atom 17992)
+Step 2030, Epot=-9.081352e+04, Fnorm=8.275e+00, Fmax=1.399e+02 (atom 17992)
+Step 2031, Epot=-9.081364e+04, Fnorm=8.632e+00, Fmax=1.312e+02 (atom 17992)
+Step 2032, Epot=-9.081374e+04, Fnorm=9.323e+00, Fmax=1.447e+02 (atom 15858)
+Step 2033, Epot=-9.081402e+04, Fnorm=9.157e+00, Fmax=1.452e+02 (atom 17992)
+Step 2034, Epot=-9.081416e+04, Fnorm=8.578e+00, Fmax=1.046e+02 (atom 7352)
+Step 2035, Epot=-9.081446e+04, Fnorm=1.026e+01, Fmax=1.723e+02 (atom 17992)
+Step 2036, Epot=-9.081456e+04, Fnorm=1.081e+01, Fmax=1.797e+02 (atom 17992)
+Step 2037, Epot=-9.081528e+04, Fnorm=9.080e+00, Fmax=1.074e+02 (atom 9029)
+Step 2038, Epot=-9.081567e+04, Fnorm=1.072e+01, Fmax=2.176e+02 (atom 17992)
+Step 2039, Epot=-9.081587e+04, Fnorm=1.274e+01, Fmax=2.121e+02 (atom 17992)
+Step 2040, Epot=-9.081656e+04, Fnorm=1.049e+01, Fmax=1.239e+02 (atom 4685)
+Step 2041, Epot=-9.081710e+04, Fnorm=8.447e+00, Fmax=9.826e+01 (atom 13702)
+Step 2042, Epot=-9.081712e+04, Fnorm=1.108e+01, Fmax=1.862e+02 (atom 17992)
+Step 2043, Epot=-9.081728e+04, Fnorm=1.167e+01, Fmax=1.841e+02 (atom 17992)
+Step 2044, Epot=-9.081784e+04, Fnorm=8.887e+00, Fmax=1.180e+02 (atom 19181)
+Step 2045, Epot=-9.081805e+04, Fnorm=8.653e+00, Fmax=1.365e+02 (atom 9198)
+Step 2046, Epot=-9.081813e+04, Fnorm=9.338e+00, Fmax=1.130e+02 (atom 10670)
+Step 2047, Epot=-9.081831e+04, Fnorm=8.813e+00, Fmax=1.363e+02 (atom 17992)
+Step 2048, Epot=-9.081835e+04, Fnorm=8.235e+00, Fmax=9.669e+01 (atom 15586)
+Step 2049, Epot=-9.081858e+04, Fnorm=8.498e+00, Fmax=1.253e+02 (atom 13702)
+Step 2050, Epot=-9.081880e+04, Fnorm=8.967e+00, Fmax=1.069e+02 (atom 19181)
+Step 2051, Epot=-9.081898e+04, Fnorm=8.653e+00, Fmax=1.131e+02 (atom 14334)
+Step 2052, Epot=-9.081914e+04, Fnorm=8.731e+00, Fmax=1.175e+02 (atom 10969)
+Step 2053, Epot=-9.081915e+04, Fnorm=1.064e+01, Fmax=1.086e+02 (atom 19181)
+Step 2054, Epot=-9.081959e+04, Fnorm=1.079e+01, Fmax=1.307e+02 (atom 17992)
+Step 2055, Epot=-9.082027e+04, Fnorm=9.101e+00, Fmax=1.418e+02 (atom 17992)
+Step 2056, Epot=-9.082045e+04, Fnorm=1.125e+01, Fmax=1.439e+02 (atom 9669)
+Step 2057, Epot=-9.082052e+04, Fnorm=1.343e+01, Fmax=1.656e+02 (atom 17992)
+Step 2058, Epot=-9.082136e+04, Fnorm=1.073e+01, Fmax=1.334e+02 (atom 17992)
+Step 2059, Epot=-9.082183e+04, Fnorm=8.666e+00, Fmax=9.233e+01 (atom 13220)
+Step 2060, Epot=-9.082196e+04, Fnorm=1.088e+01, Fmax=1.932e+02 (atom 2171)
+Step 2061, Epot=-9.082191e+04, Fnorm=1.109e+01, Fmax=1.915e+02 (atom 2171)
+Step 2062, Epot=-9.082237e+04, Fnorm=8.321e+00, Fmax=9.795e+01 (atom 12152)
+Step 2063, Epot=-9.082269e+04, Fnorm=8.501e+00, Fmax=1.260e+02 (atom 13702)
+Step 2064, Epot=-9.082284e+04, Fnorm=1.041e+01, Fmax=1.324e+02 (atom 17992)
+Step 2065, Epot=-9.082295e+04, Fnorm=1.027e+01, Fmax=1.281e+02 (atom 14334)
+Step 2066, Epot=-9.082309e+04, Fnorm=8.648e+00, Fmax=1.378e+02 (atom 17992)
+Step 2067, Epot=-9.082329e+04, Fnorm=9.698e+00, Fmax=1.493e+02 (atom 9198)
+Step 2068, Epot=-9.082338e+04, Fnorm=1.061e+01, Fmax=1.466e+02 (atom 15858)
+Step 2069, Epot=-9.082374e+04, Fnorm=9.189e+00, Fmax=9.639e+01 (atom 12152)
+Step 2070, Epot=-9.082403e+04, Fnorm=8.061e+00, Fmax=8.386e+01 (atom 5648)
+Step 2071, Epot=-9.082413e+04, Fnorm=1.001e+01, Fmax=1.572e+02 (atom 18457)
+Step 2072, Epot=-9.082416e+04, Fnorm=1.056e+01, Fmax=1.454e+02 (atom 17992)
+Step 2073, Epot=-9.082442e+04, Fnorm=8.978e+00, Fmax=9.616e+01 (atom 12337)
+Step 2074, Epot=-9.082459e+04, Fnorm=8.048e+00, Fmax=1.287e+02 (atom 4840)
+Step 2075, Epot=-9.082468e+04, Fnorm=9.196e+00, Fmax=1.041e+02 (atom 7352)
+Step 2076, Epot=-9.082478e+04, Fnorm=9.732e+00, Fmax=1.040e+02 (atom 17973)
+Step 2077, Epot=-9.082496e+04, Fnorm=9.058e+00, Fmax=9.914e+01 (atom 17973)
+Step 2078, Epot=-9.082519e+04, Fnorm=8.116e+00, Fmax=9.643e+01 (atom 9029)
+Step 2079, Epot=-9.082535e+04, Fnorm=1.039e+01, Fmax=1.419e+02 (atom 18457)
+Step 2080, Epot=-9.082546e+04, Fnorm=1.201e+01, Fmax=1.849e+02 (atom 18457)
+Step 2081, Epot=-9.082577e+04, Fnorm=1.033e+01, Fmax=1.110e+02 (atom 18457)
+Step 2082, Epot=-9.082632e+04, Fnorm=8.513e+00, Fmax=9.349e+01 (atom 14486)
+Step 2083, Epot=-9.082641e+04, Fnorm=8.785e+00, Fmax=1.569e+02 (atom 6492)
+Step 2084, Epot=-9.082644e+04, Fnorm=9.220e+00, Fmax=1.228e+02 (atom 9669)
+Step 2085, Epot=-9.082655e+04, Fnorm=8.845e+00, Fmax=1.100e+02 (atom 13220)
+Step 2086, Epot=-9.082684e+04, Fnorm=8.775e+00, Fmax=1.300e+02 (atom 17992)
+Step 2087, Epot=-9.082686e+04, Fnorm=1.054e+01, Fmax=1.682e+02 (atom 18457)
+Step 2088, Epot=-9.082694e+04, Fnorm=1.124e+01, Fmax=1.642e+02 (atom 18457)
+Step 2089, Epot=-9.082773e+04, Fnorm=9.616e+00, Fmax=1.427e+02 (atom 17992)
+Step 2090, Epot=-9.082780e+04, Fnorm=1.090e+01, Fmax=1.291e+02 (atom 13702)
+Step 2091, Epot=-9.082803e+04, Fnorm=1.316e+01, Fmax=1.554e+02 (atom 9198)
+Step 2092, Epot=-9.082889e+04, Fnorm=1.079e+01, Fmax=1.385e+02 (atom 13220)
+Step 2093, Epot=-9.082938e+04, Fnorm=8.425e+00, Fmax=1.604e+02 (atom 6492)
+Step 2094, Epot=-9.082947e+04, Fnorm=1.083e+01, Fmax=1.399e+02 (atom 4840)
+Step 2095, Epot=-9.082952e+04, Fnorm=1.140e+01, Fmax=1.442e+02 (atom 4840)
+Step 2096, Epot=-9.082990e+04, Fnorm=8.969e+00, Fmax=1.259e+02 (atom 15586)
+Step 2097, Epot=-9.083019e+04, Fnorm=8.634e+00, Fmax=1.201e+02 (atom 17992)
+Step 2098, Epot=-9.083028e+04, Fnorm=9.736e+00, Fmax=1.063e+02 (atom 14334)
+Step 2099, Epot=-9.083035e+04, Fnorm=9.546e+00, Fmax=1.326e+02 (atom 4685)
+Step 2100, Epot=-9.083070e+04, Fnorm=8.465e+00, Fmax=1.312e+02 (atom 17992)
+Step 2101, Epot=-9.083085e+04, Fnorm=9.910e+00, Fmax=1.459e+02 (atom 15858)
+Step 2102, Epot=-9.083096e+04, Fnorm=1.051e+01, Fmax=1.015e+02 (atom 4840)
+Step 2103, Epot=-9.083123e+04, Fnorm=9.251e+00, Fmax=1.119e+02 (atom 15586)
+Step 2104, Epot=-9.083165e+04, Fnorm=8.175e+00, Fmax=1.007e+02 (atom 17973)
+Step 2105, Epot=-9.083177e+04, Fnorm=8.656e+00, Fmax=1.060e+02 (atom 8479)
+Step 2106, Epot=-9.083184e+04, Fnorm=1.053e+01, Fmax=1.590e+02 (atom 6492)
+Step 2107, Epot=-9.083193e+04, Fnorm=1.026e+01, Fmax=1.505e+02 (atom 12254)
+Step 2108, Epot=-9.083224e+04, Fnorm=8.508e+00, Fmax=1.125e+02 (atom 10969)
+Step 2109, Epot=-9.083244e+04, Fnorm=9.593e+00, Fmax=1.522e+02 (atom 18457)
+Step 2110, Epot=-9.083258e+04, Fnorm=1.085e+01, Fmax=1.144e+02 (atom 14334)
+Step 2111, Epot=-9.083281e+04, Fnorm=9.857e+00, Fmax=1.392e+02 (atom 17992)
+Step 2112, Epot=-9.083316e+04, Fnorm=8.332e+00, Fmax=1.219e+02 (atom 17992)
+Step 2113, Epot=-9.083318e+04, Fnorm=9.756e+00, Fmax=1.626e+02 (atom 6492)
+Step 2114, Epot=-9.083321e+04, Fnorm=1.040e+01, Fmax=1.320e+02 (atom 17992)
+Step 2115, Epot=-9.083355e+04, Fnorm=8.932e+00, Fmax=1.002e+02 (atom 9155)
+Step 2116, Epot=-9.083383e+04, Fnorm=7.977e+00, Fmax=8.443e+01 (atom 19084)
+Step 2117, Epot=-9.083404e+04, Fnorm=8.958e+00, Fmax=9.779e+01 (atom 14486)
+Step 2118, Epot=-9.083422e+04, Fnorm=1.052e+01, Fmax=1.450e+02 (atom 17992)
+Step 2119, Epot=-9.083423e+04, Fnorm=1.008e+01, Fmax=1.581e+02 (atom 6492)
+Step 2120, Epot=-9.083446e+04, Fnorm=8.499e+00, Fmax=1.278e+02 (atom 14050)
+Step 2121, Epot=-9.083472e+04, Fnorm=9.823e+00, Fmax=1.400e+02 (atom 17992)
+Step 2122, Epot=-9.083485e+04, Fnorm=1.053e+01, Fmax=1.360e+02 (atom 4685)
+Step 2123, Epot=-9.083505e+04, Fnorm=9.100e+00, Fmax=1.163e+02 (atom 9198)
+Step 2124, Epot=-9.083530e+04, Fnorm=8.259e+00, Fmax=1.349e+02 (atom 17992)
+Step 2125, Epot=-9.083533e+04, Fnorm=9.116e+00, Fmax=1.771e+02 (atom 2171)
+Step 2126, Epot=-9.083542e+04, Fnorm=1.071e+01, Fmax=1.686e+02 (atom 14050)
+Step 2127, Epot=-9.083554e+04, Fnorm=1.021e+01, Fmax=1.363e+02 (atom 17992)
+Step 2128, Epot=-9.083602e+04, Fnorm=8.667e+00, Fmax=1.292e+02 (atom 17992)
+Step 2129, Epot=-9.083612e+04, Fnorm=9.795e+00, Fmax=1.572e+02 (atom 6492)
+Step 2130, Epot=-9.083622e+04, Fnorm=1.049e+01, Fmax=1.117e+02 (atom 19181)
+Step 2131, Epot=-9.083646e+04, Fnorm=8.838e+00, Fmax=1.028e+02 (atom 19181)
+Step 2132, Epot=-9.083673e+04, Fnorm=8.000e+00, Fmax=1.205e+02 (atom 17992)
+Step 2133, Epot=-9.083695e+04, Fnorm=9.144e+00, Fmax=1.121e+02 (atom 19181)
+Step 2134, Epot=-9.083697e+04, Fnorm=9.611e+00, Fmax=1.106e+02 (atom 19181)
+Step 2135, Epot=-9.083716e+04, Fnorm=8.804e+00, Fmax=1.152e+02 (atom 14334)
+Step 2136, Epot=-9.083738e+04, Fnorm=8.661e+00, Fmax=1.568e+02 (atom 6492)
+Step 2137, Epot=-9.083738e+04, Fnorm=8.910e+00, Fmax=1.140e+02 (atom 10969)
+Step 2138, Epot=-9.083753e+04, Fnorm=9.074e+00, Fmax=1.330e+02 (atom 17992)
+Step 2139, Epot=-9.083792e+04, Fnorm=1.009e+01, Fmax=1.589e+02 (atom 4840)
+Step 2140, Epot=-9.083816e+04, Fnorm=9.760e+00, Fmax=1.502e+02 (atom 4840)
+Step 2141, Epot=-9.083863e+04, Fnorm=9.294e+00, Fmax=1.120e+02 (atom 11145)
+Step 2142, Epot=-9.083893e+04, Fnorm=1.218e+01, Fmax=1.767e+02 (atom 17992)
+Step 2143, Epot=-9.083952e+04, Fnorm=1.308e+01, Fmax=1.548e+02 (atom 6492)
+Step 2144, Epot=-9.084068e+04, Fnorm=9.870e+00, Fmax=1.160e+02 (atom 13716)
+Step 2145, Epot=-9.084109e+04, Fnorm=1.360e+01, Fmax=1.490e+02 (atom 8138)
+Step 2146, Epot=-9.084112e+04, Fnorm=1.751e+01, Fmax=1.852e+02 (atom 13702)
+Step 2147, Epot=-9.084312e+04, Fnorm=1.259e+01, Fmax=1.095e+02 (atom 12645)
+Step 2148, Epot=-9.084439e+04, Fnorm=9.247e+00, Fmax=1.125e+02 (atom 4840)
+Step 2149, Epot=-9.084440e+04, Fnorm=1.242e+01, Fmax=1.936e+02 (atom 2171)
+Step 2151, Epot=-9.084525e+04, Fnorm=8.031e+00, Fmax=8.646e+01 (atom 19432)
+Step 2152, Epot=-9.084531e+04, Fnorm=9.525e+00, Fmax=1.640e+02 (atom 5869)
+Step 2153, Epot=-9.084542e+04, Fnorm=1.046e+01, Fmax=1.390e+02 (atom 13702)
+Step 2154, Epot=-9.084586e+04, Fnorm=8.691e+00, Fmax=1.028e+02 (atom 13220)
+Step 2155, Epot=-9.084598e+04, Fnorm=8.635e+00, Fmax=9.870e+01 (atom 2171)
+Step 2156, Epot=-9.084627e+04, Fnorm=9.440e+00, Fmax=1.384e+02 (atom 17992)
+Step 2157, Epot=-9.084638e+04, Fnorm=9.401e+00, Fmax=1.301e+02 (atom 14050)
+Step 2158, Epot=-9.084666e+04, Fnorm=8.062e+00, Fmax=1.522e+02 (atom 17992)
+Step 2159, Epot=-9.084676e+04, Fnorm=9.857e+00, Fmax=1.253e+02 (atom 13702)
+Step 2160, Epot=-9.084695e+04, Fnorm=1.123e+01, Fmax=1.341e+02 (atom 4840)
+Step 2161, Epot=-9.084723e+04, Fnorm=1.019e+01, Fmax=1.347e+02 (atom 17992)
+Step 2162, Epot=-9.084757e+04, Fnorm=8.173e+00, Fmax=9.064e+01 (atom 2171)
+Step 2163, Epot=-9.084763e+04, Fnorm=9.374e+00, Fmax=1.375e+02 (atom 17992)
+Step 2164, Epot=-9.084777e+04, Fnorm=9.996e+00, Fmax=1.235e+02 (atom 17992)
+Step 2165, Epot=-9.084791e+04, Fnorm=8.754e+00, Fmax=9.220e+01 (atom 522)
+Step 2166, Epot=-9.084805e+04, Fnorm=8.280e+00, Fmax=1.301e+02 (atom 4685)
+Step 2167, Epot=-9.084816e+04, Fnorm=1.054e+01, Fmax=1.235e+02 (atom 10969)
+Step 2168, Epot=-9.084820e+04, Fnorm=1.110e+01, Fmax=1.250e+02 (atom 10969)
+Step 2169, Epot=-9.084837e+04, Fnorm=9.170e+00, Fmax=1.133e+02 (atom 10969)
+Step 2170, Epot=-9.084873e+04, Fnorm=8.193e+00, Fmax=1.200e+02 (atom 18457)
+Step 2171, Epot=-9.084879e+04, Fnorm=8.875e+00, Fmax=1.404e+02 (atom 17992)
+Step 2172, Epot=-9.084884e+04, Fnorm=1.040e+01, Fmax=1.666e+02 (atom 11577)
+Step 2173, Epot=-9.084902e+04, Fnorm=1.004e+01, Fmax=1.661e+02 (atom 11577)
+Step 2174, Epot=-9.084927e+04, Fnorm=8.373e+00, Fmax=1.227e+02 (atom 17992)
+Step 2175, Epot=-9.084965e+04, Fnorm=9.601e+00, Fmax=1.599e+02 (atom 17992)
+Step 2177, Epot=-9.084981e+04, Fnorm=7.571e+00, Fmax=1.337e+02 (atom 17992)
+Step 2178, Epot=-9.084980e+04, Fnorm=7.435e+00, Fmax=1.244e+02 (atom 17992)
+Step 2179, Epot=-9.084988e+04, Fnorm=8.765e+00, Fmax=1.331e+02 (atom 17992)
+Step 2180, Epot=-9.085005e+04, Fnorm=9.286e+00, Fmax=8.720e+01 (atom 10478)
+Step 2181, Epot=-9.085009e+04, Fnorm=8.829e+00, Fmax=1.333e+02 (atom 4685)
+Step 2182, Epot=-9.085021e+04, Fnorm=8.963e+00, Fmax=1.448e+02 (atom 15858)
+Step 2183, Epot=-9.085038e+04, Fnorm=9.066e+00, Fmax=1.071e+02 (atom 9026)
+Step 2184, Epot=-9.085061e+04, Fnorm=8.664e+00, Fmax=9.971e+01 (atom 17973)
+Step 2185, Epot=-9.085092e+04, Fnorm=9.724e+00, Fmax=1.490e+02 (atom 17992)
+Step 2186, Epot=-9.085123e+04, Fnorm=1.018e+01, Fmax=1.339e+02 (atom 4685)
+Step 2187, Epot=-9.085165e+04, Fnorm=9.308e+00, Fmax=1.662e+02 (atom 17992)
+Step 2188, Epot=-9.085214e+04, Fnorm=1.134e+01, Fmax=1.920e+02 (atom 4840)
+Step 2189, Epot=-9.085277e+04, Fnorm=1.244e+01, Fmax=1.766e+02 (atom 4840)
+Step 2190, Epot=-9.085393e+04, Fnorm=1.002e+01, Fmax=1.781e+02 (atom 17992)
+Step 2191, Epot=-9.085448e+04, Fnorm=1.380e+01, Fmax=2.522e+02 (atom 17992)
+Step 2192, Epot=-9.085504e+04, Fnorm=1.732e+01, Fmax=3.294e+02 (atom 17992)
+Step 2193, Epot=-9.085728e+04, Fnorm=1.251e+01, Fmax=1.310e+02 (atom 17995)
+Step 2194, Epot=-9.085850e+04, Fnorm=9.080e+00, Fmax=1.007e+02 (atom 9026)
+Step 2195, Epot=-9.085879e+04, Fnorm=9.457e+00, Fmax=1.784e+02 (atom 17992)
+Step 2196, Epot=-9.085893e+04, Fnorm=1.026e+01, Fmax=1.294e+02 (atom 17973)
+Step 2197, Epot=-9.085917e+04, Fnorm=1.012e+01, Fmax=1.247e+02 (atom 17992)
+Step 2198, Epot=-9.085967e+04, Fnorm=8.945e+00, Fmax=1.077e+02 (atom 17992)
+Step 2199, Epot=-9.086004e+04, Fnorm=8.891e+00, Fmax=1.721e+02 (atom 17992)
+Step 2200, Epot=-9.086023e+04, Fnorm=9.738e+00, Fmax=1.608e+02 (atom 17992)
+Step 2201, Epot=-9.086041e+04, Fnorm=8.921e+00, Fmax=1.005e+02 (atom 19181)
+Step 2202, Epot=-9.086064e+04, Fnorm=7.949e+00, Fmax=1.124e+02 (atom 17973)
+Step 2203, Epot=-9.086065e+04, Fnorm=1.015e+01, Fmax=1.428e+02 (atom 4685)
+Step 2204, Epot=-9.086073e+04, Fnorm=1.163e+01, Fmax=1.414e+02 (atom 4685)
+Step 2205, Epot=-9.086119e+04, Fnorm=1.020e+01, Fmax=1.491e+02 (atom 17992)
+Step 2206, Epot=-9.086155e+04, Fnorm=8.397e+00, Fmax=1.260e+02 (atom 4685)
+Step 2207, Epot=-9.086161e+04, Fnorm=9.410e+00, Fmax=1.375e+02 (atom 10478)
+Step 2208, Epot=-9.086150e+04, Fnorm=9.599e+00, Fmax=1.131e+02 (atom 17973)
+Step 2209, Epot=-9.086171e+04, Fnorm=8.125e+00, Fmax=1.040e+02 (atom 14334)
+Step 2210, Epot=-9.086198e+04, Fnorm=8.178e+00, Fmax=9.631e+01 (atom 2171)
+Step 2211, Epot=-9.086202e+04, Fnorm=8.804e+00, Fmax=1.169e+02 (atom 5869)
+Step 2212, Epot=-9.086206e+04, Fnorm=8.570e+00, Fmax=1.217e+02 (atom 17992)
+Step 2213, Epot=-9.086231e+04, Fnorm=8.141e+00, Fmax=1.235e+02 (atom 17992)
+Step 2214, Epot=-9.086234e+04, Fnorm=9.123e+00, Fmax=1.122e+02 (atom 17973)
+Step 2215, Epot=-9.086247e+04, Fnorm=9.951e+00, Fmax=1.361e+02 (atom 10478)
+Step 2216, Epot=-9.086267e+04, Fnorm=8.991e+00, Fmax=1.221e+02 (atom 17992)
+Step 2217, Epot=-9.086305e+04, Fnorm=9.543e+00, Fmax=1.488e+02 (atom 17992)
+Step 2218, Epot=-9.086329e+04, Fnorm=1.010e+01, Fmax=1.423e+02 (atom 4840)
+Step 2219, Epot=-9.086371e+04, Fnorm=9.475e+00, Fmax=1.269e+02 (atom 18457)
+Step 2220, Epot=-9.086438e+04, Fnorm=1.103e+01, Fmax=1.806e+02 (atom 17992)
+Step 2221, Epot=-9.086483e+04, Fnorm=1.211e+01, Fmax=1.534e+02 (atom 522)
+Step 2222, Epot=-9.086617e+04, Fnorm=1.020e+01, Fmax=1.463e+02 (atom 17992)
+Step 2223, Epot=-9.086662e+04, Fnorm=1.399e+01, Fmax=2.085e+02 (atom 17992)
+Step 2224, Epot=-9.086733e+04, Fnorm=1.753e+01, Fmax=2.243e+02 (atom 17992)
+Step 2225, Epot=-9.086931e+04, Fnorm=1.252e+01, Fmax=1.472e+02 (atom 831)
+Step 2226, Epot=-9.087059e+04, Fnorm=9.226e+00, Fmax=9.769e+01 (atom 2298)
+Step 2227, Epot=-9.087093e+04, Fnorm=9.855e+00, Fmax=1.688e+02 (atom 6492)
+Step 2228, Epot=-9.087104e+04, Fnorm=1.023e+01, Fmax=1.098e+02 (atom 13143)
+Step 2229, Epot=-9.087145e+04, Fnorm=9.470e+00, Fmax=1.305e+02 (atom 17992)
+Step 2230, Epot=-9.087187e+04, Fnorm=1.086e+01, Fmax=1.903e+02 (atom 17992)
+Step 2231, Epot=-9.087194e+04, Fnorm=1.261e+01, Fmax=1.903e+02 (atom 17992)
+Step 2232, Epot=-9.087245e+04, Fnorm=1.099e+01, Fmax=1.268e+02 (atom 13143)
+Step 2233, Epot=-9.087303e+04, Fnorm=8.606e+00, Fmax=1.013e+02 (atom 10969)
+Step 2234, Epot=-9.087324e+04, Fnorm=9.375e+00, Fmax=1.392e+02 (atom 19181)
+Step 2235, Epot=-9.087332e+04, Fnorm=1.018e+01, Fmax=1.108e+02 (atom 248)
+Step 2236, Epot=-9.087371e+04, Fnorm=9.406e+00, Fmax=1.316e+02 (atom 9198)
+Step 2237, Epot=-9.087395e+04, Fnorm=8.950e+00, Fmax=1.231e+02 (atom 10670)
+Step 2238, Epot=-9.087420e+04, Fnorm=9.472e+00, Fmax=1.131e+02 (atom 11577)
+Step 2239, Epot=-9.087461e+04, Fnorm=9.433e+00, Fmax=1.056e+02 (atom 13220)
+Step 2240, Epot=-9.087484e+04, Fnorm=9.570e+00, Fmax=1.644e+02 (atom 14050)
+Step 2241, Epot=-9.087512e+04, Fnorm=9.614e+00, Fmax=1.136e+02 (atom 15586)
+Step 2242, Epot=-9.087558e+04, Fnorm=9.526e+00, Fmax=1.115e+02 (atom 19181)
+Step 2243, Epot=-9.087608e+04, Fnorm=9.673e+00, Fmax=1.394e+02 (atom 10478)
+Step 2244, Epot=-9.087624e+04, Fnorm=9.725e+00, Fmax=1.311e+02 (atom 17992)
+Step 2245, Epot=-9.087655e+04, Fnorm=9.284e+00, Fmax=9.750e+01 (atom 11975)
+Step 2246, Epot=-9.087691e+04, Fnorm=1.157e+01, Fmax=1.378e+02 (atom 16008)
+Step 2247, Epot=-9.087747e+04, Fnorm=1.253e+01, Fmax=1.728e+02 (atom 15586)
+Step 2248, Epot=-9.087876e+04, Fnorm=1.013e+01, Fmax=1.691e+02 (atom 17992)
+Step 2249, Epot=-9.087929e+04, Fnorm=1.405e+01, Fmax=1.831e+02 (atom 4840)
+Step 2250, Epot=-9.087973e+04, Fnorm=1.727e+01, Fmax=2.171e+02 (atom 17992)
+Step 2251, Epot=-9.088174e+04, Fnorm=1.236e+01, Fmax=1.328e+02 (atom 14050)
+Step 2252, Epot=-9.088270e+04, Fnorm=9.373e+00, Fmax=1.411e+02 (atom 17992)
+Step 2253, Epot=-9.088320e+04, Fnorm=9.828e+00, Fmax=1.543e+02 (atom 13702)
+Step 2254, Epot=-9.088343e+04, Fnorm=1.038e+01, Fmax=1.325e+02 (atom 13220)
+Step 2255, Epot=-9.088391e+04, Fnorm=9.636e+00, Fmax=1.104e+02 (atom 14334)
+Step 2256, Epot=-9.088416e+04, Fnorm=1.069e+01, Fmax=1.355e+02 (atom 4840)
+Step 2257, Epot=-9.088418e+04, Fnorm=1.227e+01, Fmax=1.580e+02 (atom 10670)
+Step 2258, Epot=-9.088470e+04, Fnorm=1.021e+01, Fmax=1.139e+02 (atom 9026)
+Step 2259, Epot=-9.088534e+04, Fnorm=8.791e+00, Fmax=1.074e+02 (atom 19181)
+Step 2260, Epot=-9.088558e+04, Fnorm=9.512e+00, Fmax=9.970e+01 (atom 18254)
+Step 2261, Epot=-9.088568e+04, Fnorm=1.095e+01, Fmax=1.581e+02 (atom 14050)
+Step 2262, Epot=-9.088598e+04, Fnorm=1.036e+01, Fmax=1.483e+02 (atom 15858)
+Step 2263, Epot=-9.088638e+04, Fnorm=8.702e+00, Fmax=1.165e+02 (atom 17992)
+Step 2264, Epot=-9.088655e+04, Fnorm=1.150e+01, Fmax=1.694e+02 (atom 5869)
+Step 2265, Epot=-9.088646e+04, Fnorm=1.196e+01, Fmax=1.181e+02 (atom 19181)
+Step 2266, Epot=-9.088706e+04, Fnorm=9.155e+00, Fmax=1.066e+02 (atom 6834)
+Step 2267, Epot=-9.088739e+04, Fnorm=8.509e+00, Fmax=1.206e+02 (atom 17992)
+Step 2268, Epot=-9.088752e+04, Fnorm=9.146e+00, Fmax=1.146e+02 (atom 17973)
+Step 2269, Epot=-9.088772e+04, Fnorm=8.964e+00, Fmax=1.302e+02 (atom 17992)
+Step 2270, Epot=-9.088795e+04, Fnorm=8.618e+00, Fmax=1.257e+02 (atom 1455)
+Step 2271, Epot=-9.088812e+04, Fnorm=8.425e+00, Fmax=1.170e+02 (atom 17992)
+Step 2272, Epot=-9.088826e+04, Fnorm=8.727e+00, Fmax=1.459e+02 (atom 17992)
+Step 2273, Epot=-9.088835e+04, Fnorm=9.127e+00, Fmax=1.128e+02 (atom 10670)
+Step 2274, Epot=-9.088854e+04, Fnorm=8.919e+00, Fmax=1.196e+02 (atom 5869)
+Step 2275, Epot=-9.088872e+04, Fnorm=9.088e+00, Fmax=1.582e+02 (atom 14050)
+Step 2276, Epot=-9.088897e+04, Fnorm=8.758e+00, Fmax=1.086e+02 (atom 17973)
+Step 2277, Epot=-9.088922e+04, Fnorm=1.029e+01, Fmax=1.466e+02 (atom 19181)
+Step 2278, Epot=-9.088942e+04, Fnorm=1.046e+01, Fmax=1.240e+02 (atom 19181)
+Step 2279, Epot=-9.089020e+04, Fnorm=8.845e+00, Fmax=1.061e+02 (atom 10969)
+Step 2280, Epot=-9.089050e+04, Fnorm=1.116e+01, Fmax=1.835e+02 (atom 13702)
+Step 2281, Epot=-9.089081e+04, Fnorm=1.288e+01, Fmax=1.982e+02 (atom 14050)
+Step 2282, Epot=-9.089219e+04, Fnorm=1.055e+01, Fmax=1.204e+02 (atom 13702)
+Step 2283, Epot=-9.089270e+04, Fnorm=1.341e+01, Fmax=1.629e+02 (atom 17992)
+Step 2284, Epot=-9.089324e+04, Fnorm=1.639e+01, Fmax=1.963e+02 (atom 248)
+Step 2285, Epot=-9.089509e+04, Fnorm=1.184e+01, Fmax=1.337e+02 (atom 5869)
+Step 2286, Epot=-9.089614e+04, Fnorm=9.277e+00, Fmax=1.731e+02 (atom 2171)
+Step 2287, Epot=-9.089634e+04, Fnorm=8.799e+00, Fmax=1.248e+02 (atom 17992)
+Step 2288, Epot=-9.089666e+04, Fnorm=8.256e+00, Fmax=8.455e+01 (atom 9026)
+Step 2289, Epot=-9.089707e+04, Fnorm=8.751e+00, Fmax=1.055e+02 (atom 10969)
+Step 2290, Epot=-9.089711e+04, Fnorm=9.527e+00, Fmax=9.028e+01 (atom 18036)
+Step 2291, Epot=-9.089749e+04, Fnorm=1.002e+01, Fmax=1.085e+02 (atom 4840)
+Step 2292, Epot=-9.089769e+04, Fnorm=1.014e+01, Fmax=1.237e+02 (atom 17992)
+Step 2293, Epot=-9.089821e+04, Fnorm=9.506e+00, Fmax=1.503e+02 (atom 17992)
+Step 2294, Epot=-9.089848e+04, Fnorm=9.503e+00, Fmax=1.434e+02 (atom 13220)
+Step 2295, Epot=-9.089873e+04, Fnorm=1.003e+01, Fmax=1.304e+02 (atom 17992)
+Step 2296, Epot=-9.089916e+04, Fnorm=9.750e+00, Fmax=1.387e+02 (atom 18457)
+Step 2297, Epot=-9.089949e+04, Fnorm=9.408e+00, Fmax=9.913e+01 (atom 18036)
+Step 2298, Epot=-9.089983e+04, Fnorm=1.206e+01, Fmax=1.737e+02 (atom 19181)
+Step 2299, Epot=-9.090020e+04, Fnorm=1.294e+01, Fmax=1.967e+02 (atom 19181)
+Step 2300, Epot=-9.090148e+04, Fnorm=9.931e+00, Fmax=1.511e+02 (atom 17992)
+Step 2301, Epot=-9.090175e+04, Fnorm=1.386e+01, Fmax=1.693e+02 (atom 6492)
+Step 2302, Epot=-9.090191e+04, Fnorm=1.769e+01, Fmax=2.706e+02 (atom 17992)
+Step 2303, Epot=-9.090392e+04, Fnorm=1.285e+01, Fmax=1.258e+02 (atom 6492)
+Step 2304, Epot=-9.090509e+04, Fnorm=9.302e+00, Fmax=1.163e+02 (atom 11577)
+Step 2305, Epot=-9.090550e+04, Fnorm=9.673e+00, Fmax=1.366e+02 (atom 13702)
+Step 2306, Epot=-9.090567e+04, Fnorm=1.024e+01, Fmax=1.443e+02 (atom 13220)
+Step 2307, Epot=-9.090602e+04, Fnorm=9.717e+00, Fmax=1.009e+02 (atom 8138)
+Step 2308, Epot=-9.090636e+04, Fnorm=1.084e+01, Fmax=1.151e+02 (atom 15559)
+Step 2309, Epot=-9.090655e+04, Fnorm=1.215e+01, Fmax=1.923e+02 (atom 17992)
+Step 2310, Epot=-9.090716e+04, Fnorm=1.027e+01, Fmax=1.110e+02 (atom 17995)
+Step 2311, Epot=-9.090752e+04, Fnorm=8.897e+00, Fmax=1.203e+02 (atom 17992)
+Step 2312, Epot=-9.090788e+04, Fnorm=9.783e+00, Fmax=1.258e+02 (atom 4840)
+Step 2313, Epot=-9.090790e+04, Fnorm=1.124e+01, Fmax=1.702e+02 (atom 17992)
+Step 2314, Epot=-9.090820e+04, Fnorm=1.063e+01, Fmax=1.599e+02 (atom 17992)
+Step 2315, Epot=-9.090883e+04, Fnorm=8.701e+00, Fmax=9.388e+01 (atom 248)
+Step 2316, Epot=-9.090892e+04, Fnorm=9.640e+00, Fmax=1.606e+02 (atom 17992)
+Step 2317, Epot=-9.090924e+04, Fnorm=1.052e+01, Fmax=1.147e+02 (atom 17934)
+Step 2318, Epot=-9.090955e+04, Fnorm=9.776e+00, Fmax=1.152e+02 (atom 17973)
+Step 2319, Epot=-9.090984e+04, Fnorm=9.006e+00, Fmax=1.201e+02 (atom 1455)
+Step 2320, Epot=-9.091012e+04, Fnorm=9.219e+00, Fmax=1.316e+02 (atom 13220)
+Step 2321, Epot=-9.091052e+04, Fnorm=9.722e+00, Fmax=1.225e+02 (atom 2171)
+Step 2322, Epot=-9.091068e+04, Fnorm=9.974e+00, Fmax=1.247e+02 (atom 13702)
+Step 2323, Epot=-9.091099e+04, Fnorm=9.480e+00, Fmax=1.622e+02 (atom 14050)
+Step 2324, Epot=-9.091127e+04, Fnorm=9.274e+00, Fmax=1.130e+02 (atom 17992)
+Step 2325, Epot=-9.091170e+04, Fnorm=9.309e+00, Fmax=1.768e+02 (atom 17992)
+Step 2326, Epot=-9.091193e+04, Fnorm=9.955e+00, Fmax=1.691e+02 (atom 17992)
+Step 2327, Epot=-9.091234e+04, Fnorm=9.493e+00, Fmax=1.140e+02 (atom 6491)
+Step 2328, Epot=-9.091253e+04, Fnorm=1.163e+01, Fmax=2.037e+02 (atom 17992)
+Step 2329, Epot=-9.091326e+04, Fnorm=1.210e+01, Fmax=1.647e+02 (atom 17992)
+Step 2330, Epot=-9.091441e+04, Fnorm=1.009e+01, Fmax=1.426e+02 (atom 14050)
+Step 2331, Epot=-9.091461e+04, Fnorm=1.450e+01, Fmax=2.816e+02 (atom 17992)
+Step 2332, Epot=-9.091505e+04, Fnorm=1.811e+01, Fmax=2.375e+02 (atom 6491)
+Step 2333, Epot=-9.091716e+04, Fnorm=1.283e+01, Fmax=1.549e+02 (atom 10670)
+Step 2334, Epot=-9.091838e+04, Fnorm=9.277e+00, Fmax=1.130e+02 (atom 4132)
+Step 2335, Epot=-9.091840e+04, Fnorm=1.277e+01, Fmax=2.002e+02 (atom 17992)
+Step 2336, Epot=-9.091832e+04, Fnorm=1.288e+01, Fmax=1.965e+02 (atom 17992)
+Step 2337, Epot=-9.091931e+04, Fnorm=8.332e+00, Fmax=9.748e+01 (atom 10670)
+Step 2338, Epot=-9.091945e+04, Fnorm=9.363e+00, Fmax=1.255e+02 (atom 18457)
+Step 2339, Epot=-9.091953e+04, Fnorm=1.026e+01, Fmax=1.347e+02 (atom 10670)
+Step 2340, Epot=-9.092001e+04, Fnorm=8.696e+00, Fmax=1.216e+02 (atom 17995)
+Step 2341, Epot=-9.092011e+04, Fnorm=8.773e+00, Fmax=1.109e+02 (atom 19457)
+Step 2342, Epot=-9.092027e+04, Fnorm=9.689e+00, Fmax=1.221e+02 (atom 8138)
+Step 2343, Epot=-9.092049e+04, Fnorm=9.212e+00, Fmax=1.580e+02 (atom 8138)
+Step 2344, Epot=-9.092066e+04, Fnorm=7.976e+00, Fmax=8.823e+01 (atom 15017)
+Step 2345, Epot=-9.092070e+04, Fnorm=9.741e+00, Fmax=1.371e+02 (atom 13702)
+Step 2346, Epot=-9.092076e+04, Fnorm=1.049e+01, Fmax=1.303e+02 (atom 8138)
+Step 2347, Epot=-9.092095e+04, Fnorm=9.166e+00, Fmax=1.380e+02 (atom 17995)
+Step 2348, Epot=-9.092120e+04, Fnorm=8.077e+00, Fmax=1.072e+02 (atom 15559)
+Step 2349, Epot=-9.092129e+04, Fnorm=8.821e+00, Fmax=1.299e+02 (atom 13220)
+Step 2350, Epot=-9.092130e+04, Fnorm=1.017e+01, Fmax=1.513e+02 (atom 17992)
+Step 2351, Epot=-9.092152e+04, Fnorm=9.606e+00, Fmax=1.636e+02 (atom 8138)
+Step 2352, Epot=-9.092181e+04, Fnorm=8.233e+00, Fmax=9.852e+01 (atom 10670)
+Step 2353, Epot=-9.092196e+04, Fnorm=9.972e+00, Fmax=1.325e+02 (atom 13220)
+Step 2354, Epot=-9.092201e+04, Fnorm=1.060e+01, Fmax=1.433e+02 (atom 17995)
+Step 2355, Epot=-9.092227e+04, Fnorm=9.058e+00, Fmax=1.161e+02 (atom 8138)
+Step 2356, Epot=-9.092255e+04, Fnorm=8.362e+00, Fmax=1.136e+02 (atom 13702)
+Step 2357, Epot=-9.092264e+04, Fnorm=8.758e+00, Fmax=8.648e+01 (atom 14956)
+Step 2358, Epot=-9.092266e+04, Fnorm=1.031e+01, Fmax=1.931e+02 (atom 8138)
+Step 2359, Epot=-9.092288e+04, Fnorm=9.800e+00, Fmax=1.726e+02 (atom 8138)
+Step 2360, Epot=-9.092320e+04, Fnorm=8.436e+00, Fmax=1.059e+02 (atom 10969)
+Step 2361, Epot=-9.092322e+04, Fnorm=9.641e+00, Fmax=1.088e+02 (atom 8479)
+Step 2362, Epot=-9.092341e+04, Fnorm=1.137e+01, Fmax=1.529e+02 (atom 8138)
+Step 2363, Epot=-9.092364e+04, Fnorm=1.028e+01, Fmax=1.531e+02 (atom 8138)
+Step 2364, Epot=-9.092388e+04, Fnorm=8.171e+00, Fmax=1.062e+02 (atom 8138)
+Step 2365, Epot=-9.092416e+04, Fnorm=9.281e+00, Fmax=1.599e+02 (atom 17992)
+Step 2366, Epot=-9.092430e+04, Fnorm=1.004e+01, Fmax=1.251e+02 (atom 8138)
+Step 2367, Epot=-9.092441e+04, Fnorm=8.963e+00, Fmax=1.283e+02 (atom 13220)
+Step 2368, Epot=-9.092465e+04, Fnorm=8.406e+00, Fmax=1.227e+02 (atom 14050)
+Step 2369, Epot=-9.092470e+04, Fnorm=1.065e+01, Fmax=1.363e+02 (atom 13716)
+Step 2370, Epot=-9.092475e+04, Fnorm=1.113e+01, Fmax=1.267e+02 (atom 248)
+Step 2371, Epot=-9.092512e+04, Fnorm=9.527e+00, Fmax=1.402e+02 (atom 4685)
+Step 2372, Epot=-9.092541e+04, Fnorm=8.288e+00, Fmax=1.031e+02 (atom 13702)
+Step 2373, Epot=-9.092548e+04, Fnorm=8.463e+00, Fmax=1.085e+02 (atom 14776)
+Step 2374, Epot=-9.092544e+04, Fnorm=8.485e+00, Fmax=1.097e+02 (atom 17973)
+Step 2375, Epot=-9.092562e+04, Fnorm=8.504e+00, Fmax=1.250e+02 (atom 8138)
+Step 2376, Epot=-9.092594e+04, Fnorm=9.464e+00, Fmax=1.654e+02 (atom 17992)
+Step 2377, Epot=-9.092598e+04, Fnorm=9.654e+00, Fmax=1.605e+02 (atom 17992)
+Step 2378, Epot=-9.092623e+04, Fnorm=9.170e+00, Fmax=1.144e+02 (atom 17992)
+Step 2379, Epot=-9.092653e+04, Fnorm=9.768e+00, Fmax=1.584e+02 (atom 14050)
+Step 2380, Epot=-9.092677e+04, Fnorm=9.869e+00, Fmax=1.098e+02 (atom 14050)
+Step 2381, Epot=-9.092721e+04, Fnorm=8.989e+00, Fmax=1.038e+02 (atom 10670)
+Step 2382, Epot=-9.092767e+04, Fnorm=1.150e+01, Fmax=1.255e+02 (atom 4132)
+Step 2383, Epot=-9.092803e+04, Fnorm=1.318e+01, Fmax=1.458e+02 (atom 10478)
+Step 2384, Epot=-9.092943e+04, Fnorm=1.053e+01, Fmax=1.312e+02 (atom 17992)
+Step 2385, Epot=-9.093010e+04, Fnorm=1.309e+01, Fmax=1.589e+02 (atom 19181)
+Step 2386, Epot=-9.093063e+04, Fnorm=1.630e+01, Fmax=2.023e+02 (atom 13716)
+Step 2387, Epot=-9.093257e+04, Fnorm=1.163e+01, Fmax=1.059e+02 (atom 8138)
+Step 2388, Epot=-9.093368e+04, Fnorm=8.964e+00, Fmax=1.182e+02 (atom 10670)
+Step 2389, Epot=-9.093398e+04, Fnorm=8.836e+00, Fmax=1.007e+02 (atom 15017)
+Step 2390, Epot=-9.093425e+04, Fnorm=8.452e+00, Fmax=9.519e+01 (atom 10686)
+Step 2391, Epot=-9.093453e+04, Fnorm=8.972e+00, Fmax=1.248e+02 (atom 4685)
+Step 2392, Epot=-9.093470e+04, Fnorm=9.875e+00, Fmax=1.297e+02 (atom 17995)
+Step 2393, Epot=-9.093485e+04, Fnorm=8.924e+00, Fmax=1.061e+02 (atom 522)
+Step 2394, Epot=-9.093511e+04, Fnorm=7.998e+00, Fmax=8.994e+01 (atom 8123)
+Step 2395, Epot=-9.093526e+04, Fnorm=1.012e+01, Fmax=1.212e+02 (atom 10969)
+Step 2396, Epot=-9.093530e+04, Fnorm=1.078e+01, Fmax=1.278e+02 (atom 14050)
+Step 2397, Epot=-9.093561e+04, Fnorm=9.067e+00, Fmax=1.061e+02 (atom 10670)
+Step 2398, Epot=-9.093583e+04, Fnorm=8.008e+00, Fmax=1.036e+02 (atom 17973)
+Step 2399, Epot=-9.093584e+04, Fnorm=9.781e+00, Fmax=1.266e+02 (atom 4685)
+Step 2400, Epot=-9.093588e+04, Fnorm=1.180e+01, Fmax=2.007e+02 (atom 13702)
+Step 2401, Epot=-9.093605e+04, Fnorm=1.097e+01, Fmax=1.874e+02 (atom 13702)
+Step 2402, Epot=-9.093655e+04, Fnorm=8.593e+00, Fmax=1.049e+02 (atom 15017)
+Step 2403, Epot=-9.093678e+04, Fnorm=8.957e+00, Fmax=1.466e+02 (atom 17992)
+Step 2404, Epot=-9.093684e+04, Fnorm=1.042e+01, Fmax=1.206e+02 (atom 10670)
+Step 2405, Epot=-9.093698e+04, Fnorm=1.001e+01, Fmax=1.612e+02 (atom 14050)
+Step 2406, Epot=-9.093734e+04, Fnorm=8.554e+00, Fmax=9.978e+01 (atom 4840)
+Step 2407, Epot=-9.093736e+04, Fnorm=9.647e+00, Fmax=1.704e+02 (atom 17992)
+Step 2408, Epot=-9.093737e+04, Fnorm=1.119e+01, Fmax=1.405e+02 (atom 13702)
+Step 2409, Epot=-9.093756e+04, Fnorm=1.036e+01, Fmax=1.280e+02 (atom 13702)
+Step 2410, Epot=-9.093791e+04, Fnorm=8.450e+00, Fmax=8.896e+01 (atom 16503)
+Step 2411, Epot=-9.093814e+04, Fnorm=9.365e+00, Fmax=1.095e+02 (atom 14776)
+Step 2413, Epot=-9.093831e+04, Fnorm=7.516e+00, Fmax=8.177e+01 (atom 482)
+Step 2414, Epot=-9.093842e+04, Fnorm=8.084e+00, Fmax=1.138e+02 (atom 10969)
+Step 2415, Epot=-9.093846e+04, Fnorm=8.582e+00, Fmax=9.504e+01 (atom 7534)
+Step 2416, Epot=-9.093869e+04, Fnorm=8.332e+00, Fmax=1.232e+02 (atom 4685)
+Step 2417, Epot=-9.093877e+04, Fnorm=8.139e+00, Fmax=1.026e+02 (atom 7352)
+Step 2418, Epot=-9.093881e+04, Fnorm=8.181e+00, Fmax=9.543e+01 (atom 206)
+Step 2419, Epot=-9.093889e+04, Fnorm=8.407e+00, Fmax=9.975e+01 (atom 1607)
+Step 2420, Epot=-9.093893e+04, Fnorm=9.779e+00, Fmax=1.458e+02 (atom 15858)
+Step 2421, Epot=-9.093915e+04, Fnorm=9.800e+00, Fmax=1.202e+02 (atom 8138)
+Step 2422, Epot=-9.093943e+04, Fnorm=8.798e+00, Fmax=1.025e+02 (atom 17995)
+Step 2423, Epot=-9.093968e+04, Fnorm=9.754e+00, Fmax=1.308e+02 (atom 17992)
+Step 2424, Epot=-9.093998e+04, Fnorm=1.003e+01, Fmax=1.294e+02 (atom 4840)
+Step 2425, Epot=-9.094061e+04, Fnorm=9.241e+00, Fmax=1.265e+02 (atom 13220)
+Step 2426, Epot=-9.094112e+04, Fnorm=1.112e+01, Fmax=1.376e+02 (atom 17995)
+Step 2427, Epot=-9.094139e+04, Fnorm=1.249e+01, Fmax=1.614e+02 (atom 14050)
+Step 2428, Epot=-9.094283e+04, Fnorm=1.025e+01, Fmax=1.221e+02 (atom 10969)
+Step 2429, Epot=-9.094355e+04, Fnorm=1.349e+01, Fmax=1.828e+02 (atom 4840)
+Step 2430, Epot=-9.094362e+04, Fnorm=1.747e+01, Fmax=1.920e+02 (atom 13220)
+Step 2431, Epot=-9.094568e+04, Fnorm=1.311e+01, Fmax=1.642e+02 (atom 13220)
+Step 2432, Epot=-9.094682e+04, Fnorm=9.230e+00, Fmax=1.331e+02 (atom 4685)
+Step 2433, Epot=-9.094688e+04, Fnorm=1.298e+01, Fmax=1.471e+02 (atom 4685)
+Step 2434, Epot=-9.094766e+04, Fnorm=8.890e+00, Fmax=1.081e+02 (atom 12337)
+Step 2435, Epot=-9.094791e+04, Fnorm=9.723e+00, Fmax=1.856e+02 (atom 17992)
+Step 2436, Epot=-9.094812e+04, Fnorm=9.081e+00, Fmax=1.168e+02 (atom 17973)
+Step 2437, Epot=-9.094855e+04, Fnorm=8.390e+00, Fmax=1.004e+02 (atom 15017)
+Step 2438, Epot=-9.094857e+04, Fnorm=8.969e+00, Fmax=1.344e+02 (atom 13220)
+Step 2439, Epot=-9.094877e+04, Fnorm=8.722e+00, Fmax=1.100e+02 (atom 12238)
+Step 2440, Epot=-9.094910e+04, Fnorm=8.036e+00, Fmax=1.111e+02 (atom 15586)
+Step 2441, Epot=-9.094921e+04, Fnorm=1.016e+01, Fmax=1.473e+02 (atom 15858)
+Step 2442, Epot=-9.094929e+04, Fnorm=1.146e+01, Fmax=1.461e+02 (atom 4840)
+Step 2443, Epot=-9.094965e+04, Fnorm=9.874e+00, Fmax=1.301e+02 (atom 17973)
+Step 2444, Epot=-9.094995e+04, Fnorm=8.435e+00, Fmax=9.169e+01 (atom 8123)
+Step 2445, Epot=-9.095002e+04, Fnorm=9.891e+00, Fmax=1.396e+02 (atom 13220)
+Step 2447, Epot=-9.095029e+04, Fnorm=8.047e+00, Fmax=1.319e+02 (atom 13220)
+Step 2448, Epot=-9.095036e+04, Fnorm=8.299e+00, Fmax=1.267e+02 (atom 4685)
+
+Energy minimization has stopped, but the forces have not converged to the
+requested precision Fmax < 10 (which may not be possible for your system). It
+stopped because the algorithm tried to make a new step whose size was too
+small, or there was no change in the energy since last step. Either way, we
+regard the minimization as converged to within the available machine
+precision, given your starting configuration and EM parameters.
+
+Double precision normally gives you higher accuracy, but this is often not
+needed for preparing to run molecular dynamics.
+
+writing lowest energy coordinates.
+
+Back Off! I just backed up mini_npc1.gro to ./#mini_npc1.gro.1#
+
+Polak-Ribiere Conjugate Gradients converged to machine precision in 2449 steps,
+but did not reach the requested Fmax < 10.
+Potential Energy  = -9.0950359e+04
+Maximum force     =  1.2673438e+02 on atom 4685
+Norm of force     =  8.2987520e+00
+
+GROMACS reminds you: "I've basically become a vegetarian since the only meat I'm eating is from animals I've killed myself" (Mark Zuckerberg)
+

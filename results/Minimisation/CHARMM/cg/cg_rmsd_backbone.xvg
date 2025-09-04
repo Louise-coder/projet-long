@@ -1,0 +1,44 @@
+# This file was created Wed May 28 13:15:43 2025
+# Created by:
+#                 :-) GROMACS - gmx rms, 2024.5-conda_forge (-:
+# 
+# Executable:   /cloud-home/U1012148/.magellan/conda/envs/projet-long/bin.AVX2_256/gmx
+# Data prefix:  /cloud-home/U1012148/.magellan/conda/envs/projet-long
+# Working dir:  /common/workdir/projet-long/cg
+# Command line:
+#   gmx rms -s mini_npc1.tpr -f mini_npc1.trr -o cg_rmsd.xvg
+# gmx rms is part of G R O M A C S:
+#
+# GROtesk MACabre and Sinister
+#
+@    title "RMSD"
+@    xaxis  label "Time (ps)"
+@    yaxis  label "RMSD (nm)"
+@TYPE xy
+@ subtitle "Backbone after lsq fit to Backbone"
+   0.0000000    0.0000002
+ 100.0000000    0.0025189
+ 200.0000000    0.0044260
+ 300.0000000    0.0055103
+ 400.0000000    0.0064855
+ 500.0000000    0.0072770
+ 600.0000000    0.0084672
+ 700.0000000    0.0096844
+ 800.0000000    0.0107345
+ 900.0000000    0.0125523
+1000.0000000    0.0133330
+1100.0000000    0.0147335
+1200.0000000    0.0156431
+1300.0000000    0.0164580
+1400.0000000    0.0170083
+1500.0000000    0.0172515
+1600.0000000    0.0176338
+1700.0000000    0.0180412
+1800.0000000    0.0185392
+1900.0000000    0.0190080
+2000.0000000    0.0193673
+2100.0000000    0.0195205
+2200.0000000    0.0197309
+2300.0000000    0.0200288
+2400.0000000    0.0202834
+2449.0000000    0.0203858

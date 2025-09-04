@@ -1,0 +1,25 @@
+                :-) GROMACS - gmx mdrun, 2024.5-conda_forge (-:
+
+Executable:   /cloud-home/U1012148/.magellan/conda/envs/projet-long/bin.AVX2_256/gmx
+Data prefix:  /cloud-home/U1012148/.magellan/conda/envs/projet-long
+Working dir:  /common/workdir/steep2
+Command line:
+  gmx mdrun -v -deffnm mini_npc1
+
+
+-------------------------------------------------------
+Program:     gmx mdrun, version 2024.5-conda_forge
+Source file: src/gromacs/options/options.cpp (line 177)
+Function:    void gmx::internal::OptionSectionImpl::finish()
+
+Error in user input:
+Invalid input values
+  In option s
+    Required option was not provided, and the default file 'topol' does not
+    exist or is not accessible.
+    The following extensions were tried to complete the file name:
+      .tpr
+
+For more information and tips for troubleshooting, please check the GROMACS
+website at https://manual.gromacs.org/current/user-guide/run-time-errors.html
+-------------------------------------------------------

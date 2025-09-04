@@ -1,0 +1,20 @@
+title = npc1 
+integrator = cg 
+nsteps = 5000
+nstxout = 100 
+ns_type = grid 
+; 
+; non bonded stuff 
+; 
+cutoff_scheme = Verlet 
+nstlist = 10
+
+coulombtype = cut-off 
+rlist = 1.0 
+rcoulomb = 1.0 
+rvdw = 1.0
+; 
+; Energy minimizing stuff 
+; 
+emstep = 0.01
+

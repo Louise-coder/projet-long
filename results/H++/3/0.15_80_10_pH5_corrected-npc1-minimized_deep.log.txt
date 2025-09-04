@@ -1,0 +1,643 @@
+-I: Adding /home/shared_utilities/amber20/dat/leap/prep to search path.
+-I: Adding /home/shared_utilities/amber20/dat/leap/lib to search path.
+-I: Adding /home/shared_utilities/amber20/dat/leap/parm to search path.
+-I: Adding /home/shared_utilities/amber20/dat/leap/cmd to search path.
+-f: Source leapCys.script.
+
+Welcome to LEaP!
+(no leaprc in search path)
+Sourcing: ./leapCys.script
+----- Source: /home/shared_utilities/amber20/dat/leap/cmd/leaprc.lipid17
+----- Source of /home/shared_utilities/amber20/dat/leap/cmd/leaprc.lipid17 done
+Log file: ./leap.log
+Loading parameters: /home/shared_utilities/amber20/dat/leap/parm/lipid17.dat
+Reading title:
+AMBER Lipid17 v1.1 Force Field, A. Skjevik, C. Dickson, B. Madej, I.R. Gould, R.C. Walker*
+Loading library: /home/shared_utilities/amber20/dat/leap/lib/lipid17.lib
+----- Source: /home/shared_utilities/amber20/dat/leap/cmd/leaprc.DNA.bsc1
+----- Source of /home/shared_utilities/amber20/dat/leap/cmd/leaprc.DNA.bsc1 done
+Log file: ./leap.log
+Loading parameters: /home/shared_utilities/amber20/dat/leap/parm/parm10.dat
+Reading title:
+PARM99 + frcmod.ff99SB + frcmod.parmbsc0 + OL3 for RNA
+Loading library: /home/shared_utilities/amber20/dat/leap/lib/parmBSC1.lib
+Loading parameters: /home/shared_utilities/amber20/dat/leap/parm/frcmod.parmbsc1
+Reading force field modification type file (frcmod)
+Reading title:
+Parmbsc1 force-field for DNA
+----- Source: /home/shared_utilities/amber20/dat/leap/cmd/leaprc.protein.ff19SB
+----- Source of /home/shared_utilities/amber20/dat/leap/cmd/leaprc.protein.ff19SB done
+Log file: ./leap.log
+Loading parameters: /home/shared_utilities/amber20/dat/leap/parm/parm19.dat
+Reading title:
+PARM99 + frcmod.ff99SB + frcmod.parmbsc0 + OL3 for RNA + ff19SB
+Loading parameters: /home/shared_utilities/amber20/dat/leap/parm/frcmod.ff19SB
+Reading force field modification type file (frcmod)
+Reading title:
+ff19SB AA-specific backbone CMAPs for protein 07/25/2019
+Loading library: /home/shared_utilities/amber20/dat/leap/lib/amino19.lib
+Loading library: /home/shared_utilities/amber20/dat/leap/lib/aminoct12.lib
+Loading library: /home/shared_utilities/amber20/dat/leap/lib/aminont12.lib
+----- Source: /home/shared_utilities/amber20/dat/leap/cmd/leaprc.phosaa19SB
+----- Source of /home/shared_utilities/amber20/dat/leap/cmd/leaprc.phosaa19SB done
+Log file: ./leap.log
+Loading parameters: /home/shared_utilities/amber20/dat/leap/parm/frcmod.phosaa19SB
+Reading force field modification type file (frcmod)
+Reading title:
+Updated dihedral parameters for phosphorylated amino acids for use with ff14SB
+Loading library: /home/shared_utilities/amber20/dat/leap/lib/phosaa19SB.lib
+----- Source: /home/shared_utilities/amber20/dat/leap/cmd/leaprc.protein.ff19SB_modAA
+----- Source of /home/shared_utilities/amber20/dat/leap/cmd/leaprc.protein.ff19SB_modAA done
+Log file: ./leap.log
+
+/home/shared_utilities/amber20/bin/teLeap: Warning!
+atom type NF - unknown hybridization sp
+
+/home/shared_utilities/amber20/bin/teLeap: Warning!
+atom type CY - unknown hybridization sp
+
+/home/shared_utilities/amber20/bin/teLeap: Warning!
+atom type NY - unknown hybridization sp
+Loading parameters: /home/shared_utilities/amber20/dat/leap/parm/parm19.dat
+Reading title:
+PARM99 + frcmod.ff99SB + frcmod.parmbsc0 + OL3 for RNA + ff19SB
+Loading parameters: /home/shared_utilities/amber20/dat/leap/parm/frcmod.ff19SB
+Reading force field modification type file (frcmod)
+Reading title:
+ff19SB AA-specific backbone CMAPs for protein 07/25/2019
+Loading parameters: /home/shared_utilities/amber20/dat/leap/parm/frcmod.ff19SBmodAA
+Reading force field modification type file (frcmod)
+Reading title:
+Parameters for Modified Amino acids (Belfon & Simmerling) to be used with leaprc.protein.ff19SB
+Loading library: /home/shared_utilities/amber20/dat/leap/lib/amino19.lib
+Loading library: /home/shared_utilities/amber20/dat/leap/lib/aminoct12.lib
+Loading library: /home/shared_utilities/amber20/dat/leap/lib/aminont12.lib
+Loading library: /home/shared_utilities/amber20/dat/leap/lib/mod_amino19.lib
+----- Source: /home/shared_utilities/amber20/dat/leap/cmd/leaprc.water.opc
+----- Source of /home/shared_utilities/amber20/dat/leap/cmd/leaprc.water.opc done
+Loading library: /home/shared_utilities/amber20/dat/leap/lib/atomic_ions.lib
+Loading library: /home/shared_utilities/amber20/dat/leap/lib/solvents.lib
+Loading parameters: /home/shared_utilities/amber20/dat/leap/parm/frcmod.opc
+Reading force field modification type file (frcmod)
+Reading title:
+Parameters for OPC water (JPCL, 2014, 5 (21), pp 3863–3871) 
+Loading parameters: /home/shared_utilities/amber20/dat/leap/parm/frcmod.ionsjc_tip4pew
+Reading force field modification type file (frcmod)
+Reading title:
+Monovalent ion parameters for Ewald and TIP4P/EW water from Joung & Cheatham JPCB (2008)
+Loading parameters: /home/shared_utilities/amber20/dat/leap/parm/frcmod.ions234lm_126_tip4pew
+Reading force field modification type file (frcmod)
+Reading title:
+Li/Merz ion parameters of divalent to tetravalent ions for TIP4P/EW water model (12-6 normal usage set)
+Using H(N)-modified Bondi radii
+Loading library: /home/shared_utilities/amber20/dat/leap/lib/CO6.off
+Loading parameters: /home/shared_utilities/amber20/dat/leap/parm/frcmod.CO6
+Reading force field modification type file (frcmod)
+Reading title:
+Cobalt hexammine: T.E. Cheatham & P.A. Kollman, Structure 5:1297-1311, 1997
+Loading parameters: /home/shared_utilities/amber20/dat/leap/parm/frcmod.ions1lm_iod
+Reading force field modification type file (frcmod)
+Reading title:
+Li/Merz ion parameters of monovalent ions for TIP3P, SPC/E and TIP4P/EW water models (12-6 IOD set)
+Loading Prep file: ./HDP.prepin
+Loading Prep file: ./HDPNT.prepin
+Loading Prep file: ./HDPCT.prepin
+Loading Prep file: ./ARN.prepin
+Loading Prep file: ./TYN.prepin
+Loading PDB file: ./hipped.tmp
+
+/home/shared_utilities/amber20/bin/teLeap: Warning!
+Name change in pdb file residue 1016 ;
+this residue is split into HIP and HDP.
+
+/home/shared_utilities/amber20/bin/teLeap: Warning!
+Name change in pdb file residue 1016 ;
+this residue is split into HDP and HIP.
+
+/home/shared_utilities/amber20/bin/teLeap: Warning!
+Name change in pdb file residue 1016 ;
+this residue is split into HIP and HDP.
+
+/home/shared_utilities/amber20/bin/teLeap: Warning!
+Name change in pdb file residue 1029 ;
+this residue is split into HIP and HDP.
+
+/home/shared_utilities/amber20/bin/teLeap: Warning!
+Name change in pdb file residue 1029 ;
+this residue is split into HDP and HIP.
+
+/home/shared_utilities/amber20/bin/teLeap: Warning!
+Name change in pdb file residue 1029 ;
+this residue is split into HIP and HDP.
+
+/home/shared_utilities/amber20/bin/teLeap: Warning!
+Name change in pdb file residue 1029 ;
+this residue is split into HDP and HIP.
+
+/home/shared_utilities/amber20/bin/teLeap: Warning!
+Name change in pdb file residue 1029 ;
+this residue is split into HIP and HDP.
+
+/home/shared_utilities/amber20/bin/teLeap: Warning!
+Name change in pdb file residue 1029 ;
+this residue is split into HDP and HIP.
+
+/home/shared_utilities/amber20/bin/teLeap: Warning!
+Name change in pdb file residue 1029 ;
+this residue is split into HIP and HDP.
+
+/home/shared_utilities/amber20/bin/teLeap: Warning!
+Name change in pdb file residue 1029 ;
+this residue is split into HDP and HIP.
+
+/home/shared_utilities/amber20/bin/teLeap: Warning!
+Name change in pdb file residue 1029 ;
+this residue is split into HIP and HDP.
+
+/home/shared_utilities/amber20/bin/teLeap: Warning!
+Name change in pdb file residue 1029 ;
+this residue is split into HDP and HIP.
+
+/home/shared_utilities/amber20/bin/teLeap: Warning!
+Name change in pdb file residue 1042 ;
+this residue is split into HIP and HDP.
+
+/home/shared_utilities/amber20/bin/teLeap: Warning!
+Name change in pdb file residue 1042 ;
+this residue is split into HDP and HIP.
+
+/home/shared_utilities/amber20/bin/teLeap: Warning!
+Name change in pdb file residue 1042 ;
+this residue is split into HIP and HDP.
+
+/home/shared_utilities/amber20/bin/teLeap: Warning!
+Name change in pdb file residue 1042 ;
+this residue is split into HDP and HIP.
+
+/home/shared_utilities/amber20/bin/teLeap: Warning!
+Name change in pdb file residue 1042 ;
+this residue is split into HIP and HDP.
+
+/home/shared_utilities/amber20/bin/teLeap: Warning!
+Name change in pdb file residue 1239 ;
+this residue is split into HIP and HDP.
+
+/home/shared_utilities/amber20/bin/teLeap: Note.
+19 residues had naming warnings.
+Thus, there are split residues;
+residue sequence numbers will not correspond to those in the pdb.
+  Added missing heavy atom: .R<HDP 1017>.A<CA 3>
+  Added missing heavy atom: .R<HDP 1017>.A<N 1>
+  Added missing heavy atom: .R<HDP 1017>.A<CB 5>
+  Added missing heavy atom: .R<HDP 1017>.A<C 17>
+  Added missing heavy atom: .R<HDP 1017>.A<CG 8>
+  Added missing heavy atom: .R<HDP 1017>.A<O 18>
+  Added missing heavy atom: .R<HDP 1017>.A<ND1 9>
+  Added missing heavy atom: .R<HDP 1017>.A<CD2 15>
+  Added missing heavy atom: .R<HDP 1017>.A<CE1 11>
+  Added missing heavy atom: .R<HDP 1017>.A<NE2 13>
+  Added missing heavy atom: .R<HIP 1018>.A<N 1>
+  Added missing heavy atom: .R<HIP 1018>.A<CA 3>
+  Added missing heavy atom: .R<HIP 1018>.A<CB 5>
+  Added missing heavy atom: .R<HIP 1018>.A<C 17>
+  Added missing heavy atom: .R<HIP 1018>.A<CG 8>
+  Added missing heavy atom: .R<HIP 1018>.A<O 18>
+  Added missing heavy atom: .R<HIP 1018>.A<ND1 9>
+  Added missing heavy atom: .R<HIP 1018>.A<CD2 15>
+  Added missing heavy atom: .R<HIP 1018>.A<CE1 11>
+  Added missing heavy atom: .R<HIP 1018>.A<NE2 13>
+  Added missing heavy atom: .R<HDP 1019>.A<N 1>
+  Added missing heavy atom: .R<HDP 1019>.A<CA 3>
+  Added missing heavy atom: .R<HDP 1019>.A<CB 5>
+  Added missing heavy atom: .R<HDP 1019>.A<C 17>
+  Added missing heavy atom: .R<HDP 1019>.A<CG 8>
+  Added missing heavy atom: .R<HDP 1019>.A<O 18>
+  Added missing heavy atom: .R<HDP 1019>.A<ND1 9>
+  Added missing heavy atom: .R<HDP 1019>.A<CD2 15>
+  Added missing heavy atom: .R<HDP 1019>.A<CE1 11>
+  Added missing heavy atom: .R<HDP 1019>.A<NE2 13>
+  Added missing heavy atom: .R<HIP 1032>.A<CA 3>
+  Added missing heavy atom: .R<HIP 1032>.A<CB 5>
+  Added missing heavy atom: .R<HIP 1032>.A<C 17>
+  Added missing heavy atom: .R<HIP 1032>.A<CG 8>
+  Added missing heavy atom: .R<HIP 1032>.A<O 18>
+  Added missing heavy atom: .R<HIP 1032>.A<ND1 9>
+  Added missing heavy atom: .R<HIP 1032>.A<CD2 15>
+  Added missing heavy atom: .R<HIP 1032>.A<CE1 11>
+  Added missing heavy atom: .R<HIP 1032>.A<NE2 13>
+  Added missing heavy atom: .R<HDP 1033>.A<N 1>
+  Added missing heavy atom: .R<HDP 1033>.A<CB 5>
+  Added missing heavy atom: .R<HDP 1033>.A<C 17>
+  Added missing heavy atom: .R<HDP 1033>.A<CG 8>
+  Added missing heavy atom: .R<HDP 1033>.A<O 18>
+  Added missing heavy atom: .R<HDP 1033>.A<ND1 9>
+  Added missing heavy atom: .R<HDP 1033>.A<CD2 15>
+  Added missing heavy atom: .R<HDP 1033>.A<CE1 11>
+  Added missing heavy atom: .R<HDP 1033>.A<NE2 13>
+  Added missing heavy atom: .R<HIP 1034>.A<CA 3>
+  Added missing heavy atom: .R<HIP 1034>.A<O 18>
+  Added missing heavy atom: .R<HIP 1034>.A<N 1>
+  Added missing heavy atom: .R<HIP 1034>.A<CB 5>
+  Added missing heavy atom: .R<HIP 1034>.A<CG 8>
+  Added missing heavy atom: .R<HIP 1034>.A<ND1 9>
+  Added missing heavy atom: .R<HIP 1034>.A<CD2 15>
+  Added missing heavy atom: .R<HIP 1034>.A<CE1 11>
+  Added missing heavy atom: .R<HIP 1034>.A<NE2 13>
+  Added missing heavy atom: .R<HDP 1035>.A<C 17>
+  Added missing heavy atom: .R<HDP 1035>.A<CA 3>
+  Added missing heavy atom: .R<HDP 1035>.A<N 1>
+  Added missing heavy atom: .R<HDP 1035>.A<CG 8>
+  Added missing heavy atom: .R<HDP 1035>.A<ND1 9>
+  Added missing heavy atom: .R<HDP 1035>.A<CD2 15>
+  Added missing heavy atom: .R<HDP 1035>.A<CE1 11>
+  Added missing heavy atom: .R<HDP 1035>.A<NE2 13>
+  Added missing heavy atom: .R<HIP 1036>.A<N 1>
+  Added missing heavy atom: .R<HIP 1036>.A<CA 3>
+  Added missing heavy atom: .R<HIP 1036>.A<CB 5>
+  Added missing heavy atom: .R<HIP 1036>.A<C 17>
+  Added missing heavy atom: .R<HIP 1036>.A<O 18>
+  Added missing heavy atom: .R<HIP 1036>.A<ND1 9>
+  Added missing heavy atom: .R<HIP 1036>.A<CD2 15>
+  Added missing heavy atom: .R<HIP 1036>.A<CE1 11>
+  Added missing heavy atom: .R<HIP 1036>.A<NE2 13>
+  Added missing heavy atom: .R<HDP 1037>.A<N 1>
+  Added missing heavy atom: .R<HDP 1037>.A<CA 3>
+  Added missing heavy atom: .R<HDP 1037>.A<CB 5>
+  Added missing heavy atom: .R<HDP 1037>.A<C 17>
+  Added missing heavy atom: .R<HDP 1037>.A<CG 8>
+  Added missing heavy atom: .R<HDP 1037>.A<O 18>
+  Added missing heavy atom: .R<HDP 1037>.A<ND1 9>
+  Added missing heavy atom: .R<HDP 1037>.A<CE1 11>
+  Added missing heavy atom: .R<HDP 1037>.A<NE2 13>
+  Added missing heavy atom: .R<HIP 1038>.A<N 1>
+  Added missing heavy atom: .R<HIP 1038>.A<CA 3>
+  Added missing heavy atom: .R<HIP 1038>.A<CB 5>
+  Added missing heavy atom: .R<HIP 1038>.A<C 17>
+  Added missing heavy atom: .R<HIP 1038>.A<CG 8>
+  Added missing heavy atom: .R<HIP 1038>.A<O 18>
+  Added missing heavy atom: .R<HIP 1038>.A<CD2 15>
+  Added missing heavy atom: .R<HDP 1039>.A<CA 3>
+  Added missing heavy atom: .R<HDP 1039>.A<N 1>
+  Added missing heavy atom: .R<HDP 1039>.A<CB 5>
+  Added missing heavy atom: .R<HDP 1039>.A<C 17>
+  Added missing heavy atom: .R<HDP 1039>.A<CG 8>
+  Added missing heavy atom: .R<HDP 1039>.A<O 18>
+  Added missing heavy atom: .R<HDP 1039>.A<ND1 9>
+  Added missing heavy atom: .R<HDP 1039>.A<CD2 15>
+  Added missing heavy atom: .R<HDP 1039>.A<CE1 11>
+  Added missing heavy atom: .R<HDP 1039>.A<NE2 13>
+  Added missing heavy atom: .R<HIP 1040>.A<N 1>
+  Added missing heavy atom: .R<HIP 1040>.A<CA 3>
+  Added missing heavy atom: .R<HIP 1040>.A<CB 5>
+  Added missing heavy atom: .R<HIP 1040>.A<C 17>
+  Added missing heavy atom: .R<HIP 1040>.A<CG 8>
+  Added missing heavy atom: .R<HIP 1040>.A<O 18>
+  Added missing heavy atom: .R<HIP 1040>.A<ND1 9>
+  Added missing heavy atom: .R<HIP 1040>.A<CD2 15>
+  Added missing heavy atom: .R<HIP 1040>.A<CE1 11>
+  Added missing heavy atom: .R<HIP 1040>.A<NE2 13>
+  Added missing heavy atom: .R<HDP 1041>.A<N 1>
+  Added missing heavy atom: .R<HDP 1041>.A<CA 3>
+  Added missing heavy atom: .R<HDP 1041>.A<CB 5>
+  Added missing heavy atom: .R<HDP 1041>.A<C 17>
+  Added missing heavy atom: .R<HDP 1041>.A<CG 8>
+  Added missing heavy atom: .R<HDP 1041>.A<O 18>
+  Added missing heavy atom: .R<HDP 1041>.A<ND1 9>
+  Added missing heavy atom: .R<HDP 1041>.A<CD2 15>
+  Added missing heavy atom: .R<HDP 1041>.A<CE1 11>
+  Added missing heavy atom: .R<HDP 1041>.A<NE2 13>
+  Added missing heavy atom: .R<HIP 1042>.A<N 1>
+  Added missing heavy atom: .R<HIP 1042>.A<CA 3>
+  Added missing heavy atom: .R<HIP 1042>.A<CB 5>
+  Added missing heavy atom: .R<HIP 1042>.A<C 17>
+  Added missing heavy atom: .R<HIP 1042>.A<CG 8>
+  Added missing heavy atom: .R<HIP 1042>.A<O 18>
+  Added missing heavy atom: .R<HIP 1042>.A<ND1 9>
+  Added missing heavy atom: .R<HIP 1042>.A<CD2 15>
+  Added missing heavy atom: .R<HIP 1042>.A<CE1 11>
+  Added missing heavy atom: .R<HIP 1042>.A<NE2 13>
+  Added missing heavy atom: .R<HIP 1055>.A<NE2 13>
+  Added missing heavy atom: .R<HIP 1055>.A<CE1 11>
+  Added missing heavy atom: .R<HIP 1055>.A<ND1 9>
+  Added missing heavy atom: .R<HDP 1056>.A<N 1>
+  Added missing heavy atom: .R<HDP 1056>.A<CA 3>
+  Added missing heavy atom: .R<HDP 1056>.A<CB 5>
+  Added missing heavy atom: .R<HDP 1056>.A<C 17>
+  Added missing heavy atom: .R<HDP 1056>.A<CG 8>
+  Added missing heavy atom: .R<HDP 1056>.A<O 18>
+  Added missing heavy atom: .R<HDP 1056>.A<CD2 15>
+  Added missing heavy atom: .R<HDP 1056>.A<NE2 13>
+  Added missing heavy atom: .R<HDP 1056>.A<CE1 11>
+  Added missing heavy atom: .R<HIP 1057>.A<N 1>
+  Added missing heavy atom: .R<HIP 1057>.A<CA 3>
+  Added missing heavy atom: .R<HIP 1057>.A<CB 5>
+  Added missing heavy atom: .R<HIP 1057>.A<C 17>
+  Added missing heavy atom: .R<HIP 1057>.A<CG 8>
+  Added missing heavy atom: .R<HIP 1057>.A<O 18>
+  Added missing heavy atom: .R<HIP 1057>.A<ND1 9>
+  Added missing heavy atom: .R<HIP 1057>.A<CD2 15>
+  Added missing heavy atom: .R<HIP 1057>.A<NE2 13>
+  Added missing heavy atom: .R<HDP 1058>.A<N 1>
+  Added missing heavy atom: .R<HDP 1058>.A<CA 3>
+  Added missing heavy atom: .R<HDP 1058>.A<CB 5>
+  Added missing heavy atom: .R<HDP 1058>.A<C 17>
+  Added missing heavy atom: .R<HDP 1058>.A<CG 8>
+  Added missing heavy atom: .R<HDP 1058>.A<O 18>
+  Added missing heavy atom: .R<HDP 1058>.A<ND1 9>
+  Added missing heavy atom: .R<HDP 1058>.A<CD2 15>
+  Added missing heavy atom: .R<HDP 1058>.A<CE1 11>
+  Added missing heavy atom: .R<HIP 1059>.A<CA 3>
+  Added missing heavy atom: .R<HIP 1059>.A<N 1>
+  Added missing heavy atom: .R<HIP 1059>.A<CB 5>
+  Added missing heavy atom: .R<HIP 1059>.A<C 17>
+  Added missing heavy atom: .R<HIP 1059>.A<CG 8>
+  Added missing heavy atom: .R<HIP 1059>.A<O 18>
+  Added missing heavy atom: .R<HIP 1059>.A<ND1 9>
+  Added missing heavy atom: .R<HIP 1059>.A<CD2 15>
+  Added missing heavy atom: .R<HIP 1059>.A<CE1 11>
+  Added missing heavy atom: .R<HIP 1059>.A<NE2 13>
+  Added missing heavy atom: .R<HDP 1060>.A<N 1>
+  Added missing heavy atom: .R<HDP 1060>.A<CA 3>
+  Added missing heavy atom: .R<HDP 1060>.A<CB 5>
+  Added missing heavy atom: .R<HDP 1060>.A<C 17>
+  Added missing heavy atom: .R<HDP 1060>.A<CG 8>
+  Added missing heavy atom: .R<HDP 1060>.A<O 18>
+  Added missing heavy atom: .R<HDP 1060>.A<ND1 9>
+  Added missing heavy atom: .R<HDP 1060>.A<CD2 15>
+  Added missing heavy atom: .R<HDP 1060>.A<CE1 11>
+  Added missing heavy atom: .R<HDP 1060>.A<NE2 13>
+  Added missing heavy atom: .R<HDP 1258>.A<N 1>
+  Added missing heavy atom: .R<HDP 1258>.A<CA 3>
+  Added missing heavy atom: .R<HDP 1258>.A<CB 5>
+  Added missing heavy atom: .R<HDP 1258>.A<C 17>
+  Added missing heavy atom: .R<HDP 1258>.A<CG 8>
+  Added missing heavy atom: .R<HDP 1258>.A<O 18>
+  Added missing heavy atom: .R<HDP 1258>.A<ND1 9>
+  Added missing heavy atom: .R<HDP 1258>.A<CD2 15>
+  Added missing heavy atom: .R<HDP 1258>.A<CE1 11>
+  Added missing heavy atom: .R<HDP 1258>.A<NE2 13>
+  total atoms in file: 19488
+  Leap added 360 missing atoms according to residue templates:
+       190 Heavy
+       170 H / lone pairs
+Checking Unit.
+
+/home/shared_utilities/amber20/bin/teLeap: Warning!
+There is a bond of 4.132 angstroms between N and CA atoms:
+-------  .R<HDP 1017>.A<N 1> and .R<HDP 1017>.A<CA 3>
+
+/home/shared_utilities/amber20/bin/teLeap: Warning!
+There is a bond of 8.551 angstroms between CD2 and HD2 atoms:
+-------  .R<HIP 1018>.A<CD2 15> and .R<HIP 1018>.A<HD2 16>
+
+/home/shared_utilities/amber20/bin/teLeap: Warning!
+There is a bond of 7.613 angstroms between CE1 and HE1 atoms:
+-------  .R<HIP 1018>.A<CE1 11> and .R<HIP 1018>.A<HE1 12>
+
+/home/shared_utilities/amber20/bin/teLeap: Warning!
+There is a bond of 5.462 angstroms between CB and HB2 atoms:
+-------  .R<HIP 1018>.A<CB 5> and .R<HIP 1018>.A<HB2 6>
+
+/home/shared_utilities/amber20/bin/teLeap: Warning!
+There is a bond of 4.015 angstroms between CB and HB3 atoms:
+-------  .R<HIP 1018>.A<CB 5> and .R<HIP 1018>.A<HB3 7>
+
+/home/shared_utilities/amber20/bin/teLeap: Warning!
+There is a bond of 9.399 angstroms between C and N atoms:
+-------  .R<HDP 1019>.A<C 17> and .R<ALA 1020>.A<N 1>
+
+/home/shared_utilities/amber20/bin/teLeap: Warning!
+There is a bond of 6.559 angstroms between ND1 and HD1 atoms:
+-------  .R<HDP 1019>.A<ND1 9> and .R<HDP 1019>.A<HD1 10>
+
+/home/shared_utilities/amber20/bin/teLeap: Warning!
+There is a bond of 3.007 angstroms between C and N atoms:
+-------  .R<HDP 1033>.A<C 17> and .R<HIP 1034>.A<N 1>
+
+/home/shared_utilities/amber20/bin/teLeap: Warning!
+There is a bond of 3.802 angstroms between C and N atoms:
+-------  .R<HIP 1034>.A<C 17> and .R<HDP 1035>.A<N 1>
+
+/home/shared_utilities/amber20/bin/teLeap: Warning!
+There is a bond of 4.236 angstroms between CA and CB atoms:
+-------  .R<HDP 1035>.A<CA 3> and .R<HDP 1035>.A<CB 5>
+
+/home/shared_utilities/amber20/bin/teLeap: Warning!
+There is a bond of 8.362 angstroms between NE2 and CD2 atoms:
+-------  .R<HDP 1037>.A<NE2 13> and .R<HDP 1037>.A<CD2 15>
+
+/home/shared_utilities/amber20/bin/teLeap: Warning!
+There is a bond of 6.750 angstroms between CG and CD2 atoms:
+-------  .R<HDP 1037>.A<CG 8> and .R<HDP 1037>.A<CD2 15>
+
+/home/shared_utilities/amber20/bin/teLeap: Warning!
+There is a bond of 7.500 angstroms between CB and CG atoms:
+-------  .R<HIP 1038>.A<CB 5> and .R<HIP 1038>.A<CG 8>
+
+/home/shared_utilities/amber20/bin/teLeap: Warning!
+There is a bond of 7.739 angstroms between N and H atoms:
+-------  .R<HIP 1038>.A<N 1> and .R<HIP 1038>.A<H 2>
+
+/home/shared_utilities/amber20/bin/teLeap: Warning!
+There is a bond of 8.372 angstroms between N and CA atoms:
+-------  .R<HDP 1039>.A<N 1> and .R<HDP 1039>.A<CA 3>
+
+/home/shared_utilities/amber20/bin/teLeap: Warning!
+There is a bond of 5.984 angstroms between CB and HB3 atoms:
+-------  .R<HIP 1040>.A<CB 5> and .R<HIP 1040>.A<HB3 7>
+
+/home/shared_utilities/amber20/bin/teLeap: Warning!
+There is a bond of 7.645 angstroms between CD2 and HD2 atoms:
+-------  .R<HDP 1041>.A<CD2 15> and .R<HDP 1041>.A<HD2 16>
+
+/home/shared_utilities/amber20/bin/teLeap: Warning!
+There is a bond of 13.256 angstroms between C and N atoms:
+-------  .R<HIP 1042>.A<C 17> and .R<GLY 1043>.A<N 1>
+
+/home/shared_utilities/amber20/bin/teLeap: Warning!
+There is a bond of 13.900 angstroms between NE2 and HE2 atoms:
+-------  .R<HIP 1042>.A<NE2 13> and .R<HIP 1042>.A<HE2 14>
+
+/home/shared_utilities/amber20/bin/teLeap: Warning!
+There is a bond of 12.699 angstroms between CE1 and HE1 atoms:
+-------  .R<HIP 1042>.A<CE1 11> and .R<HIP 1042>.A<HE1 12>
+
+/home/shared_utilities/amber20/bin/teLeap: Warning!
+There is a bond of 10.897 angstroms between ND1 and CE1 atoms:
+-------  .R<HDP 1056>.A<ND1 9> and .R<HDP 1056>.A<CE1 11>
+
+/home/shared_utilities/amber20/bin/teLeap: Warning!
+There is a bond of 8.716 angstroms between CG and ND1 atoms:
+-------  .R<HDP 1056>.A<CG 8> and .R<HDP 1056>.A<ND1 9>
+
+/home/shared_utilities/amber20/bin/teLeap: Warning!
+There is a bond of 9.998 angstroms between NE2 and CD2 atoms:
+-------  .R<HIP 1057>.A<NE2 13> and .R<HIP 1057>.A<CD2 15>
+
+/home/shared_utilities/amber20/bin/teLeap: Warning!
+There is a bond of 11.148 angstroms between ND1 and CE1 atoms:
+-------  .R<HIP 1057>.A<ND1 9> and .R<HIP 1057>.A<CE1 11>
+
+/home/shared_utilities/amber20/bin/teLeap: Warning!
+There is a bond of 17.674 angstroms between NE2 and CD2 atoms:
+-------  .R<HDP 1058>.A<NE2 13> and .R<HDP 1058>.A<CD2 15>
+
+/home/shared_utilities/amber20/bin/teLeap: Warning!
+There is a bond of 17.888 angstroms between ND1 and CE1 atoms:
+-------  .R<HDP 1058>.A<ND1 9> and .R<HDP 1058>.A<CE1 11>
+
+/home/shared_utilities/amber20/bin/teLeap: Warning!
+There is a bond of 6.820 angstroms between CD2 and HD2 atoms:
+-------  .R<HIP 1059>.A<CD2 15> and .R<HIP 1059>.A<HD2 16>
+
+/home/shared_utilities/amber20/bin/teLeap: Warning!
+There is a bond of 5.414 angstroms between CE1 and HE1 atoms:
+-------  .R<HIP 1059>.A<CE1 11> and .R<HIP 1059>.A<HE1 12>
+
+/home/shared_utilities/amber20/bin/teLeap: Warning!
+There is a bond of 4.756 angstroms between CB and HB2 atoms:
+-------  .R<HIP 1059>.A<CB 5> and .R<HIP 1059>.A<HB2 6>
+
+/home/shared_utilities/amber20/bin/teLeap: Warning!
+There is a bond of 4.321 angstroms between CB and HB3 atoms:
+-------  .R<HIP 1059>.A<CB 5> and .R<HIP 1059>.A<HB3 7>
+
+/home/shared_utilities/amber20/bin/teLeap: Warning!
+There is a bond of 15.080 angstroms between N and H atoms:
+-------  .R<HIP 1059>.A<N 1> and .R<HIP 1059>.A<H 2>
+
+/home/shared_utilities/amber20/bin/teLeap: Warning!
+There is a bond of 13.563 angstroms between N and CA atoms:
+-------  .R<HIP 1059>.A<N 1> and .R<HIP 1059>.A<CA 3>
+
+/home/shared_utilities/amber20/bin/teLeap: Warning!
+There is a bond of 6.943 angstroms between C and N atoms:
+-------  .R<HDP 1060>.A<C 17> and .R<THR 1061>.A<N 1>
+
+/home/shared_utilities/amber20/bin/teLeap: Warning!
+There is a bond of 5.183 angstroms between ND1 and HD1 atoms:
+-------  .R<HDP 1060>.A<ND1 9> and .R<HDP 1060>.A<HD1 10>
+
+/home/shared_utilities/amber20/bin/teLeap: Warning!
+There is a bond of 12.845 angstroms between CE1 and HE1 atoms:
+-------  .R<HDP 1258>.A<CE1 11> and .R<HDP 1258>.A<HE1 12>
+
+/home/shared_utilities/amber20/bin/teLeap: Warning!
+There is a bond of 9.753 angstroms between ND1 and HD1 atoms:
+-------  .R<HDP 1258>.A<ND1 9> and .R<HDP 1258>.A<HD1 10>
+
+/home/shared_utilities/amber20/bin/teLeap: Warning!
+The unperturbed charge of the unit (8.000000) is not zero.
+
+/home/shared_utilities/amber20/bin/teLeap: Note.
+Ignoring the warnings from Unit Checking.
+
+Building topology.
+Building atom parameters.
+Building bond parameters.
+Building angle parameters.
+Building proper torsion parameters.
+Building improper torsion parameters.
+old PREP-specified impropers:
+ <HDP 398>:  -M   CA   N    H   
+ <HDP 398>:  CA   +M   C    O   
+ <HDP 398>:  CG   CE1  ND1  HD1 
+ <HDP 398>:  CE1  CD2  NE2  HE2 
+ <HDP 398>:  CG   NE2  CD2  HD2 
+ <HDP 398>:  ND1  NE2  CE1  HE1 
+ <HDP 398>:  ND1  CD2  CG   CB  
+ <HDP 1017>:  -M   CA   N    H   
+ <HDP 1017>:  CA   +M   C    O   
+ <HDP 1017>:  CG   CE1  ND1  HD1 
+ <HDP 1017>:  CE1  CD2  NE2  HE2 
+ <HDP 1017>:  CG   NE2  CD2  HD2 
+ <HDP 1017>:  ND1  NE2  CE1  HE1 
+ <HDP 1017>:  ND1  CD2  CG   CB  
+ <HDP 1019>:  -M   CA   N    H   
+ <HDP 1019>:  CA   +M   C    O   
+ <HDP 1019>:  CG   CE1  ND1  HD1 
+ <HDP 1019>:  CE1  CD2  NE2  HE2 
+ <HDP 1019>:  CG   NE2  CD2  HD2 
+ <HDP 1019>:  ND1  NE2  CE1  HE1 
+ <HDP 1019>:  ND1  CD2  CG   CB  
+ <HDP 1033>:  -M   CA   N    H   
+ <HDP 1033>:  CA   +M   C    O   
+ <HDP 1033>:  CG   CE1  ND1  HD1 
+ <HDP 1033>:  CE1  CD2  NE2  HE2 
+ <HDP 1033>:  CG   NE2  CD2  HD2 
+ <HDP 1033>:  ND1  NE2  CE1  HE1 
+ <HDP 1033>:  ND1  CD2  CG   CB  
+ <HDP 1035>:  -M   CA   N    H   
+ <HDP 1035>:  CA   +M   C    O   
+ <HDP 1035>:  CG   CE1  ND1  HD1 
+ <HDP 1035>:  CE1  CD2  NE2  HE2 
+ <HDP 1035>:  CG   NE2  CD2  HD2 
+ <HDP 1035>:  ND1  NE2  CE1  HE1 
+ <HDP 1035>:  ND1  CD2  CG   CB  
+ <HDP 1037>:  -M   CA   N    H   
+ <HDP 1037>:  CA   +M   C    O   
+ <HDP 1037>:  CG   CE1  ND1  HD1 
+ <HDP 1037>:  CE1  CD2  NE2  HE2 
+ <HDP 1037>:  CG   NE2  CD2  HD2 
+ <HDP 1037>:  ND1  NE2  CE1  HE1 
+ <HDP 1037>:  ND1  CD2  CG   CB  
+ <HDP 1039>:  -M   CA   N    H   
+ <HDP 1039>:  CA   +M   C    O   
+ <HDP 1039>:  CG   CE1  ND1  HD1 
+ <HDP 1039>:  CE1  CD2  NE2  HE2 
+ <HDP 1039>:  CG   NE2  CD2  HD2 
+ <HDP 1039>:  ND1  NE2  CE1  HE1 
+ <HDP 1039>:  ND1  CD2  CG   CB  
+ <HDP 1041>:  -M   CA   N    H   
+ <HDP 1041>:  CA   +M   C    O   
+ <HDP 1041>:  CG   CE1  ND1  HD1 
+ <HDP 1041>:  CE1  CD2  NE2  HE2 
+ <HDP 1041>:  CG   NE2  CD2  HD2 
+ <HDP 1041>:  ND1  NE2  CE1  HE1 
+ <HDP 1041>:  ND1  CD2  CG   CB  
+ <HDP 1056>:  -M   CA   N    H   
+ <HDP 1056>:  CA   +M   C    O   
+ <HDP 1056>:  CG   CE1  ND1  HD1 
+ <HDP 1056>:  CE1  CD2  NE2  HE2 
+ <HDP 1056>:  CG   NE2  CD2  HD2 
+ <HDP 1056>:  ND1  NE2  CE1  HE1 
+ <HDP 1056>:  ND1  CD2  CG   CB  
+ <HDP 1058>:  -M   CA   N    H   
+ <HDP 1058>:  CA   +M   C    O   
+ <HDP 1058>:  CG   CE1  ND1  HD1 
+ <HDP 1058>:  CE1  CD2  NE2  HE2 
+ <HDP 1058>:  CG   NE2  CD2  HD2 
+ <HDP 1058>:  ND1  NE2  CE1  HE1 
+ <HDP 1058>:  ND1  CD2  CG   CB  
+ <HDP 1060>:  -M   CA   N    H   
+ <HDP 1060>:  CA   +M   C    O   
+ <HDP 1060>:  CG   CE1  ND1  HD1 
+ <HDP 1060>:  CE1  CD2  NE2  HE2 
+ <HDP 1060>:  CG   NE2  CD2  HD2 
+ <HDP 1060>:  ND1  NE2  CE1  HE1 
+ <HDP 1060>:  ND1  CD2  CG   CB  
+ <HDP 1258>:  -M   CA   N    H   
+ <HDP 1258>:  CA   +M   C    O   
+ <HDP 1258>:  CG   CE1  ND1  HD1 
+ <HDP 1258>:  CE1  CD2  NE2  HE2 
+ <HDP 1258>:  CG   NE2  CD2  HD2 
+ <HDP 1258>:  ND1  NE2  CE1  HE1 
+ <HDP 1258>:  ND1  CD2  CG   CB  
+ total 4241 improper torsions applied
+ 84 improper torsions in old prep form
+Building H-Bond parameters.
+Incorporating Non-Bonded adjustments.
+Not Marking per-residue atom chain types.
+Marking per-residue atom chain types.
+  (Residues lacking connect0/connect1 - 
+   these don't have chain types marked:
+
+	res	total affected
+
+	CPHE	1
+	NGLN	1
+  )
+ (no restraints)
+	Quit
+
+Exiting LEaP: Errors = 0; Warnings = 59; Notes = 2.
